@@ -1,0 +1,6 @@
+{
+  "name": "Quiz: Führung & Verkaufspsychologie",
+  "description": "Interaktives Single-Choice-Lernquiz mit Schichtung und detaillierten Erklärungen zu Führung, Führungsmodellen und Verkaufspsychologie.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

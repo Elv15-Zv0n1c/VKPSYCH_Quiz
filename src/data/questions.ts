@@ -2,2807 +2,2803 @@ import { Question } from '../types/quiz';
 
 export const INITIAL_QUESTIONS: Question[] = [
   {
-    id: 1,
-    bereich: 1,
-    frage: 'Was bedeutet Führung?',
-    optionen: [
+    "id": 1,
+    "bereich": 1,
+    "frage": "Was bedeutet Führung?",
+    "optionen": [
       {
-        text: 'Zielgerichtete soziale Beeinflussung von Menschen zur Erreichung gemeinsamer Unternehmens- und Teamziele.',
-        korrekt: true,
-        erklaerung: 'Führung wird in der Managementlehre als zielgerichtete soziale Einflussnahme definiert, um Aufgaben zu koordinieren und Mitarbeiter zur Zielerreichung zu bewegen.',
+        "text": "Zielgerichtete soziale Beeinflussung von Menschen zur Erreichung gemeinsamer Unternehmens- und Teamziele.",
+        "korrekt": true,
+        "erklaerung": "Führung wird in der Managementlehre als zielgerichtete soziale Einflussnahme definiert, um Aufgaben zu koordinieren und Mitarbeiter zur Zielerreichung zu bewegen."
       },
       {
-        text: 'Ausschließliche formale Ausübung von Weisungsbefugnis und hierarchischer Macht über nachgeordnete Stellen.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt lediglich administrative Weisungsgewalt, vernachlässigt jedoch den sozialen Einfluss-, Motivations- und Zielbezug moderner Führung.',
+        "text": "Ausschließliche formale Ausübung von Weisungsbefugnis und hierarchischer Macht über nachgeordnete Stellen im Organigramm.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt rein administrative Weisungsgewalt, vernachlässigt jedoch den sozialen Beziehungs-, Motivations- und Zielbezug moderner Führung."
       },
       {
-        text: 'Reine operative Organisation von Arbeitsabläufen ohne persönliche Interaktion mit den Teammitgliedern.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um bloßes Prozess- oder Arbeitsplatzmanagement. Führung erfordert zwingend zwischenmenschliche Interaktion und Beziehungsgestaltung.',
+        "text": "Reine operative Koordination von Arbeitsabläufen und Sachressourcen ohne zwischenmenschliche Interaktions- und Beziehungsaspekte.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um bloßes Prozess- oder Arbeitsplatzmanagement. Führung erfordert zwingend zwischenmenschliche Interaktion und Beziehungsgestaltung."
       },
       {
-        text: 'Kontinuierliche Überwachung aller Einzelschritte zur vollständigen Vermeidung von Fehlern im Arbeitsalltag.',
-        korrekt: false,
-        erklaerung: 'Dies kennzeichnet negatives Mikromanagement oder bloße Kontrolle, ist jedoch keine zukunftsorientierte Definition von Führung.',
-      },
+        "text": "Kontinuierliche Überwachung aller Einzelschritte zur vollständigen Fehlervermeidung im operativen Tagesgeschäft des Betriebs.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet negatives Mikromanagement oder bloße Kontrolle, ist jedoch keine zukunftsorientierte Definition von Führung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 2,
-    bereich: 1,
-    frage: 'Was sind die Aufgaben einer Führungskraft?',
-    optionen: [
+    "id": 2,
+    "bereich": 1,
+    "frage": "Was sind die Aufgaben einer Führungskraft?",
+    "optionen": [
       {
-        text: 'Ziele vereinbaren, organisieren, entscheiden, kontrollieren und Menschen gezielt fördern und entwickeln.',
-        korrekt: true,
-        erklaerung: 'Diese fünf Kernaufgaben entsprechen dem klassischen und praxisbewährten Management-Kanon (u. a. nach Fredmund Malik und Peter Drucker).',
+        "text": "Ziele vereinbaren, organisieren, entscheiden, kontrollieren sowie Mitarbeiter gezielt fördern und entwickeln.",
+        "korrekt": true,
+        "erklaerung": "Diese Kernaufgaben entsprechen dem klassischen und praxisbewährten Management-Kanon (u. a. nach Fredmund Malik und Peter Drucker)."
       },
       {
-        text: 'Operative Fachaufgaben selbst erledigen, Arbeitszeiten erfassen und Budgetabweichungen persönlich nachrechnen.',
-        korrekt: false,
-        erklaerung: 'Dies sind überwiegend ausführende Sachaufgaben bzw. Controllingtätigkeiten, die keine originären Führungsaufgaben darstellen.',
+        "text": "Operative Fachaufgaben stets persönlich erledigen, Arbeitszeiten erfassen und Budgetabweichungen im Detail nachrechnen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind überwiegend ausführende Fach- oder Controllingtätigkeiten, die keine originären Führungsaufgaben darstellen."
       },
       {
-        text: 'Konflikte im Team stets vermeiden, alle Vorgaben der Geschäftsleitung unreflektiert weitergeben und Überstunden anordnen.',
-        korrekt: false,
-        erklaerung: 'Konfliktvermeidung und blindes Delegieren widersprechen wirksamer Führungsarbeit; Führungskräfte müssen moderieren, filtern und gestalten.',
+        "text": "Konflikte im Team durch starre Anweisungen im Vorfeld unterbinden und Vorgaben der Geschäftsleitung unreflektiert durchdrücken.",
+        "korrekt": false,
+        "erklaerung": "Konfliktvermeidung und blindes Delegieren widersprechen wirksamer Führungsarbeit; Führungskräfte müssen moderieren, filtern und gestalten."
       },
       {
-        text: 'Ausschließlich strategische Unternehmensvisionen entwerfen, während die Steuerung komplett dem Zufall überlassen wird.',
-        korrekt: false,
-        erklaerung: 'Visionen allein genügen nicht. Ohne Organisation, Entscheidungen, Zielabstimmung und Leistungsförderung bleibt Führung unwirksam.',
-      },
+        "text": "Ausschließlich strategische Unternehmensvisionen entwerfen und die operative Steuerung komplett der Belegschaft überlassen.",
+        "korrekt": false,
+        "erklaerung": "Strategische Weitsicht ist wichtig, entbindet Führungskräfte jedoch keinesfalls von der operativen Umsetzungs- und Kontrollverantwortung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 3,
-    bereich: 1,
-    frage: 'Was ist der Unterschied zwischen Führungsstil und Führungsverhalten?',
-    optionen: [
+    "id": 3,
+    "bereich": 1,
+    "frage": "Was ist der Unterschied zwischen Führungsstil und Führungsverhalten?",
+    "optionen": [
       {
-        text: 'Der Führungsstil ist das zeitlich überdauernde Grundmuster, während Führungsverhalten das konkrete situative Handeln darstellt.',
-        korrekt: true,
-        erklaerung: 'Der Stil beschreibt die generelle Grundhaltung und das konsistente Muster; das Verhalten ist die situative Ausprägung in einer konkreten Begegnung.',
+        "text": "Der Führungsstil ist das zeitlich überdauernde Grundmuster, während Führungsverhalten das konkrete situative Handeln darstellt.",
+        "korrekt": true,
+        "erklaerung": "Führungsstil beschreibt die habituelle Grundeinstellung und das Verhaltensmuster; Führungsverhalten ist die jeweilige Ausprägung in einer spezifischen Situation."
       },
       {
-        text: 'Führungsstil bezieht sich nur auf Top-Manager, während Führungsverhalten ausschließlich für Teamleiter im operativen Bereich gilt.',
-        korrekt: false,
-        erklaerung: 'Beide Begriffe gelten für jede Führungsebene und unterscheiden sich durch Abstraktionsgrad und Situationsbezug, nicht nach Hierarchiestufen.',
+        "text": "Führungsstil beschreibt das spontane Reagieren im Einzelfall, während Führungsverhalten die unveränderliche Grundhaltung im Berufsalltag meint.",
+        "korrekt": false,
+        "erklaerung": "Hier wurden die Definitionen genau vertauscht: Der Stil ist das stabile Muster, das Verhalten die konkrete Einzelsituation."
       },
       {
-        text: 'Führungsverhalten ist eine angeborene Charaktereigenschaft, wohingegen der Führungsstil frei im Arbeitsvertrag vereinbart wird.',
-        korrekt: false,
-        erklaerung: 'Führungsverhalten ist erlernbar und situationsabhängig steuerbar; der Stil wird nicht juristisch vereinbart, sondern durch Haltung geprägt.',
+        "text": "Führungsstil bezieht sich nur auf Top-Manager, während Führungsverhalten ausschließlich für operative Teamleiter in Projekten gilt.",
+        "korrekt": false,
+        "erklaerung": "Beide Konzepte gelten für alle Hierarchieebenen; es gibt keine Beschränkung von Führungsstil auf oberste Führungsebenen."
       },
       {
-        text: 'Beide Begriffe sind im modernen Management vollkommen synonym und bezeichnen exakt dieselbe Verhaltensweise in Projekten.',
-        korrekt: false,
-        erklaerung: 'In der Organisationspsychologie wird strikt zwischen dem habituellen Grundmuster (Stil) und der aktuellen Handlung (Verhalten) differenziert.',
-      },
+        "text": "Führungsstil ist rein arbeitsvertraglich geregelt, während Führungsverhalten ausschließlich informell in Pausen und Nebengesprächen gezeigt wird.",
+        "korrekt": false,
+        "erklaerung": "Führungsstil ist kein Vertragspunkt, sondern ein handlungsleitendes Muster; Führungsverhalten betrifft das gesamte berufliche Wirken."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 4,
-    bereich: 1,
-    frage: 'Wie heißen die 7 Grundsätze der Führung nach Malik?',
-    optionen: [
+    "id": 4,
+    "bereich": 1,
+    "frage": "Wie heißen die 7 Grundsätze der Führung nach Malik?",
+    "optionen": [
       {
-        text: 'Resultatorientierung, Beitrag zum Ganzen, Konzentration auf Weniges, Stärken nutzen, Vertrauen schaffen, Positiv denken und Sinn vermitteln.',
-        korrekt: true,
-        erklaerung: 'In erweiterten Malik-Lehrplänen werden zu den klassischen 6 Grundsätzen (Resultate, Beitrag, Konzentration, Stärken, Vertrauen, Positives Denken) Sinngebung bzw. Verantwortung als 7. Grundsatz gelehrt.',
+        "text": "Resultatorientierung, Beitrag zum Ganzen, Konzentration auf Weniges, Stärken nutzen, Vertrauen schaffen, Positiv denken und Sinn vermitteln.",
+        "korrekt": true,
+        "erklaerung": "Fredmund Malik formuliert 6 Grundsätze wirksamer Führung; in vielen Curricula und Managementprogrammen wird «Sinn vermitteln» als 7. Grundsatz ergänzt."
       },
       {
-        text: 'Macht durchsetzen, Mitarbeiter kontrollieren, Perfektion verlangen, Hierarchien sichern, Konkurrenz schüren, Budgets schonen und Risiken meiden.',
-        korrekt: false,
-        erklaerung: 'Diese Punkte widersprechen Maliks Lehre von wirksamer Führung fundamental; Malik betont Stärken, Vertrauen und Resultate statt Misstrauen.',
+        "text": "Zielvereinbarung, Delegation, permanente Leistungskontrolle, Mitarbeitergespräche, Budgetdisziplin, Prozessoptimierung und Risikovermeidung.",
+        "korrekt": false,
+        "erklaerung": "Dies sind klassische Management-Aufgaben und Kontrollwerkzeuge, jedoch nicht Maliks verhaltensleitende Grundsätze wirksamer Führung."
       },
       {
-        text: 'Vision formulieren, Charisma ausstrahlen, Fehler bestrafen, Arbeitsverträge prüfen, Überstunden honorieren, Konzerne leiten und Bilanzen lesen.',
-        korrekt: false,
-        erklaerung: 'Malik lehnt das Dogma des «charismatischen Führers» ausdrücklich ab und fordert handwerkliche Professionalität sowie Wirksamkeit.',
+        "text": "Planen, Organisieren, Entscheiden, Kontrollieren, Entwickeln, Kommunizieren und Koordinieren aller operativen Arbeitsprozesse im Betrieb.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt Fayols klassische Managementfunktionen (Aufgaben des Managers), keine Grundsätze im Sinne der St. Galler Managementlehre."
       },
       {
-        text: 'Agilität maximieren, Scrum etablieren, Hierarchielosigkeit anordnen, Konsens erzwingen, Homeoffice vorschreiben, Daily Stand-ups halten und Slack nutzen.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um moderne agile Methoden und Werkzeuge, nicht um Maliks zeitlose Grundsätze wirksamer Führung.',
-      },
+        "text": "Agilität maximieren, Hierarchien abbauen, Konsens erzwingen, Homeoffice vorschreiben, Daily Stand-ups halten, Slack nutzen und Boni verteilen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind methodische Werkzeuge moderner Arbeitsformen, keine zeitlosen Führungsprinzipien nach der St. Galler Managementlehre."
+      }
     ],
-    pruefen: true,
+    "pruefen": true
   },
   {
-    id: 5,
-    bereich: 1,
-    frage: 'Welche Arten der Verantwortung kennen Sie?',
-    optionen: [
+    "id": 5,
+    "bereich": 1,
+    "frage": "Welche Arten der Verantwortung kennen Sie?",
+    "optionen": [
       {
-        text: 'Handlungs- bzw. Ausführungsverantwortung, Ergebnis- bzw. Sachverantwortung sowie Führungs- bzw. Leitungsverantwortung.',
-        korrekt: true,
-        erklaerung: 'Diese klassische Dreiteilung trennt sauber zwischen der fachlichen Ausführung, der Verantwortung für das Arbeitsergebnis und der Führungsverantwortung für Auswahl und Steuerung.',
+        "text": "Handlungs- bzw. Ausführungsverantwortung, Ergebnis- bzw. Sachverantwortung sowie Führungs- bzw. Leitungsverantwortung.",
+        "korrekt": true,
+        "erklaerung": "Diese klassische Dreiteilung trennt sauber zwischen der Durchführung der Aufgabe, dem Erreichen des Sachziels und der übergeordneten Führungsverantwortung."
       },
       {
-        text: 'Ausschließlich strafrechtliche Haftungsverantwortung gegenüber staatlichen Kontrollorganen und Gewerbebehörden.',
-        korrekt: false,
-        erklaerung: 'Dies ist eine rein juristische Sichtweise, erfasst aber nicht die innerbetrieblichen Führungs- und Organisationsdimensionen von Verantwortung.',
+        "text": "Disziplinarische Vorgesetztenverantwortung, gesellschaftliche Unternehmensverantwortung und moralische Eigenverantwortung.",
+        "korrekt": false,
+        "erklaerung": "Dies vermischt arbeitsrechtliche Begriffe mit Corporate Social Responsibility (CSR) und individueller Ethik, statt der betrieblichen Verantwortungsarten."
       },
       {
-        text: 'Moralische Schuldverantwortung, finanzielle Schadensersatzpflicht und private Verpflichtung gegenüber Familienmitgliedern.',
-        korrekt: false,
-        erklaerung: 'Dies vermischt ethische und zivilrechtliche Aspekte, stellt aber keine managementtheoretische Systematik betrieblicher Verantwortung dar.',
+        "text": "Strategische Marktverantwortung, operative Budgetverantwortung und juristische Produkthaftungsverantwortung im Betrieb.",
+        "korrekt": false,
+        "erklaerung": "Dies sind betriebswirtschaftliche und rechtliche Zuständigkeitsbereiche, nicht die klassischen Arten organisatorischer Verantwortung."
       },
       {
-        text: 'Kollektivverantwortung aller Mitarbeiter bei völligem Verzicht auf persönliche Verantwortung einzelner Funktionsträger.',
-        korrekt: false,
-        erklaerung: 'Reine Kollektivverantwortung führt in Organisationen meist zur Verantwortungsdiffusion und steht im Widerspruch zu klarer Aufgabenteilung.',
-      },
+        "text": "Prozessverantwortung, agile Projektverantwortung und reine Informationsweitergabeverantwortung an Dritte.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt funktionale Rollenbeschreibungen im Projekt- und Prozessmanagement, nicht die grundlegenden Verantwortungsarten der Führungslehre."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 6,
-    bereich: 1,
-    frage: 'Was macht eine effektive Führungskraft aus?',
-    optionen: [
+    "id": 6,
+    "bereich": 1,
+    "frage": "Was macht eine effektive Führungskraft aus?",
+    "optionen": [
       {
-        text: 'Sie fokussiert auf Resultate, nutzt vorhandene Stärken, konzentriert sich auf Wesentliches und schafft ein Umfeld des Vertrauens.',
-        korrekt: true,
-        erklaerung: 'Effektivität bedeutet, «die richtigen Dinge zu tun» (Peter Drucker, Fredmund Malik): Stärkenorientierung, Prioritätensetzung und echte Wirksamkeit.',
+        "text": "Sie fokussiert auf Resultate, nutzt vorhandene Stärken, konzentriert sich auf Wesentliches und schafft ein Umfeld des Vertrauens.",
+        "korrekt": true,
+        "erklaerung": "Effektivität bedeutet «die richtigen Dinge tun». Dies umfasst nach Drucker und Malik Stärkenorientierung, Wesentlichkeitsfokus und Vertrauensaufbau."
       },
       {
-        text: 'Sie verbringt die meiste Arbeitszeit mit detaillierter Arbeitszeiterfassung und kontrolliert jeden Handlungsschritt minutiös.',
-        korrekt: false,
-        erklaerung: 'Dies kennzeichnet zeitraubendes Mikromanagement und Misstrauen, mindert jedoch die Effektivität und Motivation von Teams drastisch.',
+        "text": "Sie erledigt operative Fachaufgaben stets persönlich und kontrolliert jeden einzelnen Handlungsschritt der Mitarbeiter bis ins kleinste Detail.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt ineffektives Mikromanagement und Facharbeit, wodurch strategische Führungsaufgaben und Delegation vernachlässigt werden."
       },
       {
-        text: 'Sie versucht stets von allen gemocht zu werden, vermeidet unpopuläre Entscheidungen und übernimmt alle Fachaufgaben selbst.',
-        korrekt: false,
-        erklaerung: 'Harmoniesucht und Überlastung durch Facharbeit verhindern strategische Führung und klare Verantwortungszuweisungen.',
+        "text": "Sie versucht primär von allen gemocht zu werden, meidet unpopuläre Leistungsentscheidungen und delegiert schwierige Führungsgespräche.",
+        "korrekt": false,
+        "erklaerung": "Harmoniesucht («People Pleaser») führt zu Führungsschwäche und Orientierungslosigkeit im Team, statt wirksame Ergebnisse zu sichern."
       },
       {
-        text: 'Sie setzt ausschließlich auf ihr Charisma und verzichtet auf systematische Planung, Organisation oder Leistungsbeurteilung.',
-        korrekt: false,
-        erklaerung: 'Führung ist ein lernbares Handwerk. Charisma ohne solides Führungshandwerk führt regelmäßig zu Unberechenbarkeit und Ineffizienz.',
-      },
+        "text": "Sie verlässt sich ausschließlich auf charismatische Reden und verzichtet auf systematische Zielvereinbarungen und transparente Kontrollen.",
+        "korrekt": false,
+        "erklaerung": "Charisma ohne handwerkliche Führungskompetenz, Zielklarheit und Verlässlichkeit führt selten zu nachhaltiger Führungswirksamkeit."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 7,
-    bereich: 2,
-    frage: 'Was versteht man unter Menschenbilder und welche Arten kennen Sie?',
-    optionen: [
+    "id": 7,
+    "bereich": 2,
+    "frage": "Was versteht man unter Menschenbilder und welche Arten kennen Sie?",
+    "optionen": [
       {
-        text: 'Grundlegende Annahmen über Wesen, Motive und Verhalten von Menschen, wie Theorie X/Y oder die Typologien von Edgar Schein.',
-        korrekt: true,
-        erklaerung: 'Menschenbilder sind handlungsleitende Grundannahmen über den Menschen in der Arbeitswelt (z. B. McGregor Theorie X/Y, Schein: rational-economic, social, complex man).',
+        "text": "Grundlegende Annahmen über Wesen, Motive und Verhalten von Menschen, wie Theorie X/Y oder die Typologien von Edgar Schein.",
+        "korrekt": true,
+        "erklaerung": "Menschenbilder sind handlungsleitende Grundannahmen über die Natur des Menschen im Arbeitsleben, die das Führungsverhalten unbewusst oder bewusst steuern."
       },
       {
-        text: 'Objektive anatomische Skizzen des menschlichen Gehirns zur Messung neurologischer Leitungsgeschwindigkeiten im Büro.',
-        korrekt: false,
-        erklaerung: 'Menschenbilder sind organisationspsychologische Modellvorstellungen über Motive und Verhalten, keine biologisch-anatomischen Zeichnungen.',
+        "text": "Empirisch gemessene Persönlichkeitsprofile auf Basis psychometrischer Tests wie dem DISG- oder dem Myers-Briggs-Modell im Recruiting.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt Persönlichkeitsdiagnostik zur Erfassung individueller Verhaltensstile, nicht die übergeordneten philosophischen Menschenbilder."
       },
       {
-        text: 'Ausschließlich fotografische Mitarbeiterporträts im Intranet zur optischen Erfassung der Belegschaft nach Abteilungen.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff fälschlicherweise wörtlich; ein Menschenbild ist ein theoretisches Konstrukt über Wertvorstellungen und Verhaltensannahmen.',
+        "text": "Rechtliche Definitionen der Dienstpflichten und Haftungsnormen von Arbeitnehmern im österreichischen Arbeits- und Angestelltengesetz.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um arbeitsrechtliche Rechtsbegriffe und Pflichtenkataloge, nicht um sozialpsychologische Menschenbilder."
       },
       {
-        text: 'Juristische Personenbeschreibungen in Arbeitsverträgen zur Festlegung der gesetzlichen Schadensersatzpflichten bei Fahrlässigkeit.',
-        korrekt: false,
-        erklaerung: 'Vertragliche Klauseln regeln rechtliche Rahmenbedingungen, spiegeln jedoch nicht die psychologischen Führungs-Menschenbilder wider.',
-      },
+        "text": "Soziologische Schichtenmodelle zur Einteilung von Mitarbeitern nach formalen Bildungsabschlüssen und tariflichen Einkommensgruppen.",
+        "korrekt": false,
+        "erklaerung": "Soziologische Schichtungs- und Milieumodelle beschreiben gesellschaftliche Strukturen, aber keine führungsrelevanten Menschenbilder."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 8,
-    bereich: 2,
-    frage: 'Von wem ist die Theorie X und Theorie Y?',
-    optionen: [
+    "id": 8,
+    "bereich": 2,
+    "frage": "Von wem ist die Theorie X und Theorie Y?",
+    "optionen": [
       {
-        text: 'Douglas McGregor, der diese beiden gegensätzlichen Menschenbilder 1960 in «The Human Side of Enterprise» formulierte.',
-        korrekt: true,
-        erklaerung: 'Douglas McGregor entwickelte 1960 die berühmte Gegenüberstellung von Theorie X (pessimistisch) und Theorie Y (optimistisch).',
+        "text": "Douglas McGregor, der diese beiden gegensätzlichen Menschenbilder 1960 in «The Human Side of Enterprise» formulierte.",
+        "korrekt": true,
+        "erklaerung": "Douglas McGregor begründete die Theorie X (pessimistisches Menschenbild) und Theorie Y (optimistisches Menschenbild) als Grundlage moderner Führung."
       },
       {
-        text: 'Kurt Lewin, der die Modelle im Rahmen seiner Studien zu Gruppenkonflikten und Führungsstilen an Universitäten begründete.',
-        korrekt: false,
-        erklaerung: 'Kurt Lewin ist für die klassischen Führungsstile (autoritär, demokratisch, Laissez-faire) und das 3-Phasen-Modell der Veränderung bekannt.',
+        "text": "Kurt Lewin, der Führungsstile anhand von Gruppenexperimenten mit Jugendlichen an amerikanischen Universitäten empirisch erforschte.",
+        "korrekt": false,
+        "erklaerung": "Kurt Lewin ist berühmt für die Erforschung der Führungsstile (autoritär, demokratisch, Laissez-faire), nicht für Theorie X und Y."
       },
       {
-        text: 'Max Weber, der diese Klassifikation zur Analyse charismatischer und bürokratischer Herrschaftsformen entwarf.',
-        korrekt: false,
-        erklaerung: 'Max Weber analysierte Herrschaftsformen (traditional, charismatisch, legal-rational), nicht die Theorien X und Y.',
+        "text": "Max Weber, der diese Klassifikation zur Analyse charismatischer, traditioneller und bürokratischer Herrschaftsformen entwarf.",
+        "korrekt": false,
+        "erklaerung": "Max Weber analysierte Herrschaftsformen (patriarchalisch, bürokratisch, charismatisch), entwickelte jedoch nicht Theorie X und Y."
       },
       {
-        text: 'Fredmund Malik, der diese Buchstaben für die sechs Grundsätze wirksamer Unternehmensführung in St. Gallen einführte.',
-        korrekt: false,
-        erklaerung: 'Malik ist Vertreter des ganzheitlichen Managementsystems der St. Galler Schule, die Theorie X/Y stammt jedoch von McGregor.',
-      },
+        "text": "Frederick Winslow Taylor, der diese Einteilung zur Steigerung manueller Effizienzschritte im Scientific Management entwickelte.",
+        "korrekt": false,
+        "erklaerung": "Taylor begründete das Scientific Management (Taylorismus), welches zwar der Theorie X ähnelt, die begriffliche Theorie stammt jedoch von McGregor."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 9,
-    bereich: 2,
-    frage: 'Wie können Sie die Theorie X erklären?',
-    optionen: [
+    "id": 9,
+    "bereich": 2,
+    "frage": "Wie können Sie die Theorie X erklären?",
+    "optionen": [
       {
-        text: 'Der Mensch ist von Natur aus arbeitsscheu, meidet Verantwortung und muss durch Zwang, Kontrolle und extrinsische Anreize gelenkt werden.',
-        korrekt: true,
-        erklaerung: 'Theorie X postuliert ein pessimistisches Menschenbild: Arbeit wird als Last gesehen; ohne äußere Kontrolle und Vorgaben bleibt der Mitarbeiter passiv.',
+        "text": "Der Mensch ist von Natur aus träge, meidet Verantwortung und muss durch Zwang, Kontrolle und extrinsische Anreize gelenkt werden.",
+        "korrekt": true,
+        "erklaerung": "Theorie X geht von einem negativen Menschenbild aus: Arbeit wird als Last empfunden, weshalb Druck, Belohnung und strenge Aufsicht nötig seien."
       },
       {
-        text: 'Der Mensch sucht von Natur aus Sinn, entfaltet kreative Potenziale selbstständig und benötigt keinerlei Führung oder Feedback.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt eine extrem übersteigerte Form der Theorie Y (bzw. Human-Potential-Bewegung), nicht das Menschenbild der Theorie X.',
+        "text": "Der Mensch sucht von Natur aus Sinn, entfaltet kreative Potenziale selbstständig und benötigt primär weitreichende Freiräume zur Entfaltung.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt das optimistische Menschenbild der Theorie Y, das dem negativen Bild der Theorie X exakt gegenübersteht."
       },
       {
-        text: 'Der Mitarbeiter ist ausschließlich an sozialer Geborgenheit in der Gruppe interessiert und verzichtet vollkommen auf finanzielle Entlohnung.',
-        korrekt: false,
-        erklaerung: 'Dies ähnelt dem «Social Man» nach den Hawthorne-Experimenten, entspricht jedoch nicht McGregors Theorie X.',
+        "text": "Der Mitarbeiter ist vor allem durch soziale Anerkennung und Gruppenzugehörigkeit motiviert, während materielle Anreize vollkommen nachrangig sind.",
+        "korrekt": false,
+        "erklaerung": "Dies entspricht dem «Social Man» der Human-Relations-Bewegung (Elton Mayo), nicht der Theorie X nach McGregor."
       },
       {
-        text: 'Der Beschäftigte wechselt je nach Tagesform unberechenbar zwischen Höchstleistung und totaler Arbeitsverweigerung hin und her.',
-        korrekt: false,
-        erklaerung: 'Theorie X geht von einer stabilen Grundhaltung der Arbeitsunlust und Sicherheitsorientierung aus, nicht von erratischen Tagesschwankungen.',
-      },
+        "text": "Der Mitarbeiter besitzt vielschichtige, wandelbare Motive, die sich situationsabhängig und im Lebensverlauf kontinuierlich neu ausrichten.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet den «Complex Man» nach Edgar Schein, nicht das statisch-pessimistische Modell der Theorie X."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 10,
-    bereich: 2,
-    frage: 'Wie können Sie die Theorie Y erklären?',
-    optionen: [
+    "id": 10,
+    "bereich": 2,
+    "frage": "Wie können Sie die Theorie Y erklären?",
+    "optionen": [
       {
-        text: 'Der Mensch betrachtet Arbeit als Quelle der Zufriedenheit, ist lern- und leistungsbereit und übernimmt bei passenden Bedingungen gerne Verantwortung.',
-        korrekt: true,
-        erklaerung: 'Theorie Y geht von einem optimistischen Menschenbild aus: Mitarbeiter motivieren sich intrinsisch, wenn ihnen Vertrauen und Gestaltungsspielraum gegeben werden.',
+        "text": "Der Mensch sieht Arbeit als Quelle der Zufriedenheit, ist lern- und leistungsbereit und übernimmt bei passenden Bedingungen gerne Verantwortung.",
+        "korrekt": true,
+        "erklaerung": "Theorie Y nimmt an, dass Menschen intrinsisch motiviert sind, eigene Potenziale entfalten wollen und durch Vertrauen zu Höchstleistung finden."
       },
       {
-        text: 'Der Mitarbeiter arbeitet ausschließlich dann zuverlässig, wenn ihm bei Nichterfüllung mit spürbaren arbeitsrechtlichen Sanktionen gedroht wird.',
-        korrekt: false,
-        erklaerung: 'Diese Annahme von Zwang und Strafandrohung ist das typische Merkmal der Theorie X, nicht der Theorie Y.',
+        "text": "Der Mitarbeiter arbeitet ausschließlich dann zuverlässig, wenn ihm bei Nichterfüllung mit spürbaren arbeitsrechtlichen Sanktionen gedroht wird in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Diese Annahme von Zwang und Strafandrohung ist das typische Kennzeichen der Theorie X, nicht der Theorie Y."
       },
       {
-        text: 'Der Angestellte verlangt stets nach exakten Dienstplänen und lehnt jede Form von Mitbestimmung oder Eigeninitiative kategorisch ab.',
-        korrekt: false,
-        erklaerung: 'Die Ablehnung von Mitbestimmung und Wunsch nach reiner Anweisung entspricht der Theorie X.',
+        "text": "Der Mitarbeiter verlangt stets nach detaillierten Dienstplänen und lehnt jede Form von Mitbestimmung oder Eigeninitiative entschieden ab.",
+        "korrekt": false,
+        "erklaerung": "Die Ablehnung von Eigenverantwortung und das Verlangen nach strikter Steuerung gehört zum Menschenbild der Theorie X."
       },
       {
-        text: 'Menschliches Leistungsvermögen hängt ausschließlich von monetären Boni ab, persönliche Anerkennung spielt dabei keine Rolle.',
-        korrekt: false,
-        erklaerung: 'Reine Geldorientierung entspricht dem Taylorismus und dem «Rational Economic Man», während Theorie Y intrinsische Motive betont.',
-      },
+        "text": "Menschliches Leistungsvermögen hängt ausschließlich von monetären Boni ab, persönliche Anerkennung spielt dabei wissenschaftlich keine Rolle.",
+        "korrekt": false,
+        "erklaerung": "Reine Geldorientierung entspricht dem Taylorismus und dem «Rational Economic Man», während Theorie Y intrinsische Motive betont."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 11,
-    bereich: 2,
-    frage: 'Wie erklären Sie den Führungskreis der Theorie X und Y?',
-    optionen: [
+    "id": 11,
+    "bereich": 2,
+    "frage": "Wie erklären Sie den Führungskreis der Theorie X und Y?",
+    "optionen": [
       {
-        text: 'Als selbsterfüllende Prophezeiung: Das Menschenbild der Führungskraft prägt ihr Verhalten, worauf Mitarbeiter spiegelbildlich reagieren und die Annahme bestätigen.',
-        korrekt: true,
-        erklaerung: 'Führt Misstrauen (Theorie X) zu Kontrolle, reagieren Mitarbeiter mit Dienst nach Vorschrift, was das Misstrauen scheinbar bestätigt. Vertrauen (Theorie Y) erzeugt Eigeninitiative.',
+        "text": "Als selbsterfüllende Prophezeiung: Das Menschenbild prägt das Führungsverhalten, worauf Mitarbeiter spiegelbildlich reagieren und die Annahme bestätigen.",
+        "korrekt": true,
+        "erklaerung": "Führt Misstrauen (Theorie X) zu Kontrolle, reagieren Mitarbeiter mit Dienst nach Vorschrift, was das Misstrauen bestätigt. Vertrauen (Theorie Y) erzeugt Eigeninitiative."
       },
       {
-        text: 'Als starr festgelegten Betriebsablauf, bei dem Mitarbeiter alle vier Jahre obligatorisch von Theorie X in Theorie Y versetzt werden müssen.',
-        korrekt: false,
-        erklaerung: 'Der Führungskreis ist ein psychologischer Wirkungskreislauf (Pygmalion-Effekt), kein administratives Rotationsverfahren im Betrieb.',
+        "text": "Als stufenweises Phasenmodell, bei dem neue Mitarbeiter mit Theorie X beginnen und nach Beförderung nach Theorie Y geführt werden müssen.",
+        "korrekt": false,
+        "erklaerung": "Der Führungskreis ist ein dynamischer psychologischer Wirkungskreislauf (Pygmalion-Effekt), kein administratives Laufbahn- oder Phasenmodell."
       },
       {
-        text: 'Als mathematische Formel zur Errechnung der optimalen Gehaltshöhe in Abhängigkeit vom monatlichen Krankenstand der Abteilung.',
-        korrekt: false,
-        erklaerung: 'Es handelt sich um ein qualitatives Beziehungs- und Rückkopplungsmodell der Führung, nicht um eine Entgeltberechnungsformel.',
+        "text": "Als dualen Regelkreis, in dem die Führungskraft je nach Tagesform zwischen autoritärer Kontrolle und partnerschaftlicher Beteiligung pendelt.",
+        "korrekt": false,
+        "erklaerung": "Der Führungskreis beschreibt die wechselseitige Verstärkung von Annahme und Verhalten, nicht ein unberechenbares Pendeln der Führungskraft."
       },
       {
-        text: 'Als hierarchischen Kreislauf, wonach Führungskräfte stets Theorie Y leben müssen, Mitarbeiter jedoch immer Theorie X bevorzugen.',
-        korrekt: false,
-        erklaerung: 'Der Kreislauf zeigt, wie Vorannahmen beiderseits das Verhalten formen; er behauptet keineswegs, dass Mitarbeiter nach Theorie X geführt werden wollen.',
-      },
+        "text": "Als kybernetisches Steuerungsmodell, das die monetäre Entlohnung an den Grad der gezeigten Eigeninitiative der Mitarbeiter direkt koppelt.",
+        "korrekt": false,
+        "erklaerung": "Es handelt sich um ein qualitatives Beziehungs- und Rückkopplungsmodell der Führung, nicht um eine Entgeltsystematik."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 12,
-    bereich: 2,
-    frage: 'Was ist das Menschenbild der Z-Theorie?',
-    optionen: [
+    "id": 12,
+    "bereich": 2,
+    "frage": "Was ist das Menschenbild der Z-Theorie?",
+    "optionen": [
       {
-        text: 'Geprägt von Loyalität, kollektiver Verantwortung, hoher Identifikation und langfristiger Bindung zwischen Mitarbeiter und Organisation (nach Ouchi).',
-        korrekt: true,
-        erklaerung: 'William Ouchis Theorie Z (inspiriert vom japanischen Management) sieht den Menschen als soziales, loyales Wesen, das in stabilen, vertrauensvollen Gemeinschaften aufblüht.',
+        "text": "Geprägt von Loyalität, kollektiver Verantwortung, hoher Identifikation und langfristiger Bindung zwischen Mitarbeiter und Organisation (nach Ouchi).",
+        "korrekt": true,
+        "erklaerung": "William Ouchis Theorie Z (inspiriert vom japanischen Management) sieht den Menschen als soziales, loyales Wesen, das in stabilen Gemeinschaften aufblüht."
       },
       {
-        text: 'Fokussiert auf kurzfristige Zeitarbeitsverträge, sofortige Kündigung bei Fehlern und rein unpersönliche digitale Kommunikation.',
-        korrekt: false,
-        erklaerung: 'Theorie Z steht für das exakte Gegenteil: langfristige Beschäftigung, implizite Kontrolle und ganzheitliches Interesse am Menschen.',
+        "text": "Ausgerichtet auf kurzfristige Projektarbeit, maximale individuelle Unabhängigkeit und rein ergebnisorientierte variable Vergütungsverträge.",
+        "korrekt": false,
+        "erklaerung": "Theorie Z steht für das Gegenteil: langfristige Beschäftigung, implizite Kontrolle und ganzheitliches Interesse am Menschen statt Kurzfristigkeit."
       },
       {
-        text: 'Geht davon aus, dass Menschen Roboter sind, die keinerlei Emotionen besitzen und ausschließlich durch Algorithmen gesteuert werden sollten.',
-        korrekt: false,
-        erklaerung: 'Dies ist eine technokratische Fiktion; Ouchis Theorie Z betont ausdrücklich zwischenmenschliche Wärme und gegenseitiges Vertrauen.',
+        "text": "Basiert auf der Annahme, dass Mitarbeiter ausschließlich durch standardisierte IT-Workflows und algorithmische Kennzahlen gesteuert werden können.",
+        "korrekt": false,
+        "erklaerung": "Theorie Z betont ausdrücklich zwischenmenschliche Wärme, Vertrauen und kollegiale Werte, keine technokratische Prozesssteuerung."
       },
       {
-        text: 'Betrachtet Mitarbeiter als Einzelkämpfer, die internen Konkurrenzkampf als einzige Triebfeder für Bestleistungen ansehen.',
-        korrekt: false,
-        erklaerung: 'Theorie Z basiert auf Harmonie, Gruppenorientierung und kollektiver Entscheidungsfindung, nicht auf rücksichtslosem Egoismus.',
-      },
+        "text": "Sieht den Mitarbeiter als rationalen Nutzenmaximierer, der nur bei lückenloser Prozesskontrolle seine vertraglichen Pflichten zuverlässig erfüllt zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Theorie Z basiert auf Harmonie, Gruppenorientierung und gegenseitigem Respekt, nicht auf dem utilitaristischen Kontrollbild der Theorie X."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 13,
-    bereich: 2,
-    frage: 'Wie erklären Sie die Menschenbilder nach der Theorie von Edgar Schein?',
-    optionen: [
+    "id": 13,
+    "bereich": 2,
+    "frage": "Wie erklären Sie die Menschenbilder nach der Theorie von Edgar Schein?",
+    "optionen": [
       {
-        text: 'Entwicklung von vier Menschenbildern: Rational-ökonomischer Mensch, Sozialer Mensch, Sich selbst verwirklichender Mensch und Komplexer Mensch.',
-        korrekt: true,
-        erklaerung: 'Edgar H. Schein systematisierte die Führungsgeschichte in diese vier aufeinander aufbauenden Menschenbilder, die jeweils unterschiedliche Führungsstile verlangen.',
+        "text": "Als historische Entwicklung von vier Menschenbildern: Rational-ökonomischer Mensch, Sozialer Mensch, Selbstverwirklichender Mensch und Komplexer Mensch.",
+        "korrekt": true,
+        "erklaerung": "Edgar H. Schein systematisierte die Führungsgeschichte in diese vier aufeinander aufbauenden Menschenbilder mit jeweils passenden Führungsansätzen."
       },
       {
-        text: 'Einteilung aller Menschen nach den vier Sternzeichen-Elementen Feuer, Wasser, Erde und Luft zur optimalen Arbeitsplatzgestaltung.',
-        korrekt: false,
-        erklaerung: 'Scheins Theorie ist eine fundierte organisationspsychologische Typologie und hat nichts mit esoterischen Elementlehren gemein.',
+        "text": "Als Einteilung in vier fundamentale Persönlichkeitstypen nach Verhaltenspräferenzen: Dominant, Initiativ, Stetig und Gewissenhaft im Arbeitsleben unter Berücksichtigung personeller und organisatorischer Rahmenbedingungen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist das DISG-Persönlichkeitsmodell, nicht die organizationspsychologische Menschenbild-Theorie von Edgar Schein."
       },
       {
-        text: 'Differenzierung ausschließlich zwischen aktiven Managern und passiven Arbeitern ohne Berücksichtigung sozialer oder individueller Motive.',
-        korrekt: false,
-        erklaerung: 'Dies spiegelt ein frühes tayloristisches Klassenmodell wider, ignoriert aber Scheins differenzierte Mehrstufen-Typologie.',
+        "text": "Als Differenzierung von Führungskräften anhand der Achsen Aufgabenorientierung, Beziehungsorientierung und situative Effektivität im Management.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt das 3-D-Modell von William J. Reddin, keine Menschenbildtheorie nach Edgar Schein."
       },
       {
-        text: 'Kategorisierung von Angestellten nach ihren Rechnerkenntnissen in Programmierer, Anwender, Systemverwalter und Technikhasser.',
-        korrekt: false,
-        erklaerung: 'Schein forschte zur Organisationspsychologie und Motivation im 20. Jahrhundert, nicht zu modernen IT-Berufsgruppen.',
-      },
+        "text": "Als Klassifikation von Mitarbeitermotiven nach den drei angeborenen Grundbedürfnissen Leistung, Macht und soziale Zugehörigkeit im Unternehmen.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die Motivationstheorie von David McClelland, nicht Scheins Systematik der Menschenbilder."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 14,
-    bereich: 2,
-    frage: 'Welche Eigenheiten hat der rational-ökonomische Mensch nach Edgar Schein?',
-    optionen: [
+    "id": 14,
+    "bereich": 2,
+    "frage": "Welche Eigenheiten hat der rational-ökonomische Mensch nach Edgar Schein?",
+    "optionen": [
       {
-        text: 'Er handelt zweckrational zur Maximierung des eigenen materiellen Nutzens, wird durch Geld motiviert und verhält sich im Betrieb eher passiv.',
-        korrekt: true,
-        erklaerung: 'Der «Rational Economic Man» entspricht dem klassischen Homo Oeconomicus (Taylorismus): Primäre Steuerung über finanzielle Anreize und straffe Aufsicht.',
+        "text": "Er handelt zweckrational zur Maximierung des eigenen Nutzens, wird durch finanzielle Anreize motiviert und agiert im Betrieb eher passiv.",
+        "korrekt": true,
+        "erklaerung": "Der «Rational Economic Man» entspricht dem klassischen Homo Oeconomicus (Taylorismus): Primäre Steuerung über materielle Anreize und straffe Aufsicht."
       },
       {
-        text: 'Er stellt soziale Beziehungen und Kollegialität stets über die eigene Bezahlung und verzichtet freiwillig auf Leistungsprämien.',
-        korrekt: false,
-        erklaerung: 'Dies kennzeichnet den «Social Man», während der rational-ökonomische Mensch strikt nutzen- und geldorientiert agiert.',
+        "text": "Er stellt soziale Beziehungen und Teamzugehörigkeit stets über die eigene Bezahlung und strebt vorrangig nach Harmonie in der Arbeitsgruppe.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet den «Social Man», während der rational-ökonomische Mensch strikt nutzen- und ertragsorientiert agiert."
       },
       {
-        text: 'Er strebt vor allem nach Autonomie und persönlichem Sinn und lehnt jede monetäre Entlohnung als unethisch ab.',
-        korrekt: false,
-        erklaerung: 'Autonomie und Sinnsuche charakterisieren den «Self-Actualizing Man», nicht den rational-ökonomischen Menschen.',
+        "text": "Er strebt vor allem nach Autonomie, Selbstverwirklichung und fachlicher Weiterentwicklung bei vollständiger Ablehnung monetärer Steuerung.",
+        "korrekt": false,
+        "erklaerung": "Autonomie und Sinnsuche charakterisieren den «Self-Actualizing Man», nicht den rational-ökonomischen Menschen."
       },
       {
-        text: 'Er besitzt unberechenbare Motive, die sich je nach Alter und Projektkontext täglich komplett wandeln.',
-        korrekt: false,
-        erklaerung: 'Wandlungsfähige und vielschichtige Motive beschreiben den «Complex Man», der von Schein als letzte Entwicklungsstufe formuliert wurde.',
-      },
+        "text": "Seine Motive sind hochgradig vielschichtig, wandelbar und hängen stark von der jeweiligen Lebensphase und der konkreten Arbeitsaufgabe ab.",
+        "korrekt": false,
+        "erklaerung": "Wandlungsfähige und vielschichtige Motive beschreiben den «Complex Man», der von Schein als letzte Entwicklungsstufe formuliert wurde."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 15,
-    bereich: 2,
-    frage: 'Welche Unterscheidung der Menschenbilder kennen Sie im Zeitablauf?',
-    optionen: [
+    "id": 15,
+    "bereich": 2,
+    "frage": "Welche Unterscheidung der Menschenbilder kennen Sie im Zeitablauf?",
+    "optionen": [
       {
-        text: 'Historische Wandlung vom rational-ökonomischen Menschen über den sozialen und selbstverwirklichenden Menschen bis hin zum komplexen Menschen.',
-        korrekt: true,
-        erklaerung: 'Im Zeitablauf löste die Human-Relations-Bewegung (sozialer Mensch) den Taylorismus ab, gefolgt von der Human-Resources-Bewegung und heutigen systemischen Modellen (komplexer Mensch).',
+        "text": "Historischer Wandel vom rational-ökonomischen Menschen über den sozialen und selbstverwirklichenden Menschen bis hin zum komplexen Menschen.",
+        "korrekt": true,
+        "erklaerung": "Im Zeitablauf löste die Human-Relations-Bewegung (sozialer Mensch) den Taylorismus ab, gefolgt von der Human-Resources-Bewegung und heutigen systemischen Modellen (komplexer Mensch)."
       },
       {
-        text: 'Vom hochkreativen Urmenschen der Antike über den faulen Arbeiter der Renaissance hin zum rein digitalen Roboter des 21. Jahrhunderts.',
-        korrekt: false,
-        erklaerung: 'Dies ist eine karikierende Fiktion ohne wissenschaftliche Basis in der Betriebswirtschafts- oder Organisationslehre.',
+        "text": "Übergang von der agilen Führungskraft der Industrialisierung zum patriarchalischen Fabrikbesitzer im modernen Dienstleistungssektor der Gegenwart.",
+        "korrekt": false,
+        "erklaerung": "Hier liegt eine historische Umkehrung vor: Der Patriarchalismus prägte die frühe Industrie, Agilität prägt moderne Organisationen."
       },
       {
-        text: 'Ausschließlich die chronologische Einteilung nach Geburtsjahrzehnten in Zwanziger-, Fünfziger- und Achtziger-Jahre-Menschen.',
-        korrekt: false,
-        erklaerung: 'Menschenbilder im Zeitablauf beziehen sich auf den Wandel der Führungstheorien und Paradigmen, nicht auf simple Geburtsdekaden.',
+        "text": "Chronologische Ablösung der intrinsischen Selbstmotivation durch rein monetäre Akkordlohnsysteme in der modernen Wissensgesellschaft.",
+        "korrekt": false,
+        "erklaerung": "Akkordlöhne waren typisch für die frühe Industrialisierung; moderne Führung setzt verstärkt auf Eigenverantwortung und intrinsische Motivation."
       },
       {
-        text: 'Vom absolut gehorsamen Sklaven im Mittelalter zum vertraglich gebundenen Angestellten der Neuzeit ohne jede psychologische Komponente.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt rechtshistorische Dienstverhältnisse, ignoriert jedoch den Wandel der psychologischen Motivationstheorien der letzten 120 Jahre.',
-      },
+        "text": "Entwicklung vom rein teamorientierten Mitarbeiter der Frühmoderne zum isolierten, unsozialen Einzelkämpfer in modernen agilen Unternehmen.",
+        "korrekt": false,
+        "erklaerung": "Agile Methoden (Scrum, Kanban) stärken Teamarbeit und kollektive Verantwortung, statt Vereinzelung zu fördern."
+      }
     ],
-    pruefen: true,
+    "pruefen": true
   },
   {
-    id: 16,
-    bereich: 2,
-    frage: 'Welche Eigenschaften kennen Sie von der Generation Y?',
-    optionen: [
+    "id": 16,
+    "bereich": 2,
+    "frage": "Welche Eigenschaften kennen Sie von der Generation Y?",
+    "optionen": [
       {
-        text: 'Hinterfragen des Sinns («Why?»), Streben nach Work-Life-Integration, Digitalaffinität sowie Wunsch nach Flexibilität und offener Feedbackkultur.',
-        korrekt: true,
-        erklaerung: 'Die Generation Y (ca. 1981–1996) zeichnet sich durch Sinnorientierung («Purpose»), Technologiekompetenz und den Wunsch nach partnerschaftlicher Führung aus.',
+        "text": "Hinterfragen des Sinns («Why?»), Streben nach Work-Life-Integration, Digitalaffinität sowie Wunsch nach Transparenz und Feedback.",
+        "korrekt": true,
+        "erklaerung": "Die Generation Y (ca. 1981–1996) zeichnet sich durch Sinnorientierung («Purpose»), Technologiekompetenz und den Wunsch nach partnerschaftlicher Führung aus."
       },
       {
-        text: 'Bedingungsloser Gehorsam gegenüber Vorgesetzten, Verzicht auf Freizeit und Ablehnung jeglicher digitaler Kommunikationsmittel.',
-        korrekt: false,
-        erklaerung: 'Dies widerspricht den typischen Merkmalen der Generation Y diametral; sie hinterfragt Hierarchien und lebt digitale Vernetzung.',
+        "text": "Bedingungslose Unterordnung unter formale Hierarchien, bewusster Verzicht auf Freizeit und strikte Ablehnung moderner Kommunikationsmittel.",
+        "korrekt": false,
+        "erklaerung": "Dies widerspricht den Merkmalen der Generation Y diametral; sie hinterfragt Hierarchien und lebt digitale Vernetzung."
       },
       {
-        text: 'Ausschließliches Interesse an einer lebenslangen Festanstellung im selben Konzern unter Beibehaltung starrer Präsenzpflichten.',
-        korrekt: false,
-        erklaerung: 'Die Generation Y schätzt Agilität und Flexibilität (z. B. Remote Work, Projektarbeit) und wechselt Arbeitgeber pragmatischer als Vorläufergenerationen.',
+        "text": "Ausschließliches Interesse an einer lebenslangen Festanstellung im selben Konzern unter Beibehaltung starrer Präsenzpflichten im Büro.",
+        "korrekt": false,
+        "erklaerung": "Die Generation Y schätzt Flexibilität (Remote Work, Projektarbeit) und wechselt Arbeitgeber pragmatischer als Vorläufergenerationen."
       },
       {
-        text: 'Vollkommene Isolation von Kollegen, strikte Ablehnung von Teamarbeit und Bevorzugung handschriftlicher Aktenführung.',
-        korrekt: false,
-        erklaerung: 'Die Generation Y ist stark kollaborativ orientiert («We-Culture») und nutzt selbstverständlich moderne Kollaborationssoftware.',
-      },
+        "text": "Strikte Ablehnung von Teamarbeit, konsequente Bevorzugung reiner Einzelarbeit und grundsätzliche Skepsis gegenüber flachen Hierarchien.",
+        "korrekt": false,
+        "erklaerung": "Die Generation Y ist stark kollaborativ orientiert («We-Culture») und nutzt selbstverständlich moderne Kollaborationssoftware."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 17,
-    bereich: 2,
-    frage: 'Was ist der Unterschied der «Generation Y» zu den «Baby Boomern»?',
-    optionen: [
+    "id": 17,
+    "bereich": 2,
+    "frage": "Was ist der Unterschied der «Generation Y» zu den «Baby Boomern»?",
+    "optionen": [
       {
-        text: 'Baby Boomer priorisieren Loyalität, Status und «Leben, um zu arbeiten», während die Generation Y Sinnhaftigkeit, Flexibilität und persönliche Entfaltung in den Vordergrund stellt.',
-        korrekt: true,
-        erklaerung: 'Baby Boomer (ca. 1946–1964) wuchsen in einer von Wiederaufbau und Pflichtbewusstsein geprägten Zeit auf; Generation Y fordert Work-Life-Balance und Mitsprache.',
+        "text": "Baby Boomer priorisieren Pflichtbewusstsein, Loyalität und Status («Leben, um zu arbeiten»), Generation Y sucht Sinn, Flexibilität und Partizipation.",
+        "korrekt": true,
+        "erklaerung": "Baby Boomer (ca. 1946–1964) wuchsen in einer von Wiederaufbau und Pflichtbewusstsein geprägten Zeit auf; Generation Y fordert Work-Life-Balance und Mitsprache."
       },
       {
-        text: 'Baby Boomer arbeiten ausschließlich remote ohne festen Schreibtisch, während die Generation Y auf starren Stechuhren im Büro besteht.',
-        korrekt: false,
-        erklaerung: 'Hier wurden die Präferenzen exakt vertauscht: Starre Präsenzkultur war typisch für frühere Epochen, flexible Arbeitsformen prägen die Generation Y.',
+        "text": "Baby Boomer arbeiten primär in agilen Netzwerken ohne feste Hierarchie, während die Generation Y auf starren Befehlswegen im Büro beharrt.",
+        "korrekt": false,
+        "erklaerung": "Hier wurden die Präferenzen vertauscht: Starre Hierarchien prägten frühere Epochen, flexible Arbeitsformen prägen die Generation Y."
       },
       {
-        text: 'Es gibt keinerlei soziologische Unterschiede, da beide Generationen unter identischen wirtschaftlichen Rahmenbedingungen aufgewachsen sind.',
-        korrekt: false,
-        erklaerung: 'Unterschiedliche historische Prägungen (Wirtschaftswunder vs. Digitalisierung und Globalisierung) führen zu signifikant abweichenden Wertehaltungen.',
+        "text": "Baby Boomer lehnen materielle Vergütung vollkommen ab, während die Generation Y ausschließlich durch kurzfristige Bonuszahlungen motiviert wird im operativen und strategischen Geschäftsalltag der Organisation.",
+        "korrekt": false,
+        "erklaerung": "Beide Generationen schätzen faire Entlohnung, jedoch gewichtet die Generation Y Freizeit und Sinnstiftung deutlich höher als Statussymbole."
       },
       {
-        text: 'Baby Boomer verweigern Führungspositionen grundsätzlich, während jeder Angehörige der Generation Y zwingend Abteilungsleiter werden will.',
-        korrekt: false,
-        erklaerung: 'Tatsächlich bekleiden viele Baby Boomer Führungspositionen, während in der Generation Y oft fachliche Erfüllung höher geschätzt wird als formale Macht.',
-      },
+        "text": "Es bestehen keinerlei arbeitspsychologische Unterschiede, da beide Kohorten unter identischen soziokulturellen Einflüssen sozialisiert wurden.",
+        "korrekt": false,
+        "erklaerung": "Unterschiedliche historische Prägungen (Wirtschaftswunder vs. Digitalisierung und Globalisierung) führen zu nachweisbar unterschiedlichen Werthaltungen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 18,
-    bereich: 3,
-    frage: 'Was verstehen Sie unter Führungsstil und Führungsverhalten?',
-    optionen: [
+    "id": 18,
+    "bereich": 3,
+    "frage": "Was verstehen Sie unter Führungsstil und Führungsverhalten?",
+    "optionen": [
       {
-        text: 'Führungsstil ist das grundlegende, relativ stabile Verhaltensmuster einer Führungskraft, während Führungsverhalten das dynamische, situationsbezogene Handeln meint.',
-        korrekt: true,
-        erklaerung: 'Der Führungsstil bildet die habituelle Disposition und Wertehaltung ab; das Führungsverhalten ist die konkrete Interaktion in der jeweiligen Führungssituation.',
+        "text": "Führungsstil ist das grundlegende, relativ stabile Handlungsmuster, während Führungsverhalten das dynamische, situationsbezogene Agieren meint.",
+        "korrekt": true,
+        "erklaerung": "Der Führungsstil bildet die habituelle Disposition und Wertehaltung ab; das Führungsverhalten ist die konkrete Interaktion in der jeweiligen Führungssituation."
       },
       {
-        text: 'Führungsstil ist eine gesetzliche Vorgabe der Arbeiterkammer, während Führungsverhalten die freiwillige Überstundenleistung des Teams darstellt.',
-        korrekt: false,
-        erklaerung: 'Weder Stil noch Führungsverhalten sind gesetzliche Kollektivvertragsnormen; es handelt sich um sozialwissenschaftliche Konzepte.',
+        "text": "Führungsstil beschreibt die spontane Reaktion auf Krisen, während Führungsverhalten die unveränderliche genetische Veranlagung darstellt.",
+        "korrekt": false,
+        "erklaerung": "Führungsverhalten ist erlern- und anpassbar; der Führungsstil ist durch Sozialisation und Erfahrung geprägt, aber keine biologische Konstante."
       },
       {
-        text: 'Führungsstil beschreibt die Kleiderordnung im Management, während Führungsverhalten die Pünktlichkeit bei Meetings bezeichnet.',
-        korrekt: false,
-        erklaerung: 'Dies reduziert komplexe Führungstheorien auf Äußerlichkeiten wie Etikette oder Dresscode.',
+        "text": "Führungsstil ist rein gesetzlich im Kollektivvertrag geregelt, während Führungsverhalten ausschließlich die private Freizeitgestaltung betrifft.",
+        "korrekt": false,
+        "erklaerung": "Weder Stil noch Führungsverhalten sind gesetzliche Kollektivvertragsnormen; es handelt sich um sozialwissenschaftliche Konzepte im Berufsleben."
       },
       {
-        text: 'Führungsverhalten ist stets unbewusst und unveränderbar, während der Führungsstil täglich durch eine Schulung neu erfunden werden kann.',
-        korrekt: false,
-        erklaerung: 'Führungsverhalten kann sehr wohl bewusst gesteuert werden; der Stil hingegen ist tiefer in der Persönlichkeit und Haltung verankert.',
-      },
+        "text": "Beide Begriffe sind in der Führungsforschung deckungsgleich und bezeichnen ohne jeden Bedeutungsunterschied dasselbe Managementphänomen.",
+        "korrekt": false,
+        "erklaerung": "In der Führungstheorie wird präzise differenziert: Stil ist die überdauernde Grundhaltung, Verhalten die konkrete situative Umsetzung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 19,
-    bereich: 3,
-    frage: 'Welche Dimensionen der Führungsstile kennen Sie?',
-    optionen: [
+    "id": 19,
+    "bereich": 3,
+    "frage": "Welche Dimensionen der Führungsstile kennen Sie?",
+    "optionen": [
       {
-        text: 'Eindimensionale Ansätze (Entscheidungsgrad), zweidimensionale Modelle (Aufgaben- und Mitarbeiterorientierung) sowie mehrdimensionale Modelle (Einbezug von Situation und Effektivität).',
-        korrekt: true,
-        erklaerung: 'Diese Systematik gliedert Führungsmodelle: eindimensional (z. B. Lewin), zweidimensional (z. B. Blake/Mouton) und dreidimensional (z. B. Reddins 3-D-Modell mit Effektivität).',
+        "text": "Eindimensionale Ansätze (Entscheidungsgrad), zweidimensionale Modelle (Aufgaben- und Mitarbeiterorientierung) sowie mehrdimensionale Modelle (Effektivität/Situation).",
+        "korrekt": true,
+        "erklaerung": "Diese Systematik gliedert Führungsmodelle: eindimensional (z. B. Lewin), zweidimensional (z. B. Blake/Mouton) und dreidimensional (z. B. Reddins 3-D-Modell mit Effektivität)."
       },
       {
-        text: 'Ausschließlich räumliche Dimensionen wie Bürogröße, Stockwerkshöhe und Entfernung des Parkplatzes vom Vorstandszimmer.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um architektonische Gegebenheiten, nicht um Dimensionen führungspsychologischer Modelle.',
+        "text": "Hierarchische Dimensionen (Vorstand, Abteilungsleiter, Teamleiter) sowie räumliche Dimensionen (Präsenz-, Remote- und Hybridführung im Unternehmen).",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um organisatorische Ebenen und Arbeitsortmodelle, nicht um theoretische Dimensionen von Führungsstilen."
       },
       {
-        text: 'Ausschließlich zeitliche Dimensionen wie Vormittagsführung, Nachmittagsführung und Wochenendbereitschaft.',
-        korrekt: false,
-        erklaerung: 'Arbeitszeiten sind organisatorische Dienstplanmodelle, keine theoretischen Dimensionen des Führungsverhaltens.',
+        "text": "Zeitliche Dimensionen (Frühschicht, Spätschicht, Bereitschaftsdienst) sowie arbeitsrechtliche Dimensionen (Kollektivvertrag und freier Dienstvertrag).",
+        "korrekt": false,
+        "erklaerung": "Schichtpläne und Vertragsarten sind betriebliche Rahmenbedingungen, keine wissenschaftlichen Dimensionen des Führungsverhaltens."
       },
       {
-        text: 'Finanzielle Dimensionen, die sich allein nach der Höhe des Bruttojahresgehalts der unterstellten Mitarbeiter bemessen.',
-        korrekt: false,
-        erklaerung: 'Vergütungsstrukturen spiegeln keine Dimensionen von Führungsstilen wider.',
-      },
+        "text": "Finanzielle Dimensionen (Fixgehalt, variable Provision) und qualitative Dimensionen (Kundenzufriedenheit und Reklamationsquote im Vertrieb).",
+        "korrekt": false,
+        "erklaerung": "Vergütungsstrukturen und Kennzahlen spiegeln Steuerungsgrößen wider, aber keine Dimensionen zur Klassifikation von Führungsstilen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 20,
-    bereich: 3,
-    frage: 'Welche eindimensionalen Führungsstile von Kurt Lewin kennen Sie?',
-    optionen: [
+    "id": 20,
+    "bereich": 3,
+    "frage": "Welche eindimensionalen Führungsstile von Kurt Lewin kennen Sie?",
+    "optionen": [
       {
-        text: 'Autoritärer (autokratischer), demokratischer (kooperativer) und Laissez-faire-Führungsstil.',
-        korrekt: true,
-        erklaerung: 'Kurt Lewin untersuchte 1939 diese drei klassischen Grundstile anhand des Ausmaßes an Autorität und Mitbestimmung in Experimenten.',
+        "text": "Autoritärer (autokratischer), demokratischer (kooperativer) und Laissez-faire-Führungsstil.",
+        "korrekt": true,
+        "erklaerung": "Kurt Lewin untersuchte 1939 diese drei klassischen Grundstile anhand des Ausmaßes an Autorität und Mitbestimmung in empirischen Experimenten."
       },
       {
-        text: 'Bürokratischer, digitaler, agiler und virtueller Führungsstil.',
-        korrekt: false,
-        erklaerung: 'Dies sind neuere bzw. organisatorische Formen, nicht die klassischen drei Stile der Pionierstudien von Kurt Lewin.',
+        "text": "Transaktionaler, transformationaler, charismatischer und visionärer Führungsstil im Management.",
+        "korrekt": false,
+        "erklaerung": "Transaktionale und transformationale Führung wurden später von Bernard Bass und James MacGregor Burns begründet, nicht von Kurt Lewin."
       },
       {
-        text: 'Transaktionaler, transformationaler, charismatischer und narzisstischer Führungsstil.',
-        korrekt: false,
-        erklaerung: 'Transaktionale und transformationale Führung wurden später von Bass und Burns begründet, nicht von Kurt Lewin.',
+        "text": "Patriarchalischer, bürokratischer, autokratischer und traditioneller Führungsstil in Unternehmen.",
+        "korrekt": false,
+        "erklaerung": "Diese Differenzierung traditioneller Herrschafts- und Führungsformen geht auf die Soziologie von Max Weber zurück."
       },
       {
-        text: 'Monetärer, administrativer, technischer und juristischer Führungsstil.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um betriebliche Fachfunktionen, nicht um die psychologischen Führungsstile nach Kurt Lewin.',
-      },
+        "text": "Aufgabenorientierter, beziehungsorientierter, integrativer und delegierender Führungsstil im Team.",
+        "korrekt": false,
+        "erklaerung": "Dies sind zweidimensionale Führungsstile aus den Ohio-State-Studien bzw. dem Verhaltensgitter von Blake und Mouton."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 21,
-    bereich: 3,
-    frage: 'Was verstehen Sie unter einem autoritären Führungsstil?',
-    optionen: [
+    "id": 21,
+    "bereich": 3,
+    "frage": "Was verstehen Sie unter einem autoritären Führungsstil?",
+    "optionen": [
       {
-        text: 'Die Führungskraft entscheidet alle Sach- und Personalfragen allein, ordnet Maßnahmen strikt an und kontrolliert die Ausführung engmaschig ohne Mitarbeiterbeteiligung.',
-        korrekt: true,
-        erklaerung: 'Der autoritäre Stil (nach Lewin) ist durch eine maximale Machtkonzentration beim Vorgesetzten, Einwegkommunikation von oben nach unten und strenge Kontrolle geprägt.',
+        "text": "Die Führungskraft entscheidet allein ohne Einbindung der Mitarbeiter, gibt detaillierte Anweisungen vor und kontrolliert deren Durchführung engmaschig.",
+        "korrekt": true,
+        "erklaerung": "Kennzeichen des autoritären Stils: Strikte Trennung von Planung/Entscheidung (Führung) und Ausführung (Mitarbeiter), geringes Vertrauen und hohe Distanz."
       },
       {
-        text: 'Die Führungskraft überlässt die Zielerreichung vollkommen der Gruppe, greift niemals ein und verzichtet vollständig auf Vorgaben oder Rückmeldungen.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt den Laissez-faire-Führungsstil, bei dem jegliche Lenkung und Strukturierung durch die Führungskraft unterbleibt.',
+        "text": "Die Führungskraft delegiert sämtliche Entscheidungen an das Team und greift auch bei gravierenden Zielabweichungen und Konflikten bewusst nicht ein.",
+        "korrekt": false,
+        "erklaerung": "Das vollständige Überlassen von Entscheidungen ohne Steuerung und Eingriff entspricht dem Laissez-faire-Stil."
       },
       {
-        text: 'Die Führungskraft delegiert sämtliche strategischen Entscheidungen an externe Berater und führt selbst nur noch informelle Pausengespräche.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um eine Flucht aus der Führungsverantwortung, nicht um autoritäres Direktionsverhalten.',
+        "text": "Entscheidungen werden im Team partnerschaftlich diskutiert, und die Führungskraft moderiert lediglich den gemeinsamen Gruppenprozess zur Zielfindung.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet den kooperativen bzw. demokratischen Führungsstil, bei dem Partizipation im Mittelpunkt steht."
       },
       {
-        text: 'Die Führungskraft sucht vor jeder kleinen Entscheidung stets den vollständigen Konsens im gesamten Kollegium über geheime Abstimmungen.',
-        korrekt: false,
-        erklaerung: 'Dies entspricht einem basisdemokratischen Konsensmodell, welches dem autoritären Entscheidungsmonopol diametral entgegensteht.',
-      },
+        "text": "Die Führungskraft motiviert durch inspirierende Zukunftsvisionen und fördert die persönliche Selbstverwirklichung und Weiterentwicklung der Mitarbeiter.",
+        "korrekt": false,
+        "erklaerung": "Inspiration und Sinnvermittlung sind Kernelemente transformationaler Führung, nicht des autoritären Führungsstils."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 22,
-    bereich: 3,
-    frage: 'Was verstehen Sie unter einem demokratischen Führungsstil – welche Vor- und Nachteile kennen Sie?',
-    optionen: [
+    "id": 22,
+    "bereich": 3,
+    "frage": "Was verstehen Sie unter einem demokratischen Führungsstil – welche Vor- und Nachteile kennen Sie?",
+    "optionen": [
       {
-        text: 'Mitarbeiter werden aktiv in Entscheidungen eingebunden; Vorteile sind hohe Motivation und Akzeptanz, Nachteile sind höherer Zeitbedarf und mögliche Kompromisse.',
-        korrekt: true,
-        erklaerung: 'Der demokratische (kooperative) Stil fördert Eigeninitiative und Teamgeist, erfordert jedoch mehr Abstimmungszeit und kann in Notlagen verlangsamen.',
+        "text": "Mitarbeiter werden in Entscheidungen einbezogen; Vorteile sind hohe Motivation und Akzeptanz, Nachteile sind höherer Zeitaufwand und mögliche Kompromisse.",
+        "korrekt": true,
+        "erklaerung": "Der demokratische Stil stärkt Eigenverantwortung und Identifikation mit Beschlüssen, erfordert jedoch Zeit für Abstimmungen und erfordert Diskussionsbereitschaft."
       },
       {
-        text: 'Vorgesetzte entscheiden alles im Alleingang; Vorteile sind absolute Fehlerfreiheit, Nachteile sind übermäßig hohe Gehälter der Mitarbeiter.',
-        korrekt: false,
-        erklaerung: 'Alleinentscheidungen kennzeichnen den autoritären Stil, führen keineswegs zu garantierter Fehlerfreiheit und haben keinen Bezug zu Gehältern.',
+        "text": "Entscheidungen fallen extrem schnell durch zentrale Anweisung; Vorteil ist sofortige Handlungssicherheit, Nachteil ist fehlende Mitarbeiterbindung im Team.",
+        "korrekt": false,
+        "erklaerung": "Schnelle zentrale Beschlüsse ohne Einbindung der Basis sind typische Merkmale und Folgen des autoritären Führungsstils."
       },
       {
-        text: 'Es existieren keinerlei Vorgaben oder Ziele; Vorteile sind sofortige Schnelligkeit, Nachteile sind zu viele schriftliche Arbeitsanweisungen.',
-        korrekt: false,
-        erklaerung: 'Das Fehlen von Vorgaben ist typisch für Laissez-faire, welches zudem weder zu rascher Schnelligkeit noch zu übermäßigen Anweisungen führt.',
+        "text": "Führungskräfte verzichten komplett auf Zielvorgaben; Vorteil ist absolute persönliche Freiheit, Nachteil ist mangelnde Koordination und Orientierung im Projekt.",
+        "korrekt": false,
+        "erklaerung": "Vollständiger Führungsverzicht ohne Orientierung und Feedback beschreibt den Laissez-faire-Stil."
       },
       {
-        text: 'Entscheidungen werden ausschließlich vom dienstältesten Mitarbeiter getroffen; Vorteile sind steuerliche Ersparnisse, Nachteile sind kürzere Pausen.',
-        korrekt: false,
-        erklaerung: 'Das Senioritätsprinzip ist kein demokratischer Führungsstil und begründet weder steuerliche noch arbeitszeitliche Konsequenzen.',
-      },
+        "text": "Mitarbeiter folgen der Führungskraft aufgrund persönlicher Faszination; Vorteil ist bedingungslose Loyalität, Nachteil die totale Abhängigkeit von einer Person.",
+        "korrekt": false,
+        "erklaerung": "Bedingungslose Gefolgschaft aus Faszination ist das Kernmerkmal charismatischer Führung, nicht demokratischer Partizipation."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 23,
-    bereich: 3,
-    frage: 'Welche Führungsstile unterscheidet Max Weber und erklären Sie diese?',
-    optionen: [
+    "id": 23,
+    "bereich": 3,
+    "frage": "Welche Führungsstile unterscheidet Max Weber und erklären Sie diese?",
+    "optionen": [
       {
-        text: 'Traditionaler (patriarchalischer), charismatischer und bürokratischer (legal-rationaler) Führungs- bzw. Herrschaftsstil.',
-        korrekt: true,
-        erklaerung: 'Max Weber unterscheidet diese drei klassischen Formen legitimer Herrschaft: Glaube an Hergebrachtes (traditional), an die Ausstrahlung (charismatisch) und an rationale Gesetze (bürokratisch).',
+        "text": "Patriarchalisch (väterliche Fürsorge/Autorität), autokratisch (persönliche Herrschaft), bürokratisch (formale Dienstwege/Regeln) und charismatisch (Glaube an die Führerpersönlichkeit).",
+        "korrekt": true,
+        "erklaerung": "Max Webers Typologie leitet sich aus seinen drei legitimen Herrschaftsformen (traditional, legal-rational, charismatisch) ab und bildet traditionelle Führungsstile ab."
       },
       {
-        text: 'Monetärer, administrativer, operativer und visionärer Führungsstil auf Basis internationaler Bilanzierungsstandards.',
-        korrekt: false,
-        erklaerung: 'Weber begründete soziologische Herrschaftsformen, keine betriebswirtschaftlichen Controlling- oder Rechnungslegungsstile.',
+        "text": "Autoritär, demokratisch und Laissez-faire anhand des empirisch gemessenen Ausmaßes an Mitarbeiterpartizipation und Mitsprache im Gruppenalltag zur Steigerung von Transparenz, Verbindlichkeit und Ergebnisqualität.",
+        "korrekt": false,
+        "erklaerung": "Diese klassische Dreiteilung stammt von Kurt Lewin (1939), nicht aus der Herrschaftssoziologie von Max Weber."
       },
       {
-        text: 'Digitaler, agiler, virtueller und lateraler Führungsstil für moderne Softwareentwicklungsteams im Homeoffice.',
-        korrekt: false,
-        erklaerung: 'Diese Begriffe entstammen der Managementlehre des 21. Jahrhunderts und waren zu Webers Lebzeiten (frühes 20. Jahrhundert) unbekannt.',
+        "text": "Aufgabenorientiert (9.1), mitarbeiterorientiert (1.9) und teamorientiert (9.9) anhand eines zweidimensionalen Verhaltensgitters für Manager.",
+        "korrekt": false,
+        "erklaerung": "Das zweidimensionale Verhaltensgitter (Managerial Grid) wurde von Robert Blake und Jane Mouton entwickelt."
       },
       {
-        text: 'Demokratischer, autoritärer und passiver Führungsstil nach den feldtheoretischen Experimenten der Jugendgruppen.',
-        korrekt: false,
-        erklaerung: 'Diese klassische Dreiteilung stammt aus den psychologischen Studien von Kurt Lewin (1939), nicht von Max Weber.',
-      },
+        "text": "Reifegradbezogene Führungsstile: Dirigieren, Überzeugen, Partizipieren und Delegieren nach dem situativen Reifegradmodell der Führung.",
+        "korrekt": false,
+        "erklaerung": "Die vier situativen Führungsstile basieren auf dem Reifegradmodell von Paul Hersey und Ken Blanchard."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 24,
-    bereich: 3,
-    frage: 'Was sind die Merkmale des Führungsmodells nach Tannenbaum/Schmidt?',
-    optionen: [
+    "id": 24,
+    "bereich": 3,
+    "frage": "Was sind die Merkmale des Führungsmodells nach Tannenbaum/Schmidt?",
+    "optionen": [
       {
-        text: 'Ein stufenförmiges Führungskontinuum zwischen autoritär und demokratisch, definiert durch den Entscheidungsspielraum von Vorgesetztem und Gruppe.',
-        korrekt: true,
-        erklaerung: 'Robert Tannenbaum und Warren H. Schmidt beschrieben 1958 ein Kontinuum mit 7 Stufen, das den Übergang vom Alleinentscheiden der Führungskraft zum Gruppenentscheid abbildet.',
+        "text": "Ein Kontinuum-Modell mit 7 Abstufungen zwischen autoritärer Führungskraft (hohe Willensdurchsetzung) und demokratischem Team (hoher Entscheidungsspielraum).",
+        "korrekt": true,
+        "erklaerung": "Robert Tannenbaum und Warren H. Schmidt beschrieben 1958 das Führungskontinuum von autoritär bis demokratisch in 7 Stufen des Entscheidungsspielraums."
       },
       {
-        text: 'Ein starres Zweipunkteraster, das Führungskräfte unwiderruflich entweder als geborene Herrscher oder als bloße Verwalter kategorisiert.',
-        korrekt: false,
-        erklaerung: 'Das Modell betont ausdrücklich ein dynamisches Kontinuum flexibler Stufen statt einer unumkehrbaren Zwei-Klassen-Kategorisierung.',
+        "text": "Ein 2-Achsen-Raster zur Einteilung von Führungskräften anhand der Dimensionen Aufgabenorientierung und Beziehungsorientierung im Betrieb.",
+        "korrekt": false,
+        "erklaerung": "Das 2-Achsen-Raster beschreibt das Managerial Grid von Blake und Mouton, nicht das Kontinuum-Modell von Tannenbaum und Schmidt."
       },
       {
-        text: 'Ein dreidimensionaler Würfel zur mathematischen Berechnung der optimalen Wochenarbeitszeit im industriellen Schichtbetrieb.',
-        korrekt: false,
-        erklaerung: 'Das Kontinuum ist ein eindimensionales Verhaltensspektrum zur Entscheidungsfindung und kein dreidimensionaler Arbeitszeitwürfel.',
+        "text": "Eine Reifegradtheorie, bei der die fachliche und psychologische Reife der Mitarbeiter den optimalen Führungsstil verbindlich vorgibt.",
+        "korrekt": false,
+        "erklaerung": "Dies ist die situative Führungstheorie nach Hersey und Blanchard, die auf Mitarbeiterreife abstellt."
       },
       {
-        text: 'Ein reines Gehaltseinstufungsmodell, welches das Führungsverhalten direkt an die monatliche Provisionshöhe der Verkäufer koppelt.',
-        korrekt: false,
-        erklaerung: 'Tannenbaum/Schmidt entwickelten ein Führungsverhaltensmodell und kein betriebliches Entlohnungs- oder Provisionssystem.',
-      },
+        "text": "Ein 3-D-Modell, das grundlegende Führungsstile um die situative Effektivitätsdimension von konkreten Managementhandlungen systematisch erweitert.",
+        "korrekt": false,
+        "erklaerung": "Das 3-D-Modell mit der Effektivitätsdimension stammt von William J. Reddin, nicht von Tannenbaum und Schmidt."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 25,
-    bereich: 3,
-    frage: 'Was sind nach Tannenbaum/Schmidt die wichtigsten Faktoren, die bei der Wahl des Führungsverhaltens ausschlaggebend sind?',
-    optionen: [
+    "id": 25,
+    "bereich": 3,
+    "frage": "Was sind nach Tannenbaum/Schmidt die wichtigsten Faktoren, die bei der Wahl des Führungsverhaltens ausschlaggebend sind?",
+    "optionen": [
       {
-        text: 'Kräfte in der Person der Führungskraft, Kräfte in den geführten Mitarbeitern sowie Kräfte in der jeweiligen situativen Umwelt.',
-        korrekt: true,
-        erklaerung: 'Tannenbaum/Schmidt benennen drei Einflusskräfte: Manager (Werte, Vertrauen), Mitarbeiter (Kompetenz, Unabhängigkeitsdrang) und Situation (Organisation, Zeitdruck).',
+        "text": "Kräfte in der Person der Führungskraft, Kräfte in den geführten Mitarbeitern sowie Kräfte in der jeweiligen situativen Umwelt.",
+        "korrekt": true,
+        "erklaerung": "Tannenbaum und Schmidt betonen diese drei Einflussfaktoren: Wertesystem und Vertrauen der Führungskraft, Erwartungen und Kompetenz der Mitarbeiter sowie Organisationskultur und Problemkomplexität."
       },
       {
-        text: 'Ausschließlich das Lebensalter der Führungskraft und die gesetzliche Firmenrechtsform im Firmenbuch des Landesgerichts.',
-        korrekt: false,
-        erklaerung: 'Alter und Rechtsform sind keine führungstheoretischen Einflussvariablen im Kontinuum-Modell von Tannenbaum/Schmidt.',
+        "text": "Ausschließlich das Lebensalter der Führungskraft, die Unternehmensgröße und der gesetzliche Kollektivvertrag der jeweiligen Branche.",
+        "korrekt": false,
+        "erklaerung": "Dies reduziert die situative Wahl auf starre Formalien und ignoriert psychologische Kräfte in Führungskraft, Team und Situation."
       },
       {
-        text: 'Die Höhe der monatlichen Rohstoffpreise an der Warenbörse sowie die klimatischen Wetterbedingungen am Werksstandort.',
-        korrekt: false,
-        erklaerung: 'Rohstoffmärkte und Witterung sind volkswirtschaftliche bzw. ökologische Rahmenfaktoren, spiegeln jedoch nicht die Führungsfaktoren wider.',
+        "text": "Die durchschnittliche Betriebszugehörigkeit der Belegschaft und die gewählte Firmenrechtsform im Firmenbuch des zuständigen Landesgerichts.",
+        "korrekt": false,
+        "erklaerung": "Organisationsrechtliche Registerdaten haben keinen direkten Einfluss auf die situative Wahl des Führungsverhaltens."
       },
       {
-        text: 'Ausschließlich die Raumtemperatur im Besprechungszimmer und die Dauer der gesetzlich vorgeschriebenen Mittagspausen.',
-        korrekt: false,
-        erklaerung: 'Dies sind ergonomische Nebenaspekte und haben keinen Erklärungswert für die Wahl des Führungsstils nach Tannenbaum/Schmidt.',
-      },
+        "text": "Das monatliche Budgetvolumen der Abteilung und der flächendeckende Einsatz agiler Projektmanagement-Software im operativen Team.",
+        "korrekt": false,
+        "erklaerung": "Instrumentelle Softwaretools und Budgets sind Hilfsmittel, aber nicht die zentralen verhaltenssteuernden Kräfte nach Tannenbaum und Schmidt."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 26,
-    bereich: 3,
-    frage: 'Erklären Sie die Führungsstile nach Homburg und welche Dimension findet bei ihm zusätzliche Berücksichtigung?',
-    optionen: [
+    "id": 26,
+    "bereich": 3,
+    "frage": "Erklären Sie die Führungsstile nach Homburg und welche Dimension findet bei ihm zusätzliche Berücksichtigung?",
+    "optionen": [
       {
-        text: 'Verknüpfung von Führungsverhalten im Vertrieb mit Marktorientierung; besondere Berücksichtigung findet die Dimension der Kundenorientierung.',
-        korrekt: true,
-        erklaerung: 'Christian Homburg fokussiert marktorientierte Unternehmens- und Vertriebsführung: Neben mitarbeiterbezogenen Stilen wird gezielt die Dimension Kunden-/Marktorientierung integriert.',
+        "text": "Verknüpfung von Führungsverhalten im Vertrieb mit Marktorientierung; besondere Berücksichtigung findet die Dimension der Kundenorientierung.",
+        "korrekt": true,
+        "erklaerung": "Christian Homburg überträgt klassische Führungsstile auf den Vertriebskontext und ergänzt die Mitarbeiter- und Aufgabenorientierung um die vertriebsentscheidende Kunden- und Marktorientierung."
       },
       {
-        text: 'Klassifikation nach der rein militärischen Kommandogewalt mit der zusätzlichen Dimension der physischen Durchsetzungskraft im Lager.',
-        korrekt: false,
-        erklaerung: 'Homburg ist ein führender Marketing- und Vertriebswissenschaftler; sein Modell basiert auf moderner Marktorientierung, nicht auf militärischer Gewalt.',
+        "text": "Reine Differenzierung nach Aufgaben- und Beziehungsorientierung mit der zusätzlichen Dimension der internen Prozessdigitalisierung im Büroalltag.",
+        "korrekt": false,
+        "erklaerung": "Dies verwechselt Homburgs marketing- und vertriebswissenschaftlichen Ansatz mit allgemeinen Digitalisierungsmodellen der Büroorganisation."
       },
       {
-        text: 'Unterteilung nach den Farben der Firmenfahrzeuge mit der zusätzlichen Dimension des durchschnittlichen Treibstoffverbrauchs.',
-        korrekt: false,
-        erklaerung: 'Dies ist eine themenfremde Fuhrparkbetrachtung ohne Bezug zu wissenschaftlichen Führungskonzepten nach Christian Homburg.',
+        "text": "Hierarchische Abstufung vom Junior-Verkäufer zum Vertriebsleiter mit der zusätzlichen Dimension der variablen Provisionshöhe im Dienstvertrag.",
+        "korrekt": false,
+        "erklaerung": "Vergütungssysteme und Karrierestufen sind personalwirtschaftliche Instrumente, aber keine Führungsstildimensionen nach Homburg."
       },
       {
-        text: 'Ausschließliche Bewertung der Softwarekenntnisse von Führungskräften unter Berücksichtigung der Programmiersprache Python.',
-        korrekt: false,
-        erklaerung: 'Homburg analysiert betriebswirtschaftliche Kunden- und Mitarbeiterführung im Vertrieb, keine Software-Entwicklungskompetenzen.',
-      },
+        "text": "Klassifikation von Verkäufern nach Persönlichkeitstypen mit der zusätzlichen Dimension der nonverbalen Überzeugungskraft im Verkaufsgespräch.",
+        "korrekt": false,
+        "erklaerung": "Rhetorik und Persönlichkeitsprofile (z. B. DISG) betreffen die Verkaufspsychologie, nicht Homburgs Führungsstilkonzeption für Vertriebsleiter."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 27,
-    bereich: 3,
-    frage: 'Was versteht Homburg unter dem kooperativen Führungsstil?',
-    optionen: [
+    "id": 27,
+    "bereich": 3,
+    "frage": "Was versteht Homburg unter dem kooperativen Führungsstil?",
+    "optionen": [
       {
-        text: 'Partnerschaftliche Führung im Vertrieb mit Delegation von Spielräumen, Unterstützung bei Kundenproblemen und gemeinsamer Zielabstimmung.',
-        korrekt: true,
-        erklaerung: 'Im Vertriebskontext nach Homburg bedeutet Kooperation, Verkäufern Handlungsfreiräume im Kundenkontakt zu gewähren, sie als Coach zu unterstützen und Ziele gemeinsam zu erarbeiten.',
+        "text": "Partnerschaftliche Führung im Vertrieb mit Delegation von Spielräumen, Unterstützung bei Kundenproblemen und gemeinsamer Zielabstimmung.",
+        "korrekt": true,
+        "erklaerung": "Im kooperativen Führungsstil nach Homburg werden Vertriebsmitarbeiter als Mitunternehmer verstanden, die eigenverantwortlich Kundenbeziehungen pflegen und fachlich unterstützt werden."
       },
       {
-        text: 'Vollständige Überwachung aller Kunden-Telefonate durch permanente Tonaufnahmen ohne Wissen der Mitarbeiter.',
-        korrekt: false,
-        erklaerung: 'Heimliche Tonüberwachung ist autoritäres Kontrollverhalten (und rechtlich unzulässig), widerspricht aber kooperativer Führung radikal.',
+        "text": "Strikte Vorgabe täglicher Besuchsquoten und standardisierter Gesprächsleitfäden bei engmaschiger und permanenter Kontrollpflicht der Verkäufer.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt einen autoritären, kontrollierenden Vertriebsführungsstil, der Eigenverantwortung und Partnerschaftlichkeit unterdrückt."
       },
       {
-        text: 'Tägliche Vergabe von Preisrabatten rein nach Gutdünken der Führungskraft bei gleichzeitigem Redeverbot für den Verkäufer.',
-        korrekt: false,
-        erklaerung: 'Dies entmündigt den Verkäufer vor Ort und widerspricht dem partnerschaftlichen Ansatz kooperativer Vertriebsführung.',
+        "text": "Vollständiger Rückzug der Führungskraft aus dem Vertriebsalltag bei völlig ungesteuerter Selbstorganisation und Freigabe des Außendienstes.",
+        "korrekt": false,
+        "erklaerung": "Dies entspricht einem Laissez-faire-Verhalten im Vertrieb, bei dem Unterstützung, Coaching und Zielorientierung fehlen."
       },
       {
-        text: 'Völliger Verzicht auf Kundenbesuche, Reklamationsbearbeitung und jede Form vertrieblicher Leistungsbeurteilung.',
-        korrekt: false,
-        erklaerung: 'Kooperative Führung strebt vertrieblichen Markterfolg an und bedeutet keineswegs Arbeitsverweigerung oder Gleichgültigkeit.',
-      },
+        "text": "Einseitige Fokussierung auf Teamevents und Wohlfühlatmosphäre unter bewusster Vernachlässigung von Umsatzzielen und Kundenfeedback.",
+        "korrekt": false,
+        "erklaerung": "Kooperative Führung nach Homburg verbindet menschliche Wertschätzung immer mit klarer Leistungs- und Marktorientierung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 28,
-    bereich: 3,
-    frage: 'Wie kann man nach Homburg Defizite im Führungsstil abbauen?',
-    optionen: [
+    "id": 28,
+    "bereich": 3,
+    "frage": "Wie kann man nach Homburg Defizite im Führungsstil abbauen?",
+    "optionen": [
       {
-        text: 'Durch systematische Führungskräfteentwicklung, strukturiertes Feedback von Mitarbeitern und Kunden sowie zielgerichtetes Coaching.',
-        korrekt: true,
-        erklaerung: 'Homburg empfiehlt kontinuierliche Reflexion, 360-Grad-Feedback (inklusive Markt-/Kundenfeedback), Schulungsprogramme und vertriebsspezifisches Coaching.',
+        "text": "Durch systematische Führungskräfteentwicklung, strukturiertes Feedback von Mitarbeitern und Kunden sowie zielgerichtetes Coaching.",
+        "korrekt": true,
+        "erklaerung": "Homburg empfiehlt kontinuierliche Reflexion, 360-Grad-Feedback (inklusive Markt-/Kundenfeedback), Schulungsprogramme und vertriebsspezifisches Coaching."
       },
       {
-        text: 'Durch sofortige Entlassung aller Teammitglieder, die berechtigte Kritik am Vorgesetzten äußern, um Unruhe zu vermeiden.',
-        korrekt: false,
-        erklaerung: 'Kritikerunterdrückung verstärkt Führungsdefizite und zerstört Motivation, statt Führungskompetenzen professionell weiterzuentwickeln.',
+        "text": "Durch ausschließliche Konzentration auf standardisierte Fachzertifizierungen und juristische Compliance-Schulungen ohne Einbindung des Teams.",
+        "korrekt": false,
+        "erklaerung": "Reine Fachzertifizierungen ohne Feedbackschleifen und Verhaltensreflexion verändern die Führungsqualität nach Homburg nicht nachhaltig."
       },
       {
-        text: 'Indem sämtliche Führungsaufgaben komplett abgeschafft und Unternehmen rein nach dem Zufallsprinzip gesteuert werden.',
-        korrekt: false,
-        erklaerung: 'Der Verzicht auf Führung führt zu Orientierungslosigkeit und entspricht keinem seriösen Ansatz der Betriebswirtschaftslehre.',
+        "text": "Durch Einführung eines unmoderierten Peer-Feedbacks auf Teamebene bei gleichzeitigem Verzicht auf strukturierte Managemententwicklungsprogramme.",
+        "korrekt": false,
+        "erklaerung": "Kollegiales Feedback allein reicht nach Homburg nicht aus; es bedarf strukturierter Entwicklungsprogramme und übergeordneter Führungskriterien."
       },
       {
-        text: 'Ausschließlich durch Verdoppelung der Überstundenpauschale im Dienstvertrag ohne jede Schulungs- oder Reflexionsmaßnahme.',
-        korrekt: false,
-        erklaerung: 'Monetäre Zulagen verändern kein Führungsverhalten und beheben keine Mängel in Mitarbeiterführung oder Kundenorientierung.',
-      },
+        "text": "Durch jährliche anonyme Mitarbeiterbefragungen mit aggregierten Kennzahlen ohne nachgelagerte vertriebsspezifische Trainings- und Coachingpläne.",
+        "korrekt": false,
+        "erklaerung": "Bloße Kennzahlenerhebungen ohne nachgelagerte vertriebsspezifische Trainings und individuelle Förderpläne bauen Defizite nicht wirksam ab."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 29,
-    bereich: 3,
-    frage: 'Von wem ist das Verhaltensgitter (Managerial Grid) und was verstehen Sie darunter?',
-    optionen: [
+    "id": 29,
+    "bereich": 3,
+    "frage": "Von wem ist das Verhaltensgitter (Managerial Grid) und was verstehen Sie darunter?",
+    "optionen": [
       {
-        text: 'Von Blake und Mouton; ein zweidimensionales Modell zur Klassifizierung von Führungsstilen nach Aufgaben- und Menschenorientierung.',
-        korrekt: true,
-        erklaerung: 'Robert R. Blake und Jane S. Mouton entwickelten 1964 das Managerial Grid mit einer 9x9-Matrix auf den Achsen Sach-/Aufgabenorientierung und Personenorientierung.',
+        "text": "Von Blake und Mouton; ein zweidimensionales Modell zur Klassifizierung von Führungsstilen nach Aufgaben- und Menschenorientierung.",
+        "korrekt": true,
+        "erklaerung": "Robert R. Blake und Jane S. Mouton entwickelten 1964 das Managerial Grid auf einer Skala von 1 bis 9 für Aufgabenorientierung (X-Achse) und Menschenorientierung (Y-Achse)."
       },
       {
-        text: 'Von Max Weber; ein bürokratischer Stufenplan zur archivarischen Ablage von behördlichen Aktenvorgängen in Ministerien.',
-        korrekt: false,
-        erklaerung: 'Max Weber untersuchte Herrschaftssoziologie; das Managerial Grid stammt von Robert R. Blake und Jane S. Mouton.',
+        "text": "Von Paul Hersey und Ken Blanchard; ein Verhaltensmodell zur gezielten Anpassung des Führungsstils an den Entwicklungsgrad der Mitarbeiter.",
+        "korrekt": false,
+        "erklaerung": "Hersey und Blanchard entwickelten das Modell der situativen Führung (Situational Leadership Theory), nicht das zweidimensionale Managerial Grid."
       },
       {
-        text: 'Von Fredmund Malik; eine Siebener-Liste zur softwaregestützten Aufgabenkontrolle im industriellen Qualitätsmanagement.',
-        korrekt: false,
-        erklaerung: 'Malik steht für die St. Galler Managementlehre und Grundsätze wirksamer Führung, nicht für das Verhaltensgitter.',
+        "text": "Von Fredmund Malik; ein St. Galler Management-Raster zur systematischen Zuordnung von Führungsaufgaben zu konkreten Steuerungsinstrumenten.",
+        "korrekt": false,
+        "erklaerung": "Fredmund Malik steht für das St. Galler Management-System mit Grundsätzen, Aufgaben und Werkzeugen, nicht für das Verhaltensgitter."
       },
       {
-        text: 'Von Sigmund Freud; ein psychoanalytisches Verfahren zur Deutung unbewusster Träume am Arbeitsplatz von Managern.',
-        korrekt: false,
-        erklaerung: 'Freud begründete die Psychoanalyse; das Managerial Grid ist ein organisationspsychologisches Führungsinstrument von Blake/Mouton.',
-      },
+        "text": "Von William J. Reddin; ein dreidimensionales Führungsmodell zur methodischen Bewertung der situativen Wirksamkeit von Führungsstilen.",
+        "korrekt": false,
+        "erklaerung": "W. J. Reddin erweiterte das zweidimensionale Konzept später um die Dimension der Effektivität zum 3-D-Modell, das Grid stammt jedoch von Blake und Mouton."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 30,
-    bereich: 3,
-    frage: 'Was verstehen Sie unter «People Pleaser»?',
-    optionen: [
+    "id": 30,
+    "bereich": 3,
+    "frage": "Was verstehen Sie unter «People Pleaser»?",
+    "optionen": [
       {
-        text: 'Eine Führungskraft, die um jeden Preis Konflikte meidet, es allen recht machen will und Sachziele vernachlässigt, um Beliebtheit zu sichern.',
-        korrekt: true,
-        erklaerung: 'Im Führungsalltag (oft analog zum 1,9-Führungsstil «Glacehandschuh-Methode») opfert der «People Pleaser» notwendige Entscheidungen und Leistungsziele zugunsten persönlicher Harmonie.',
+        "text": "Eine Führungskraft, die Konflikte um jeden Preis meidet, es allen recht machen will und Sachziele vernachlässigt, um Beliebtheit zu sichern.",
+        "korrekt": true,
+        "erklaerung": "People Pleasing führt im Management zu Entscheidungsunfähigkeit, Verwässerung von Qualitätsstandards und Orientierungslosigkeit bei den Mitarbeitern."
       },
       {
-        text: 'Einen extrem autoritären Manager, der Mitarbeiter bei kleinsten Verfehlungen sofort öffentlich tadelt und bestraft.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt einen diktatorischen bzw. 9,1-Führungsstil, der keine Rücksicht auf persönliche Beliebtheit oder Gefühle nimmt.',
+        "text": "Einen autoritären Führungsverantwortlichen, der Vorgaben mit harter Hand durchsetzt und persönliche Befindlichkeiten im Team bewusst ignoriert.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt das genaue Gegenteil: eine extrem aufgabenorientierte, autokratische Führungspersönlichkeit (Position 9,1 im Grid)."
       },
       {
-        text: 'Einen professionellen externen Softwareentwickler, der Benutzeroberflächen für Online-Shops barrierefrei programmiert.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um Usability- bzw. UI/UX-Design, nicht um den führungspsychologischen Begriff des «People Pleasers».',
+        "text": "Eine transformative Führungspersönlichkeit, die Teams durch hohe Zielstandards und gemeinsame anspruchsvolle Zukunftsvisionen inspiriert.",
+        "korrekt": false,
+        "erklaerung": "Transformationale Führungskräfte scheuen keine klaren Zielansprüche und fordern Leistung ein, statt rein um persönliche Beliebtheit zu buhlen."
       },
       {
-        text: 'Einen unbestechlichen Wirtschaftsprüfer, der Bilanzen nach internationalen IFRS-Richtlinien akribisch kontrolliert.',
-        korrekt: false,
-        erklaerung: 'Wirtschaftsprüfer müssen sachlich-distanziert agieren und zeichnen sich gerade nicht durch harmoniebedürftiges Pleasing-Verhalten aus.',
-      },
+        "text": "Einen transaktionalen Manager, der Leistung rein über vertraglich fixierte Bonuszahlungen, Zielvereinbarungen und Prämien steuert.",
+        "korrekt": false,
+        "erklaerung": "Transaktionale Führung beruht auf sachlichem Leistungsaustausch («Geben und Nehmen»), nicht auf konfliktscheuer Harmoniesucht."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 31,
-    bereich: 3,
-    frage: 'Was bedeutet im Verhaltensgitter die Position 9+9?',
-    optionen: [
+    "id": 31,
+    "bereich": 3,
+    "frage": "Was bedeutet im Verhaltensgitter die Position 9+9?",
+    "optionen": [
       {
-        text: 'Paternalistischer Führungsstil («väterlich/mütterlich»): Hohe Leistungsforderung (9,1) wird mit persönlicher Fürsorge und Belohnung (1,9) verknüpft, solange Loyalität herrscht.',
-        korrekt: true,
-        erklaerung: 'Im erweiterten Grid von Blake/Mouton steht 9+9 für Paternalismus: Die Führungskraft verlangt unbedingten Gehorsam und Fleiß, bietet dafür jedoch Schutz, Lob und Zuwendung.',
+        "text": "Paternalistischer Führungsstil («väterlich/mütterlich»): Hohe Leistungsforderung (9,1) wird mit persönlicher Fürsorge (1,9) verknüpft, solange Loyalität herrscht.",
+        "korrekt": true,
+        "erklaerung": "Im Paternalismus (9+9 nach Blake/McCanse) fordert die Führungskraft unbedingten Gehorsam und Leistung ein und belohnt Folgsamkeit mit persönlichem Schutz und Wohlwollen."
       },
       {
-        text: 'Vollkommenes Versagen auf allen Ebenen bei gleichzeitiger Verweigerung jeglicher betrieblicher Leistungsbereitschaft.',
-        korrekt: false,
-        erklaerung: 'Dies entspricht der Position 1,1 («Überlebensmanagement»), während 9+9 durch maximalen Leistungswillen und Fürsorgeanspruch gekennzeichnet ist.',
+        "text": "Integrierte Teamführung (9,9): Höchste Aufgaben- und Mitarbeiterorientierung durch gemeinsame Zielerarbeitung und partizipative Entscheidungen im Team.",
+        "korrekt": false,
+        "erklaerung": "Dies ist die Position 9,9 (Team-Management), bei der Kooperation und Vertrauen statt hierarchischer Fürsorge und Gehorsam im Fokus stehen."
       },
       {
-        text: 'Mathematischer Berechnungsfehler im Grid, da Koordinatenwerte laut Originalmodell niemals addiert werden dürfen.',
-        korrekt: false,
-        erklaerung: 'Die Notation 9+9 wurde von Blake/McCanse/Mouton explizit als Kombination aus 9,1 und 1,9 zur Beschreibung des Paternalismus eingeführt.',
+        "text": "Opportunistischer Führungsstil: Die Führungskraft wechselt ihr Verhalten unberechenbar und taktisch je nach eigenem unmittelbarem Karriervorteil.",
+        "korrekt": false,
+        "erklaerung": "Opportunismus ist ein eigenständiger Zusatzstil im erweiterten Grid, unterscheidet sich jedoch klar vom paternalistischen 9+9-Stil."
       },
       {
-        text: 'Ausschließlich eine zeitliche Regelung, wonach Mitarbeiter 9 Stunden arbeiten und danach 9 Tage bezahlten Urlaub erhalten.',
-        korrekt: false,
-        erklaerung: 'Das Managerial Grid bewertet Verhaltensdimensionen der Führung und keine Schicht- oder Urlaubszeitmodelle.',
-      },
+        "text": "Organisationsmanagement (5,5): Pragmatischer Kompromiss zwischen Leistungsanforderungen und ausreichender Mitarbeiterzufriedenheit im Betrieb in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die Mittelposition 5,5 («Balanciertes Management»), bei der weder Leistung noch Mitarbeiterorientierung maximiert werden."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 32,
-    bereich: 3,
-    frage: 'Was bedeutet im Verhaltensgitter die Position 1,1?',
-    optionen: [
+    "id": 32,
+    "bereich": 3,
+    "frage": "Was bedeutet im Verhaltensgitter die Position 1,1?",
+    "optionen": [
       {
-        text: 'Überlebensmanagement («verarmte Führung»): Minimaler Einsatz für Aufgaben und minimale Sorge um Menschen; die Führungskraft will lediglich die eigene Stelle sichern.',
-        korrekt: true,
-        erklaerung: '1,1 (Impoverished Management) bedeutet minimale Anstrengung sowohl für Arbeitsergebnisse als auch für die Beziehungsgestaltung (Dienst nach Vorschrift der Führungskraft).',
+        "text": "Überlebensmanagement («verarmte Führung»): Minimaler Einsatz für Aufgaben und minimale Sorge um Menschen zur reinen Sicherung der eigenen Position.",
+        "korrekt": true,
+        "erklaerung": "Position 1,1 beschreibt die Flucht aus der Führungsverantwortung: Die Führungskraft tut nur das Nötigste, um im Betrieb nicht negativ aufzufallen."
       },
       {
-        text: 'Ideale Teamführung: Höchste Leistungsbegeisterung verbunden mit maximalem gegenseitigem Vertrauen und Respekt.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt die Position 9,9 (Team-Management), welche das Idealbild im klassischen Verhaltensgitter darstellt.',
+        "text": "Glacehandschuh-Methode (1,9): Maximale Aufmerksamkeit für zwischenmenschliche Beziehungen bei weitgehender Vernachlässigung von Leistungszielen im Rahmen moderner Führungs- und Organisationsstrukturen.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die Position 1,9 (Beziehungsmanagement/Vereinsführung), nicht das verarmte Management der Position 1,1."
       },
       {
-        text: 'Glacehandschuh-Methode: Vollkommener Fokus auf das Wohlergehen der Mitarbeiter bei völliger Vernachlässigung der Arbeitsergebnisse.',
-        korrekt: false,
-        erklaerung: 'Diese Ausprägung entspricht der Position 1,9 (Country Club Management), nicht 1,1.',
+        "text": "Befehl-Gehorsam-Management (9,1): Maximale Aufgabenorientierung bei minimaler Rücksichtnahme auf zwischenmenschliche Bedürfnisse im Betrieb.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet die autoritäre Position 9,1 (Autoritätsmanagement), bei der Leistung um jeden Preis erzwungen wird."
       },
       {
-        text: 'Kompromiss-Management: Ausgewogene, durchschnittliche Berücksichtigung von Aufgaben und Mitarbeitern in der goldenen Mitte.',
-        korrekt: false,
-        erklaerung: 'Die goldene Mitte der Ausgewogenheit entspricht im Grid der Position 5,5 (Organisationsmanagement).',
-      },
+        "text": "Team-Management (9,9): Hohe Leistungsbegeisterung verbunden mit maximalem gegenseitigem Vertrauen, offener Kommunikation und Respekt im Team.",
+        "korrekt": false,
+        "erklaerung": "Position 9,9 stellt das Ideal des Verhaltensgitters dar und bildet den exakten Gegenpol zur verarmten Führung (1,1)."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 33,
-    bereich: 3,
-    frage: 'Beschreiben Sie einen dreidimensionalen Führungsstil?',
-    optionen: [
+    "id": 33,
+    "bereich": 3,
+    "frage": "Beschreiben Sie einen dreidimensionalen Führungsstil?",
+    "optionen": [
       {
-        text: 'Ein Führungsmodell, das Aufgaben- und Beziehungsorientierung um eine dritte Dimension – die situative Effektivität (Wirksamkeit) – erweitert.',
-        korrekt: true,
-        erklaerung: 'Dreidimensionale Ansätze (wie Reddins 3-D-Modell) erkennen, dass kein Stil universell ideal ist, sondern Effektivität erst durch die Passung zur Situation entsteht.',
+        "text": "Ein Führungsmodell, das Aufgaben- und Beziehungsorientierung um eine dritte Dimension – die situative Effektivität (Wirksamkeit) – erweitert.",
+        "korrekt": true,
+        "erklaerung": "Das 3-D-Konzept (u. a. von W. J. Reddin) erkennt, dass kein Stil an sich gut oder schlecht ist, sondern seine Wirksamkeit von der Passung zur Situation abhängt."
       },
       {
-        text: 'Ein Führungsstil, bei dem Entscheidungen stets von drei Managern gleichzeitig in getrennten Räumen per Funk abgestimmt werden müssen.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um eine kuriose Dreier-Gremienstruktur, nicht um ein wissenschaftliches dreidimensionales Führungsstilmodell.',
+        "text": "Ein Führungsansatz, der neben Führungskraft und Team die Kundenorientierung als dritte Dimension im strategischen Vertrieb berücksichtigt.",
+        "korrekt": false,
+        "erklaerung": "Die Berücksichtigung der Kundenorientierung im Vertrieb geht auf Christian Homburg zurück, nicht auf die klassische 3-D-Führungstheorie."
       },
       {
-        text: 'Ein geometrisches Führungskonzept zur architektonischen Dreidimensionalität moderner Großraumbüros mit Stehpulten.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt verhaltenswissenschaftliche Dimensionen mit physischen Raumdimensionen der Innenarchitektur.',
+        "text": "Ein Planungskonzept, das Führungsentscheidungen nach den drei Zeithorizonten Vergangenheit, Gegenwart und Zukunft systematisch strukturiert.",
+        "korrekt": false,
+        "erklaerung": "Zeithorizonte sind Gegenstand der strategischen Planung und des Zeitmanagements, bilden jedoch keine Führungsstildimensionen."
       },
       {
-        text: 'Eine Gehaltsstaffelung, die Grundgehalt, Provision und Dienstwagen als drei gleichberechtigte Dimensionen vertraglich festschreibt.',
-        korrekt: false,
-        erklaerung: 'Vergütungspakete stellen keine führungspsychologischen Dimensionen des Führungsverhaltens dar.',
-      },
+        "text": "Ein Persönlichkeitsansatz, der Führungsverhalten ausschließlich nach den drei Dimensionen Extraversion, Offenheit und Gewissenhaftigkeit erfasst.",
+        "korrekt": false,
+        "erklaerung": "Dies entstammt der differentiellen Psychologie (Big Five), nicht der mehrdimensionalen Führungsstiltheorie."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 34,
-    bereich: 3,
-    frage: 'Was sind die Merkmale des «3-D-Modells» nach Reddin?',
-    optionen: [
+    "id": 34,
+    "bereich": 3,
+    "frage": "Was sind die Merkmale des «3-D-Modells» nach Reddin?",
+    "optionen": [
       {
-        text: 'Die Dimensionen Aufgabenorientierung, Beziehungsorientierung und Effektivität; je nach Passung zur Situation entstehen 4 effektive und 4 ineffektive Stile.',
-        korrekt: true,
-        erklaerung: 'William J. Reddin (1970) unterscheidet 4 Grundstile, die bei situativer Angemessenheit effektiv (z. B. Integrierer, Macher) bzw. unangemessen ineffektiv (z. B. Kompromissler, Autokrat) sind.',
+        "text": "Die Dimensionen Aufgabenorientierung, Beziehungsorientierung und Effektivität; je nach Situationspassung entstehen 4 effektive und 4 ineffektive Stile.",
+        "korrekt": true,
+        "erklaerung": "William J. Reddin leitet aus 4 Grundstilen je nach situativer Effektivität 8 spezifische Verhaltensstile ab (z. B. Bürokrat vs. Verwalter, Macher vs. Autokrat)."
       },
       {
-        text: 'Die Einteilung aller Angestellten in Lehrlinge, Gesellen und Meister mit lebenslanger Festlegung der Beförderungsstufen.',
-        korrekt: false,
-        erklaerung: 'Dies ist die traditionelle Handwerkshierarchie, hat jedoch keinerlei Bezug zu Reddins 3-D-Führungsmodell.',
+        "text": "Ein lineares Stufenmodell mit 7 Führungsstilen vom autoritären Vorgesetztenentscheid bis zum autonomen Mitarbeiterentscheid im Teamalltag.",
+        "korrekt": false,
+        "erklaerung": "Das 7-Stufen-Modell ist das Kontinuum von Tannenbaum und Schmidt, nicht das 3-D-Modell von Reddin."
       },
       {
-        text: 'Drei feste Führungsstile, die sich strikt nach dem Monatseinkommen des Kunden im B2B-Investitionsgütervertrieb richten.',
-        korrekt: false,
-        erklaerung: 'Reddins Modell befasst sich mit Management- und Führungsverhalten in Organisationen, nicht mit Kunden-Gehaltseinstufungen.',
+        "text": "Eine Vier-Felder-Matrix zur Diagnose des Reifegrads von Mitarbeitern nach fachlicher Aufgabenkompetenz und psychologischer Leistungsmotivation zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Die Reifegradmatrix gehört zur situativen Führungstheorie von Hersey und Blanchard."
       },
       {
-        text: 'Ein dreistufiger Prozess zur sofortigen Kündigung von Mitarbeitern bei Nichterreichen der vorgegebenen Tagesstückzahlen.',
-        korrekt: false,
-        erklaerung: 'Reddin entwickelte ein Diagnose- und Entwicklungsinstrument zur Führungswirksamkeit, kein Kündigungsverfahren.',
-      },
+        "text": "Ein 9x9-Koordinatengitter zur Zuordnung von Führungskräften anhand der Sorge um Produktion und der Sorge um Menschen im Unternehmen.",
+        "korrekt": false,
+        "erklaerung": "Das 9x9-Gitter ist das zweidimensionale Managerial Grid von Blake und Mouton ohne gesonderte Effektivitätsachse."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 35,
-    bereich: 3,
-    frage: 'Was verstehen Sie unter «transaktionaler Führung»?',
-    optionen: [
+    "id": 35,
+    "bereich": 3,
+    "frage": "Was verstehen Sie unter «transaktionaler Führung»?",
+    "optionen": [
       {
-        text: 'Führung auf Basis einer rationalen Austauschbeziehung: Klare Zielvorgaben, bedingte Belohnung bei Zielerreichung und Eingriff bei Abweichungen.',
-        korrekt: true,
-        erklaerung: 'Transaktionale Führung beruht auf dem Prinzip «Leistung gegen Gegenleistung» (Austauschvertrag) und Management by Exception ohne Transformation tieferer Werte.',
+        "text": "Führung auf Basis einer rationalen Austauschbeziehung: Klare Zielvorgaben, bedingte Belohnung bei Zielerreichung und Korrektur bei Abweichungen.",
+        "korrekt": true,
+        "erklaerung": "Transaktionale Führung (nach Bass/Burns) basiert auf dem Prinzip «Leistung gegen Gegenleistung» (Contingent Reward) und Management by Exception."
       },
       {
-        text: 'Ausschließliche Bezahlung von Mitarbeitern in bar am Ende jedes einzelnen Arbeitstages ohne schriftlichen Arbeitsvertrag.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff «Transaktion» fälschlicherweise wörtlich im kaufmännischen Barzahlungs-Sinn, beschreibt jedoch kein Führungskonzept.',
+        "text": "Führung durch emotionale Inspiration, tiefgreifende Sinnstiftung, persönliche Vorbildfunktion und intellektuelle Förderung der Mitarbeiter.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die transformationale Führung, die über rein rationale Austauschprozesse weit hinausgeht."
       },
       {
-        text: 'Inspirierende Begeisterung durch eine emotionale Unternehmensvision, bei der persönliche Boni keine Rolle spielen.',
-        korrekt: false,
-        erklaerung: 'Dies kennzeichnet die transformationale Führung, welche über den reinen transaktionalen Austausch weit hinausgeht.',
+        "text": "Vollständiger Führungsverzicht bei uneingeschränkter Handlungs- und Entscheidungsfreiheit ohne Zielkontrollen oder Rückmeldungen.",
+        "korrekt": false,
+        "erklaerung": "Vollständiger Führungsverzicht ohne Zielvereinbarungen oder Feedback kennzeichnet den Laissez-faire-Stil."
       },
       {
-        text: 'Automatische Weiterleitung aller E-Mails des Teams an einen zentralen Buchhaltungsserver zur Spesenkontrolle.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um eine administrative IT-Routing-Regel, nicht um transaktionale Mitarbeiterführung.',
-      },
+        "text": "Führung über rein informelle Gruppenprozesse ohne messbare qualitative Leistungsziele oder vertraglich fixierte Anreizsysteme.",
+        "korrekt": false,
+        "erklaerung": "Transaktionale Führung erfordert zwingend explizite Zielvereinbarungen, Verträge und messbare Gegenleistungen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 36,
-    bereich: 3,
-    frage: 'Was verstehen Sie unter «transformationaler Führung»?',
-    optionen: [
+    "id": 36,
+    "bereich": 3,
+    "frage": "Was verstehen Sie unter «transformationaler Führung»?",
+    "optionen": [
       {
-        text: 'Führung durch Vorbild, Inspiration, geistige Anregung und individuelle Förderung, um Werte zu verändern und intrinsische Höchstleistungen freizusetzen.',
-        korrekt: true,
-        erklaerung: 'Transformationale Führung (nach Bass/Burns) transformiert Einstellungen über die «4 I»: Idealisierter Einfluss, Inspirierende Motivation, Intellektuelle Stimulierung und Individuelle Berücksichtigung.',
+        "text": "Führung durch Vorbildfunktion (Charisma), inspirierende Zukunftsvisionen, intellektuelle Anregung und individuelle Wertschätzung (die 4 «I»s).",
+        "korrekt": true,
+        "erklaerung": "Transformationale Führung transformiert Werte und Ziele der Geführten: Idealisierter Einfluss, inspirierende Motivation, intellektuelle Stimulierung und individuelle Beachtung."
       },
       {
-        text: 'Strikte Verpflichtung zur täglichen Umgestaltung der Büromöbel zur Steigerung der körperlichen Fitness der Mitarbeiter.',
-        korrekt: false,
-        erklaerung: 'Transformation meint hier den Wertewandel und Bewusstseinswandel im Denken, nicht das physische Verrücken von Bürotischen.',
+        "text": "Führung über Zielvereinbarungen und leistungsorientierte Bonuszahlungen im Rahmen eines sachlichen Geben-und-Nehmen-Prinzips im Alltag.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die transaktionale Führung, die auf rationalem Austausch statt auf Werterweiterung beruht."
       },
       {
-        text: 'Reine Überwachung von Stechuhren und minutengenaue Gehaltskürzung bei Verspätungen am Werkstor.',
-        korrekt: false,
-        erklaerung: 'Minutiöse Verhaltenskontrolle und Strafandrohung sind Relikte autoritären Managements und stehen im Widerspruch zu transformationaler Führung.',
+        "text": "Führung durch engmaschige operative Verhaltenskontrolle und detaillierte Ausführungsanweisungen ohne eigene Mitspracherechte des Teams.",
+        "korrekt": false,
+        "erklaerung": "Dies ist autoritäres Mikromanagement, das die Eigenverantwortung und Entwicklung der Mitarbeiter blockiert."
       },
       {
-        text: 'Vollständige Automatisierung aller Führungsentscheidungen durch selbstlernende Industrieroboter am Fließband.',
-        korrekt: false,
-        erklaerung: 'Transformationale Führung ist zutiefst menschlich und beziehungsorientiert und kann nicht durch Maschinen ersetzt werden.',
-      },
+        "text": "Führung durch passive Nicht-Einmischung, bei der die Führungskraft erst bei gravierenden Krisen und massiven Eskalationen reaktiv interveniert.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt das passive Management by Exception bzw. Laissez-faire, nicht die aktive Visionierung der transformationalen Führung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 37,
-    bereich: 3,
-    frage: 'Wie definieren Sie den «situativen Führungsstil» und erklären Sie dessen Merkmale?',
-    optionen: [
+    "id": 37,
+    "bereich": 3,
+    "frage": "Wie definieren Sie den «situativen Führungsstil» und erklären Sie dessen Merkmale?",
+    "optionen": [
       {
-        text: 'Führungsverhalten passt sich dem Reifegrad des Mitarbeiters an; Merkmale sind die 4 Stufen Dirigieren, Überzeugen, Partizipieren und Delegieren.',
-        korrekt: true,
-        erklaerung: 'Nach Hersey und Blanchard hängt der optimale Führungsstil vom Reifegrad (Fachkompetenz und Motivation/Engagement) des Mitarbeiters in Bezug auf eine konkrete Aufgabe ab.',
+        "text": "Führungsverhalten wird flexibel an den Entwicklungsstand bzw. Reifegrad (Können und Wollen) der Mitarbeiter angepasst (Dirigieren, Überzeugen, Partizipieren, Delegieren).",
+        "korrekt": true,
+        "erklaerung": "Nach Hersey und Blanchard gibt es keinen universell besten Stil. Die Führungskraft diagnostiziert die Kompetenz und das Engagement des Mitarbeiters für eine Aufgabe."
       },
       {
-        text: 'Die Führungskraft entscheidet jeden Morgen nach dem Zufallsprinzip per Würfelwurf, welcher Führungsstil heute gilt.',
-        korrekt: false,
-        erklaerung: 'Situative Führung ist ein zielgerichtetes, systematisches Diagnosekonzept und kein unberechenbares Glücksspiel.',
+        "text": "Die Führungskraft wählt ihren Führungsstil rein nach den aktuellen wirtschaftlichen Quartalskennzahlen und Marktanteilen des Unternehmens aus im operativen und strategischen Geschäftsalltag der Organisation.",
+        "korrekt": false,
+        "erklaerung": "Situative Führung bezieht sich auf die individuelle Person-Aufgaben-Passung und den Reifegrad des Mitarbeiters, nicht rein auf Quartalszahlen."
       },
       {
-        text: 'Mitarbeiter werden grundsätzlich immer gleich behandelt, völlig unabhängig von ihrer Erfahrung, Ausbildung oder Aufgabe.',
-        korrekt: false,
-        erklaerung: 'Die Universallösung («One best way») ist das genaue Gegenteil des situativen Ansatzes, der individuelle Differenzierung verlangt.',
+        "text": "Die Führungskraft behält über alle Situationen und Mitarbeiter hinweg denselben festen Führungsstil starr bei, um Berechenbarkeit zu demonstrieren.",
+        "korrekt": false,
+        "erklaerung": "Stilkonstanz widerspricht dem situativen Führungsansatz, der ausdrücklich Verhaltensflexibilität und Anpassung an die Situation verlangt."
       },
       {
-        text: 'Der Führungsstil richtet sich ausschließlich nach der aktuellen Parkplatzsituation vor dem Firmengebäude.',
-        korrekt: false,
-        erklaerung: 'Infrastrukturprobleme sind keine relevanten Kriterien zur Diagnose des Reifegrads von Mitarbeitern.',
-      },
+        "text": "Das Führungsverhalten richtet sich ausschließlich nach dem formalen hierarchischen Status des Mitarbeiters im bestehenden Organigramm des Betriebs.",
+        "korrekt": false,
+        "erklaerung": "Der Reifegrad ist aufgabenspezifisch: Auch langjährige Mitarbeiter können bei neuen Aufgaben einen dirigierenden Stil benötigen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 38,
-    bereich: 4,
-    frage: 'Welche «Management by…»-Techniken kennen Sie?',
-    optionen: [
+    "id": 38,
+    "bereich": 4,
+    "frage": "Welche «Management by…»-Techniken kennen Sie?",
+    "optionen": [
       {
-        text: 'Management by Objectives (Zielvereinbarung), Management by Delegation (Aufgabenübertragung) und Management by Exception (Ausnahmeprinzip).',
-        korrekt: true,
-        erklaerung: 'Diese drei klassischen Führungstechniken (ergänzt durch Management by Systems) bilden den Kern der strukturierten Führungslehre.',
+        "text": "Management by Objectives (Zielvereinbarung), Management by Delegation (Aufgabenübertragung) und Management by Exception (Eingriff bei Abweichungen).",
+        "korrekt": true,
+        "erklaerung": "Diese drei etablierten Führungstechniken delegieren Verantwortung und steuern über Zielvorgaben bzw. Eingriffsschwellen bei Soll-Ist-Abweichungen."
       },
       {
-        text: 'Management by Emotion, Management by Chance, Management by Intuition und Management by Rumor.',
-        korrekt: false,
-        erklaerung: 'Dies sind umgangssprachliche Schlagwörter bzw. ironische Fehlformen, jedoch keine anerkannten betriebswirtschaftlichen Führungstechniken.',
+        "text": "Management by Decision (Entscheidung), Management by Motivation (Antrieb), Management by Communication (Dialog) und Management by Innovation.",
+        "korrekt": false,
+        "erklaerung": "Dies sind allgemeine Tätigkeitsbegriffe der Betriebswirtschaftslehre, jedoch keine anerkannten systematischen Führungstechniken."
       },
       {
-        text: 'Management by Telephone, Management by Fax, Management by Letter und Management by Postcard.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um Übertragungsmedien der Bürokommunikation, nicht um Führungsprinzipien.',
+        "text": "Management by Controlling (Finanzen), Management by Marketing (Absatz), Management by Sourcing (Einkauf) und Management by Production (Fertigung).",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um funktionale Unternehmensbereiche, nicht um personelle Führungstechniken."
       },
       {
-        text: 'Management by Penalty, Management by Fear, Management by Silence und Management by Force.',
-        korrekt: false,
-        erklaerung: 'Angst- und Zwangsmethoden widersprechen zeitgemäßen Führungstechniken und bilden keine seriösen Managementkonzepte.',
-      },
+        "text": "Management by Hierarchy (Rangordnung), Management by Supervision (Aufsicht), Management by Punishment (Strafe) und Management by Reward.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt behavioristische Disziplinierungsmechanismen, aber keine fundierten Management-by-Konzepte."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 39,
-    bereich: 4,
-    frage: 'Was kennzeichnet einen «modernen Führungsstil»?',
-    optionen: [
+    "id": 39,
+    "bereich": 4,
+    "frage": "Was kennzeichnet einen «modernen Führungsstil»?",
+    "optionen": [
       {
-        text: 'Agile Haltung («Servant Leadership»), psychologische Sicherheit, Förderung von Selbstorganisation, Transparenz und partizipative Befähigung.',
-        korrekt: true,
-        erklaerung: 'Moderne Führung versteht sich als «Enabler» und Dienstleister für das Team (Dienende Führung), um in komplexen, dynamischen Märkten schnell und flexibel zu agieren.',
+        "text": "Partizipation, Vertrauenskultur, Coaching-Haltung, flexible Arbeitsformen, Sinnvermittlung («Purpose») und Stärkung von Eigenverantwortung.",
+        "korrekt": true,
+        "erklaerung": "Moderne Führung versteht sich als Befähigung («Enabling»): Hierarchien treten in den Hintergrund, Selbstorganisation, Agilität und Sinnstiftung dominieren."
       },
       {
-        text: 'Strikte Wiedereinführung hierarchischer Befehlsketten, Verbot von Homeoffice und Verzicht auf jegliche digitale Hilfsmittel.',
-        korrekt: false,
-        erklaerung: 'Dies ist ein Rückschritt in veraltete Kommandostrukturen des Taylorismus und das Gegenteil moderner Führungskultur.',
+        "text": "Zentralistische Entscheidungsfindung, starre Hierarchiestufen, lückenlose Präsenzkontrolle und strikter Dienst nach Vorschrift im Betrieb.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet den traditionellen, bürokratisch-autoritären Führungsstil der Frühindustrialisierung (Taylorismus)."
       },
       {
-        text: 'Vollkommenes Verschweigen von Unternehmenszahlen gegenüber den Mitarbeitern bei gleichzeitiger Sanktionierung von Teamgesprächen.',
-        korrekt: false,
-        erklaerung: 'Informationsmonopole und Intransparenz ersticken Eigeninitiative und widersprechen modernen Führungsansätzen fundamental.',
+        "text": "Vollkommene Abschaffung von Verantwortlichkeiten und verbindlichen Unternehmenszielen zugunsten ungesteuerter individueller Selbstfindung.",
+        "korrekt": false,
+        "erklaerung": "Moderne Führung erfordert weiterhin klare Rahmenbedingungen, Zielklarheit und Verantwortlichkeit, statt ziellose Beliebigkeit."
       },
       {
-        text: 'Die Führungskraft nimmt überhaupt keine Termine mehr wahr und verbringt die gesamte Arbeitszeit mit Computerspielen.',
-        korrekt: false,
-        erklaerung: 'Moderne Führung erfordert aktive Beziehungsgestaltung, Sparring und Rahmengebung, keine Arbeitsverweigerung.',
-      },
+        "text": "Ausschließliche Steuerung über monetäre Vertriebsprovisionen bei vollständigem Verzicht auf persönliche Mitarbeiter- und Entwicklungsgespräche.",
+        "korrekt": false,
+        "erklaerung": "Reine Provisionssysteme ohne Beziehungs- und Feedbackkultur widersprechen modernen, ganzheitlichen Führungskonzepten."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 40,
-    bereich: 4,
-    frage: 'Was ist eine Führungskraft für den Mitarbeiter und Kunden 3.0?',
-    optionen: [
+    "id": 40,
+    "bereich": 4,
+    "frage": "Was ist eine Führungskraft für den Mitarbeiter und Kunden 3.0?",
+    "optionen": [
       {
-        text: 'Ein vernetzter Impulsgeber, Coach und Sinnstifter («Purpose Leader»), der Barrieren abbaut, Co-Creation fördert und auf Augenhöhe agiert.',
-        korrekt: true,
-        erklaerung: 'In der Ära 3.0 (Kollaboration, Werte, Digitalisierung) stehen Sinnhaftigkeit, Vernetzung und partnerschaftliche Wertschöpfung («Co-Creation») im Fokus.',
+        "text": "Ein agiler Netzwerkkoordinator, Mentor und Enabler, der Transparenz fördert, Kollaboration ermöglicht und Kundenbedürfnisse zügig integriert.",
+        "korrekt": true,
+        "erklaerung": "Im Kontext von «Arbeit & Kunde 3.0» (Digitalisierung, Co-Creation) agiert die Führungskraft als Brückenbauer und Coach auf Augenhöhe."
       },
       {
-        text: 'Ein unnahbarer Patriarch, der hinter verschlossenen Türen geheime Einzelanweisungen für den Außendienst verfasst.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt ein überholtes, patriarchalisch-autoritäres Leitbild des Industriezeitalters 1.0/2.0.',
+        "text": "Ein autoritärer Informationsfilter, der den direkten Kundenkontakt für Teammitglieder untersagt und alle Sachentscheidungen zentralisiert.",
+        "korrekt": false,
+        "erklaerung": "Gatekeeper-Rollen verlangsamen Prozesse und verhindern den direkten, kundennahen Austausch in modernen Organisationen."
       },
       {
-        text: 'Ein reiner Sachbearbeiter, der Kundenreklamationen manuell abstempelt und Mitarbeitern das Internet sperrt.',
-        korrekt: false,
-        erklaerung: 'Administrative Abschottung verhindert kundenorientierte Wertschöpfung und kollaborative Zusammenarbeit 3.0.',
+        "text": "Ein rein administrativer Sachbearbeiter, der Vorgaben der Geschäftsleitung ungefiltert weiterleitet und Teams sich selbst überlässt.",
+        "korrekt": false,
+        "erklaerung": "Reine Weiterleitung ohne Sinnvermittlung, Coaching und operative Unterstützung wird den Anforderungen moderner Arbeitswelten nicht gerecht."
       },
       {
-        text: 'Ein computergenerierter Avatar, der menschliche Gefühle vollkommen ignoriert und Mitarbeiter ausschließlich nach Klickraten bewertet.',
-        korrekt: false,
-        erklaerung: 'Führung 3.0 betont gerade die Humanisierung und zwischenmenschliche Resonanz in einer vernetzten Welt, keine seelenlose Technokratie.',
-      },
+        "text": "Ein Fachexperte, der alle operativen Kundenberatungen persönlich übernimmt und Mitarbeiter nur für untergeordnete Zuarbeiten einsetzt zur Steigerung von Transparenz, Verbindlichkeit und Ergebnisqualität.",
+        "korrekt": false,
+        "erklaerung": "Führungskräfte müssen befähigen und multiplizieren («Enabler»), statt operative Facharbeiten an sich zu reißen und Teams zu entmündigen."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 41,
-    bereich: 4,
-    frage: 'Wie beschreiben Sie den modernen Führungsstil «Clean Leadership»?',
-    optionen: [
+    "id": 41,
+    "bereich": 4,
+    "frage": "Wie beschreiben Sie den modernen Führungsstil «Clean Leadership»?",
+    "optionen": [
       {
-        text: 'Führung ohne eigene Vorurteile und suggestive Vorgaben: Die Führungskraft stellt wertfreie, neutrale Fragen, um die Denkräume der Mitarbeiter unbeeinflusst zu öffnen.',
-        korrekt: true,
-        erklaerung: 'Clean Leadership (basiert auf Clean Language) vermeidet Projektionen und Ratschläge; die Führungskraft agiert als neutraler Resonanzraum zur Entfaltung von Eigenlösungen.',
+        "text": "Wertschätzende Führung frei von verdeckter Manipulation, geprägt von ehrlicher Selbstreflexion, klarer Sprache und Respekt für persönliche Denkmuster.",
+        "korrekt": true,
+        "erklaerung": "Clean Leadership (abgeleitet von David Groves Clean Language) vermeidet Projektionen und suggestive Vorannahmen der Führungskraft und fördert Klarheit."
       },
       {
-        text: 'Tägliche Kontrolle der Schreibtischordnung und Desinfektion aller Computer-Tastaturen vor Arbeitsbeginn.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt Clean Leadership im übertragenen psychologischen Sinn mit physischer Bürohygiene und Putzvorschriften.',
+        "text": "Führung durch vollständigen Verzicht auf mündliche Mitarbeitergespräche zugunsten automatisierter digitaler Chatbots und Ticket-Systeme im Kontext moderner Führungspsychologie und Kundenorientierung.",
+        "korrekt": false,
+        "erklaerung": "Clean Leadership betont die zwischenmenschliche Gesprächsführung und Achtsamkeit, keine Entfremdung durch Automatisierung."
       },
       {
-        text: 'Ausschließlicher Einsatz von Mitarbeitern, die zuvor eine notariell beglaubigte Unbedenklichkeitserklärung unterzeichnet haben.',
-        korrekt: false,
-        erklaerung: 'Clean Leadership ist ein Haltungs- und Kommunikationskonzept und kein bürokratisches Sicherheitsüberprüfungsverfahren.',
+        "text": "Ein Führungsstil, bei dem die Führungskraft vor jedem vertraulichen Gespräch rechtlich verbindliche Verschwiegenheitsvereinbarungen verlangt.",
+        "korrekt": false,
+        "erklaerung": "Dies verwechselt psychologische Klarheit und Vertraulichkeit mit übertriebener juristischer Vertragsbürokratie."
       },
       {
-        text: 'Vollständiges Verbot persönlicher Pausengespräche und Beschränkung aller Kontakte auf standardisierte Buchstabencodes.',
-        korrekt: false,
-        erklaerung: 'Clean Leadership fördert tiefe, authentische Verständigung und verbietet keineswegs den zwischenmenschlichen Austausch.',
-      },
+        "text": "Ein Konzept, das Führung rein auf hygienische Arbeitsplatzgestaltung, Lärmschutz und ergonomische Büroausstattung im Betrieb reduziert.",
+        "korrekt": false,
+        "erklaerung": "Hier liegt eine Verwechslung mit arbeitshygienischen Maßnahmen vor; Clean Leadership bezieht sich auf vorurteilsfreie Kommunikation."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 42,
-    bereich: 4,
-    frage: 'Was verstehen Sie unter dem «3 Säulen Modell»?',
-    optionen: [
+    "id": 42,
+    "bereich": 4,
+    "frage": "Was verstehen Sie unter dem «3 Säulen Modell»?",
+    "optionen": [
       {
-        text: 'Die ganzheitliche Verknüpfung von digitaler Kultur (Mindset), agiler Organisation (Prozesse/Strukturen) und moderner Technologie (Werkzeuge).',
-        korrekt: true,
-        erklaerung: 'Im Rahmen moderner und digitaler Führung stützt sich erfolgreiche Transformation auf diese drei interdependenten Säulen: Mensch/Kultur, Struktur/Organisation und Technologie.',
+        "text": "Ganzheitlicher Ansatz basierend auf den drei Säulen Mensch/Kultur, Struktur/Organisation und Technologie/Prozesse für nachhaltige Leistungsfähigkeit.",
+        "korrekt": true,
+        "erklaerung": "Nachhaltige Unternehmensführung gelingt nur im harmonischen Zusammenspiel von individuellen Kompetenzen (Mensch), klaren Rahmenbedingungen (Organisation) und passenden Tools (Technik)."
       },
       {
-        text: 'Die architektonische Vorschrift, dass Vorstandsbüros durch genau drei tragende Säulen aus Stahlbeton gestützt werden müssen.',
-        korrekt: false,
-        erklaerung: 'Dies ist eine statisch-bauliche Interpretation ohne Relevanz für betriebswirtschaftliche Führungs- und Organisationsmodelle.',
+        "text": "Die klassische Unterteilung von Industrieunternehmen in Beschaffung/Einkauf, Produktion und Absatz/Vertrieb zur operativen Aufgabenabwicklung.",
+        "korrekt": false,
+        "erklaerung": "Dies sind traditionelle betriebswirtschaftliche Funktionsbereiche, nicht das ganzheitliche 3-Säulen-Führungsmodell."
       },
       {
-        text: 'Die strikte Unterteilung des gesamten Arbeitstages in exakt drei gleich lange Phasen: Schlafen, Essen und Nachdenken.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um eine private Tageseinteilung, nicht um ein anerkanntes Führungssäulenmodell im Management.',
+        "text": "Die Dreiteilung der Unternehmensführung in Vorstand, Aufsichtsrat und Betriebsrat nach den Vorschriften des österreichischen Aktiengesetzes in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt gesetzliche Corporate-Governance-Organe nach dem Aktiengesetz, keine führungsphilosophischen Säulen."
       },
       {
-        text: 'Drei feste Steuersätze für Unternehmensgewinne, die jährlich vom Finanzamt per Zufallsauswahl festgelegt werden.',
-        korrekt: false,
-        erklaerung: 'Steuerrechtliche Tarife haben keinen Bezug zum führungsbezogenen Drei-Säulen-Modell moderner Organisationen.',
-      },
+        "text": "Das Vergütungsmodell bestehend aus festem Grundgehalt, variabler Vertriebsprovision und betrieblicher Altersvorsorge für Führungskräfte.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um die 3 Säulen der Entgelt- und Altersvorsorgestruktur, nicht um Führung und Unternehmensorganisation."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 43,
-    bereich: 4,
-    frage: 'Was sind die Herausforderungen von «Clean Leadership» für die Führungskraft?',
-    optionen: [
+    "id": 43,
+    "bereich": 4,
+    "frage": "Was sind die Herausforderungen von «Clean Leadership» für die Führungskraft?",
+    "optionen": [
       {
-        text: 'Das Zurückhalten eigener Ratschläge und Lösungsansätze, Aushalten von Stille und die Disziplin, wertfrei und unvoreingenommen zuzuhören.',
-        korrekt: true,
-        erklaerung: 'Für Führungskräfte ist es hochgradig herausfordernd, nicht sofort die eigene Expertenmeinung überzustülpen, sondern Mitarbeitern den Denkraum wirklich zu überlassen.',
+        "text": "Eigene Vorannahmen und Interpretationen bewusst zurückzustellen, emotionale Reife zu zeigen und Mitarbeitern echten Raum zur Lösungsfindung zu geben.",
+        "korrekt": true,
+        "erklaerung": "Die größte Hürde liegt im Loslassen eigener Urteile: Führungskräfte neigen oft dazu, vorschnell Ratschläge zu erteilen, statt aufmerksam und unvoreingenommen zuzuhören."
       },
       {
-        text: 'Das fehlerfreie Auswendiglernen von fünfhundert chemischen Inhaltsstoffen industrieller Reinigungsmittel für Werkhallen.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff «Clean» fälschlicherweise materiell-chemisch statt führungs- und kommunikationspsychologisch.',
+        "text": "Täglich komplexe mathematische Algorithmen zur Arbeitszeiterfassung und Überstundenkontrolle der Mitarbeiter manuell nachzurechnen.",
+        "korrekt": false,
+        "erklaerung": "Clean Leadership befasst sich mit vorurteilsfreier Kommunikation und Denkstrukturen, nicht mit buchhalterischer Zeiterfassung."
       },
       {
-        text: 'Die gesetzliche Verpflichtung, monatlich zwanzig neue Mitarbeiter ohne Vorstellungsgespräch blind einzustellen.',
-        korrekt: false,
-        erklaerung: 'Clean Leadership betrifft die Gesprächsführung und Beziehungsqualität, nicht wahllose Masseneinstellungen.',
+        "text": "Sämtliche Richtungsentscheidungen stets ohne jede Rücksprache innerhalb von wenigen Sekunden autoritär im Betrieb durchzusetzen.",
+        "korrekt": false,
+        "erklaerung": "Autoritäres Durchpeitschen von Entscheidungen steht im direkten Widerspruch zur reflektierten, achtsamen Haltung von Clean Leadership."
       },
       {
-        text: 'Die physische Isolation der Führungskraft in einem schallgedämpften Glaskubus ohne Internetanschluss.',
-        korrekt: false,
-        erklaerung: 'Führungskräfte müssen im Clean Leadership hochgradig präsent, empathisch und aufmerksam im Dialog sein.',
-      },
+        "text": "Den Mitarbeitern jederzeit alle privaten Sorgen abzunehmen und als unbezahlter Psychotherapeut rund um die Uhr verfügbar zu sein.",
+        "korrekt": false,
+        "erklaerung": "Clean Leadership wahrt professionelle Grenzen und stärkt die Eigenständigkeit des Mitarbeiters, statt therapeutische Ersatzrollen einzunehmen."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 44,
-    bereich: 4,
-    frage: 'Was sind Kompetenzen eines «Digital Leaders»?',
-    optionen: [
+    "id": 44,
+    "bereich": 4,
+    "frage": "Was sind Kompetenzen eines «Digital Leaders»?",
+    "optionen": [
       {
-        text: 'Agiles Mindset, digitale Vernetzungskompetenz, Ambiguitätstoleranz, Empathie auf Distanz sowie die Fähigkeit, Selbstorganisation zu moderieren.',
-        korrekt: true,
-        erklaerung: 'Ein Digital Leader steuert über Sinn, Vertrauen und digitale Tools; gefordert sind Offenheit für Wandel, Methodenkompetenz und relationale Empathie im virtuellen Raum.',
+        "text": "Digitale Medienkompetenz, agile Moderationsfähigkeit, vernetztes Denken, Ambiguitätstoleranz, Vertrauensführung auf Distanz und Förderung von Lernkultur.",
+        "korrekt": true,
+        "erklaerung": "Digital Leadership erfordert neben Tool-Wissen vor allem Führungsqualitäten in virtuellen Räumen: Vertrauen («Remote Leadership»), Offenheit für Wandel und Netzwerkkompetenz."
       },
       {
-        text: 'Ausschließliche Beherrschung von Schreibmaschinen und die konsequente Weigerung, Bildschirme am Arbeitsplatz zuzulassen.',
-        korrekt: false,
-        erklaerung: 'Technologiefeindlichkeit widerspricht dem Grundverständnis digitaler Führung fundamental.',
+        "text": "Ausgeprägte Programmierkenntnisse in maschinennahen Sprachen sowie persönliche technische Wartung aller Serveranlagen im Unternehmen zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Digital Leader müssen keine IT-Systemadministratoren sein; ihre Kernaufgabe ist organisationale Transformation, Menschenführung und Befähigung."
       },
       {
-        text: 'Die Fähigkeit, innerhalb von drei Minuten alle privaten Passwörter der Teammitglieder ohne Erlaubnis zu knacken.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt kriminelle Hacking-Aktivitäten, die eklatant gegen Ethik, Datenschutz und Vertrauensaufbau verstoßen.',
+        "text": "Fähigkeit zur lückenlosen elektronischen Tastaturüberwachung und automatisierten Software-Screening der Mitarbeiter im mobilen Homeoffice.",
+        "korrekt": false,
+        "erklaerung": "Digitale Überwachung zerstört Vertrauen und widerspricht den Werten moderner digitaler Führung diametral."
       },
       {
-        text: 'Strikte Weigerung, jemals online zu kommunizieren, und das Beharren auf berittenen Boten für Projektberichte.',
-        korrekt: false,
-        erklaerung: 'Historische Botendienste sind das Gegenteil zeitgemäßer digitaler Kollaborationswerkzeuge.',
-      },
+        "text": "Strikte Beibehaltung papierhafter Aktenvorgänge und grundsätzliche Ablehnung cloudbasierter Dokumenten- und Kollaborationsplattformen.",
+        "korrekt": false,
+        "erklaerung": "Technologische Verweigerungshaltung verhindert zeitgemäße Zusammenarbeit und führt in der digitalen Transformation ins Abseits."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 45,
-    bereich: 4,
-    frage: 'Was sind die 6 Führungsinstrumente beim Digital Leadership?',
-    optionen: [
+    "id": 45,
+    "bereich": 4,
+    "frage": "Was sind die 6 Führungsinstrumente beim Digital Leadership?",
+    "optionen": [
       {
-        text: 'Virtuelle Kommunikation, kollaboratives Wissensmanagement, Zielvereinbarungen (z. B. OKR), kontinuierliches Feedback, Vertrauenskultur und digitales Empowerment.',
-        korrekt: true,
-        erklaerung: 'Diese 6 Instrumente ermöglichen die zielgerichtete Führung auf Distanz: Kommunikationstools, Wissensplattformen, iterative Ziele, Feedback, Vertrauen und Befähigung.',
+        "text": "Virtuelle Kommunikationstools, transparente Zielsysteme (z. B. OKRs), regelmäßige Feedbackschleifen, digitale Wissensplattformen, agile Rituale und digitale Kollaborationsräume.",
+        "korrekt": true,
+        "erklaerung": "Diese Instrumente sichern Ausrichtung, Dialog und Wissenstransfer in dezentralen, hybriden und vernetzten Teams."
       },
       {
-        text: 'Stechuhr, Abmahnung, Gehaltssperre, Überwachungskamera, Arbeitsplatzvisite und Tonbandaufzeichnung.',
-        korrekt: false,
-        erklaerung: 'Dies sind destruktive Kontroll- und Sanktionswerkzeuge eines repressiven Überwachungsregimes, nicht digitaler Führung.',
+        "text": "Elektronische Stechuhr, geschlossenes Einzelbüro, handschriftliches Postbuch, schriftlicher Aktenvermerk, Rundschreiben und monatliche Aushangtafel.",
+        "korrekt": false,
+        "erklaerung": "Dies sind analoge, papierbasierte Instrumente aus der Ära der klassischen Amts- und Fabrikverwaltung."
       },
       {
-        text: 'Lochkarte, Fernschreiber, Stempelkissen, Kohlepapier, Faxgerät und Rohrpostanlage.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um historische Bürohilfsmittel des 20. Jahrhunderts, keine modernen Führungsinstrumente.',
+        "text": "Schriftliche Abmahnung, ordentliche Kündigung, befristete Gehaltskürzung, disziplinarische Versetzung, Einzelgespräch und Personalaktvermerk.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um arbeitsrechtliche Sanktionsmaßnahmen bei Vertragsverletzungen, nicht um Führungsinstrumente beim Digital Leadership."
       },
       {
-        text: 'Flüstern, Schweigen, Wegsehen, Ignorieren, Kündigen und Verstecken.',
-        korrekt: false,
-        erklaerung: 'Diese Verhaltensweisen stellen Verweigerung von Führungsverantwortung dar und sind keine Managementinstrumente.',
-      },
+        "text": "Strategische Bilanzanalyse, Deckungsbeitragsrechnung, rollierender Liquiditätsplan, Kostenstellenrechnung, Budgetierung und Investitionsrechnung.",
+        "korrekt": false,
+        "erklaerung": "Dies sind Instrumente des operativen und strategischen Controllings, keine Führungsinstrumente zur Leitung digitaler Teams."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 46,
-    bereich: 4,
-    frage: 'Wie beschreiben Sie «agile Führung»?',
-    optionen: [
+    "id": 46,
+    "bereich": 4,
+    "frage": "Wie beschreiben Sie «agile Führung»?",
+    "optionen": [
       {
-        text: 'Führung als dienende Haltung («Servant Leadership»): Schaffung von Rahmenbedingungen für selbstorganisierte Teams, iterative Lernschleifen und schnelle Anpassungsfähigkeit.',
-        korrekt: true,
-        erklaerung: 'Agile Führung gibt Richtung und Leitplanken («Guardrails») vor, überlässt dem Team den Lösungsweg und fördert kontinuierliche Verbesserung (Inspect & Adapt).',
+        "text": "Führung als dienende Funktion («Servant Leadership»): Rahmenbedingungen schaffen, Hindernisse beseitigen, Selbstorganisation fördern und iterativ aus Feedback lernen.",
+        "korrekt": true,
+        "erklaerung": "Agile Führungskräfte geben die Richtung vor, überlassen dem Team jedoch den Lösungsweg und unterstützen als Mentor und Enabler."
       },
       {
-        text: 'Permanentes Hin- und Herwechseln zwischen unvereinbaren Vorgaben innerhalb einer Arbeitsstunde nach reiner Laune.',
-        korrekt: false,
-        erklaerung: 'Dies ist unberechenbare Planlosigkeit («Chaos Management»), während Agilität auf disziplinierten Prinzipien und festen Rhythmen beruht.',
+        "text": "Tägliche kurzfristige Änderung aller strategischen Unternehmensziele bei gleichzeitigem Verbot langfristiger Planungen und stabiler Visionen.",
+        "korrekt": false,
+        "erklaerung": "Agilität bedeutet Anpassungsfähigkeit bei klarer Vision, nicht willkürliches Chaos oder ziellose Richtungslosigkeit."
       },
       {
-        text: 'Militärische Befehlsausgabe mit dem Verbot für Teammitglieder, untereinander während der Arbeitszeit zu sprechen.',
-        korrekt: false,
-        erklaerung: 'Agilität basiert auf intensiver Kollaboration und Interaktion; Kommunikationsverbote sind diametral entgegengesetzt.',
+        "text": "Autoritärer Führungsstil, bei dem die Führungskraft Arbeitsaufgaben stündlich neu zuteilt und den Fortschritt persönlich und engmaschig überwacht.",
+        "korrekt": false,
+        "erklaerung": "Stündliche Einzelanweisungen sind extremes Mikromanagement und ersticken jede agile Eigenverantwortung im Keim."
       },
       {
-        text: 'Reines Aktenstudium ohne persönlichen Kontakt zur Außenwelt oder zu den Kunden des Unternehmens.',
-        korrekt: false,
-        erklaerung: 'Agile Führung stellt den Kundennutzen und regelmäßigen Austausch in den Mittelpunkt jedes Entwicklungszyklus.',
-      },
+        "text": "Vollständiger Rückzug der Führungskraft ohne Bereitstellung von Ressourcen, klaren Rahmenzielen oder institutionalisierten Rückkopplungsschleifen im operativen und strategischen Geschäftsalltag der Organisation.",
+        "korrekt": false,
+        "erklaerung": "Agile Führung ist hochaktiv im Coaching und der Hindernisbeseitigung, keinesfalls passives Laissez-faire."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 47,
-    bereich: 4,
-    frage: 'Was bedeutet «laterale Führung» für Sie?',
-    optionen: [
+    "id": 47,
+    "bereich": 4,
+    "frage": "Was bedeutet «laterale Führung» für Sie?",
+    "optionen": [
       {
-        text: 'Führen ohne formale disziplinarische Machtbefugnis über Hierarchiegrenzen hinweg, basierend auf Vertrauen, Verständigung, Verhandlung und Überzeugungskraft.',
-        korrekt: true,
-        erklaerung: 'Laterale Führung (z. B. im Projektmanagement oder in Matrixorganisationen) gelingt durch gemeinsame Interessenfindung und Beziehungsaufbau statt durch Weisungsrecht.',
+        "text": "Führung ohne formale hierarchische Weisungsbefugnis durch Vertrauen, Verhandlung, Überzeugungskraft, Perspektivenwechsel und gemeinsame Interessen.",
+        "korrekt": true,
+        "erklaerung": "Laterale Führung ist typisch in Matrixorganisationen, agilen Teams oder Projekten: Weil Machtmittel fehlen, muss über Kooperation und Konsens geführt werden."
       },
       {
-        text: 'Führung, die ausschließlich im Gehen auf den Gängen des Unternehmens stattfindet und niemals im Sitzen praktiziert werden darf.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt den Begriff «lateral» (seitlich/quer) mit der physischen Fortbewegungsart im Büroflur.',
+        "text": "Führung durch strikte disziplinarische Vorgesetztenfunktion über direkt unterstellte Linienmitarbeiter im hierarchischen Organigramm bei der praktischen Gestaltung zeitgemäßer Führungsbeziehungen.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die traditionelle vertikale Linienführung auf Basis formaler Weisungsbefugnis."
       },
       {
-        text: 'Die strikte Unterwerfung aller Mitarbeiter unter die Anweisungen des jüngsten Familienmitglieds des Eigentümers.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt feudalen Nepotismus, welcher dem partnerschaftlichen Prinzip lateraler Führung widerspricht.',
+        "text": "Ausschließlich die Weitergabe von formalen Dienstanweisungen an externe Subunternehmer im Rahmen eines klassischen Werkvertrags.",
+        "korrekt": false,
+        "erklaerung": "Dies ist eine vertragliche Leistungsabwicklung im Beschaffungswesen, keine laterale Führung im Teamkontext."
       },
       {
-        text: 'Ausschließliche Kommunikation über handgeschriebene Briefe, die über den Postweg an Nachbarabteilungen versendet werden.',
-        korrekt: false,
-        erklaerung: 'Dies ist ein langsamer bürokratischer Übertragungsweg ohne Bezug zum führungstheoretischen Konzept der lateralen Führung.',
-      },
+        "text": "Führung von operativen Teams, die ausschließlich im Schichtdienst an Wochenenden und gesetzlichen Feiertagen im Betrieb tätig sind.",
+        "korrekt": false,
+        "erklaerung": "Schichtarbeit ist ein Arbeitszeitmodell und hat nichts mit der führungssoziologischen Dimension der lateralen Führung zu tun."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 48,
-    bereich: 4,
-    frage: 'Was sind die Merkmale von «Scrum»?',
-    optionen: [
+    "id": 48,
+    "bereich": 4,
+    "frage": "Was sind die Merkmale von «Scrum»?",
+    "optionen": [
       {
-        text: 'Klares agiles Rahmenwerk mit Rollen (Product Owner, Scrum Master, Developers), festen Ereignissen (Sprints, Retrospektiven) und Artefakten (Backlogs).',
-        korrekt: true,
-        erklaerung: 'Scrum basiert auf Transparenz, Überprüfung und Anpassung (Empirie) und strukturiert komplexe Entwicklungsprozesse in zeitlich fixierten Sprints.',
+        "text": "Agiles Rahmenwerk mit festen Rollen (Product Owner, Scrum Master, Developers), zeitlich fixierten Sprints und definierten Ereignissen (Planning, Daily, Review, Retro).",
+        "korrekt": true,
+        "erklaerung": "Scrum basiert auf empirischer Prozesskontrolle (Transparenz, Überprüfung, Anpassung) und liefert in kurzen Zyklen («Sprints») potenziell nutzbare Inkremente."
       },
       {
-        text: 'Ein zehnjähriger Projektplan, bei dem kein einziger Zwischenschritt jemals verändert oder überprüft werden darf.',
-        korrekt: false,
-        erklaerung: 'Dies ist das klassische Wasserfallmodell in extremer Starrheit; Scrum arbeitet im Gegensatz dazu mit kurzen iterativen Zyklen.',
+        "text": "Lineares Phasenmodell mit sequenziellen Stufen von Lastenheft, Pflichtenheft, Programmierung, Integrationstest und formaler Abnahme (Wasserfallmodell).",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt das klassische Wasserfallmodell, das im Gegensatz zu Scrum starr und wenig anpassungsfähig auf Änderungen reagiert."
       },
       {
-        text: 'Ein hierarchisches Bestrafungssystem, bei dem derjenige Mitarbeiter entlassen wird, der im Meeting als Erster spricht.',
-        korrekt: false,
-        erklaerung: 'Scrum fördert psychologische Sicherheit, Offenheit und aktive Beteiligung aller Teammitglieder.',
+        "text": "Ein hierarchisches Qualitätssicherungsverfahren zur lückenlosen Prozessdokumentation nach DIN ISO 9001 im industriellen Produktionsbetrieb zur Steigerung von Transparenz, Verbindlichkeit und Ergebnisqualität.",
+        "korrekt": false,
+        "erklaerung": "Qualitätsmanagementnormen regeln Dokumentationspflichten, sind jedoch kein agiles Rahmenwerk für Produktentwicklung und Teamorganisation."
       },
       {
-        text: 'Ein Buchhaltungsprogramm zur Berechnung von Reisekostenabrechnungen im internationalen Speditionsgewerbe.',
-        korrekt: false,
-        erklaerung: 'Scrum ist ein Rahmenwerk für agile Teamarbeit und Wertschöpfung, keine kaufmännische Reisekostensoftware.',
-      },
+        "text": "Ein vertriebliches Bonus- und Provisionsmodell zur monatlichen Abrechnung individueller Umsatzziele im Außendienst und Direktvertrieb.",
+        "korrekt": false,
+        "erklaerung": "Scrum ist ein agiles Zusammenarbeitsmodell und hat keinen Bezug zu Provisionsabrechnungen im Vertrieb."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 49,
-    bereich: 4,
-    frage: 'Was bedeutet Holocracy und Bottom Up im Rahmen von «Digital Leadership»?',
-    optionen: [
+    "id": 49,
+    "bereich": 4,
+    "frage": "Was bedeutet Holocracy und Bottom Up im Rahmen von «Digital Leadership»?",
+    "optionen": [
       {
-        text: 'Holokratie ersetzt starre Hierarchien durch dynamische Kreise und Rollen; Bottom-Up bedeutet, dass Impulse und Entscheidungen aus dem Team nach oben fließen.',
-        korrekt: true,
-        erklaerung: 'Holakratie verteilt Autorität auf Rollen in autonomen Kreisen; Bottom-Up aktiviert die Intelligenz der Basis anstelle zentralistischer Top-Down-Vorgaben.',
+        "text": "Holacracy verteilt Autorität auf rollenbasierte Kreise statt Hierarchien; Bottom Up meint Entscheidungs- und Impulsfindung ausgehend von operativen Teams nach oben.",
+        "korrekt": true,
+        "erklaerung": "Holacracy ersetzt starre Chefpositionen durch transparente Rollen mit klaren Zuständigkeiten. Bottom-Up nutzt die kollektive Intelligenz der Basis."
       },
       {
-        text: 'Holokratie bezeichnet die Alleinherrschaft eines Vorstands; Bottom-Up bedeutet die sofortige Reduzierung der Mitarbeiterlöhne um die Hälfte.',
-        korrekt: false,
-        erklaerung: 'Hier wurden die Begriffe sinnentstellend ins Gegenteil verkehrt: Holakratie schafft Alleinherrscher ab und Bottom-Up stärkt die Mitarbeiter.',
+        "text": "Holacracy ist ein zentralistisches Führungsmodell mit einem Alleinherrscher; Bottom Up bezeichnet die strikte Weisung von oben nach unten.",
+        "korrekt": false,
+        "erklaerung": "Hier liegt eine vollständige begriffliche Umkehrung vor: Holacracy dezentralisiert Autorität, und Top-Down meint von oben nach unten."
       },
       {
-        text: 'Beide Begriffe bezeichnen spezielle Tastaturlayouts für Softwareentwickler zur Vermeidung von Sehnenenscheidenentzündungen.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt soziologische Organisationsstrukturen mit ergonomischer Computer-Hardware.',
+        "text": "Holacracy ist ein juristisches Verfahren zur geordneten Sanierung; Bottom Up meint die monatliche Kassenprüfung in regionalen Filialen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind handelsrechtliche und buchhalterische Fachbegriffe, die inhaltlich nichts mit Organisationsentwicklung zu tun haben."
       },
       {
-        text: 'Ein Verfahren der Bauwirtschaft zur Errichtung von Kellergeschossen aus vorgefertigten Zementblöcken.',
-        korrekt: false,
-        erklaerung: '«Bottom-Up» wird hier fälschlicherweise bautechnisch von unten nach oben gedeutet, ignoriert aber den Führungskontext völlig.',
-      },
+        "text": "Holacracy bedeutet die vollständige Ersetzung menschlicher Mitarbeiter durch künstliche Intelligenz und Algorithmen in allen Fachbereichen.",
+        "korrekt": false,
+        "erklaerung": "Holacracy ist eine menschliche Organisationsverfassung für Zusammenarbeit und Mitbestimmung, keine Technologie zur Automatisierung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 50,
-    bereich: 4,
-    frage: 'Welche 5 Kernelemente bestimmen den Ansatz «Working Out Loud»?',
-    optionen: [
+    "id": 50,
+    "bereich": 4,
+    "frage": "Welche 5 Kernelemente bestimmen den Ansatz «Working Out Loud»?",
+    "optionen": [
       {
-        text: 'Beziehungen vertiefen, Großzügigkeit, Arbeit sichtbar machen, zielgerichtetes Entdecken und eine wachstumsorientierte Denkweise (Growth Mindset).',
-        korrekt: true,
-        erklaerung: 'Nach John Stepper basiert WOL auf: Building Relationships, Generosity, Making Work Visible, Purposeful Discovery und Growth Mindset.',
+        "text": "Beziehungen aufbauen (Relationships), Großzügigkeit (Generosity), Arbeit sichtbar machen (Visible Work), zielgerichtetes Entdecken (Purposeful Discovery) und lernende Haltung.",
+        "korrekt": true,
+        "erklaerung": "John Stepper definierte diese fünf Prinzipien für WOL: Wissen großzügig teilen, das eigene Netzwerk pflegen und die eigene Arbeit transparent machen."
       },
       {
-        text: 'Geheimhaltung, Konkurrenzdenken, Spionage, Patentierung und Abschottung vor externen Einflüssen.',
-        korrekt: false,
-        erklaerung: 'Dies ist das exakte Gegenteil der kollaborativen und offenen Philosophie von Working Out Loud.',
+        "text": "Akustische Lautstärke im Großraumbüro, Verzicht auf E-Mails, tägliche Überstunden, Pflicht zur Eigenwerbung und Ablehnung von Fachliteratur in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Dies nimmt den Begriff «Out Loud» fälschlich im akustischen Wortsinn; WOL meint transparente Vernetzung und kooperatives Lernen."
       },
       {
-        text: 'Lautes Schreien im Großraumbüro, Trommeln auf Schreibtischen, Megafone, Trillerpfeifen und Sirenen.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff «Out Loud» buchstäblich als akustische Lautstärke, beschreibt aber kein Wissensmanagement-Konzept.',
+        "text": "Formale Zielvereinbarung, Aufgabenübertragung, permanente Leistungskontrolle, disziplinarisches Mitarbeitergespräch und Gehaltseinstufung.",
+        "korrekt": false,
+        "erklaerung": "Dies sind klassische Führungsinstrumente, nicht die kollaborativen Kernelemente der Working-Out-Loud-Methode."
       },
       {
-        text: 'Überstunden anordnen, Kaffeepausen kürzen, Urlaube streichen, Gehälter deckeln und Boni verweigern.',
-        korrekt: false,
-        erklaerung: 'WOL ist eine partizipative Methode zur persönlichen Vernetzung und Wissenteilung, kein betriebliches Sparprogramm.',
-      },
+        "text": "Die fünf agilen Scrum-Bestandteile: Scrum Master, Product Owner, Sprint Planning, Daily Stand-up und strukturierte Sprint Retrospektive.",
+        "korrekt": false,
+        "erklaerung": "Dies sind Rollen und Zeremonien des Scrum-Frameworks, keine Prinzipien des individuellen Netzwerk-Ansatzes WOL."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 51,
-    bereich: 4,
-    frage: 'Was sind «Bar Camps»?',
-    optionen: [
+    "id": 51,
+    "bereich": 4,
+    "frage": "Was sind «Bar Camps»?",
+    "optionen": [
       {
-        text: 'Offene «Unkonferenzen», deren Ablauf und Agenda zu Beginn von den Teilnehmern selbst ad hoc vorgeschlagen, abgestimmt und gestaltet werden.',
-        korrekt: true,
-        erklaerung: 'Ein BarCamp ist ein partizipatives Veranstaltungsformat ohne festgelegte Referenten; jeder Teilnehmende kann eine Session anbieten und mitdiskutieren.',
+        "text": "Offene «Unkonferenzen», deren Ablauf und Inhalte zu Beginn von den Teilnehmern selbst festgelegt und in partizipativen Sessions gestaltet werden.",
+        "korrekt": true,
+        "erklaerung": "Barcamps brechen mit starren Vortragsprogrammen: Alle Teilnehmer begegnen sich auf Augenhöhe und tragen als «Teilgeber» aktiv Wissen bei."
       },
       {
-        text: 'Mehrtägige Zeltlager für Führungskräfte in den Bergen ohne Mobilfunkempfang mit Überlebenstraining im Wald.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt ein Outdoor-Survival-Training, hat jedoch nichts mit dem Wissensaustausch-Format des BarCamps zu tun.',
+        "text": "Exklusive Managementschulungen in Tagungshotels mit strikt vorgegebenen Frontalvorträgen renommierter externer Unternehmensberater.",
+        "korrekt": false,
+        "erklaerung": "Klassische Frontalkonferenzen mit passivem Zuhören sind das genaue Gegenteil des partizipativen, offenen Barcamp-Formats."
       },
       {
-        text: 'Verpflichtende Schulungen für Gastronomiepersonal über das fachgerechte Mixen von alkoholischen Cocktails.',
-        korrekt: false,
-        erklaerung: 'Das Wort «Bar» entstammt dem Hacker-Jargon (Foobar) und bezieht sich nicht auf gastronomische Schankstuben.',
+        "text": "Betriebsinterne Schlichtungsverfahren bei akuten arbeitsrechtlichen Konflikten zwischen Betriebsrat und Geschäftsleitung des Betriebs.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt gesetzliche Einigungsstellen oder Mediationen, hat jedoch keinen Bezug zum Wissensaustausch-Format Barcamp."
       },
       {
-        text: 'Geschlossene Vorstandstagungen in Luxushotels, bei denen die Presse ausnahmslos ausgesperrt wird.',
-        korrekt: false,
-        erklaerung: 'BarCamps sind maximal öffentlich, hierarchiefrei und transparent konzipiert («No Spectators, only Participants»).',
-      },
+        "text": "Technische Standard-Schulungen zur förmlichen Zertifizierung von Mitarbeitern im Umgang mit ERP-Systemen und SQL-Datenbanken.",
+        "korrekt": false,
+        "erklaerung": "Barcamps sind offene Diskussions- und Innovationsräume zu vielfältigen Themen, keine standardisierten Software-Schulungen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 52,
-    bereich: 4,
-    frage: 'Was sind «Digital Natives» und welchen Führungsstil haben diese?',
-    optionen: [
+    "id": 52,
+    "bereich": 4,
+    "frage": "Was sind «Digital Natives» und welchen Führungsstil haben bzw. bevorzugen diese?",
+    "optionen": [
       {
-        text: 'Personen, die in der digitalen Welt aufgewachsen sind; als Führungskräfte agieren sie partnerschaftlich, agil, transparent, sinn- und feedbackorientiert.',
-        korrekt: true,
-        erklaerung: 'Digital Natives (Gen Y/Z) führen bevorzugt auf Augenhöhe, nutzen intuitive Collaboration-Tools und setzen auf Sinn («Purpose») und Eigenverantwortung.',
+        "text": "Personen, die im digitalen Zeitalter aufgewachsen sind; sie bevorzugen transparente, partizipative, sinnorientierte Führung auf Augenhöhe mit schnellem Feedback.",
+        "korrekt": true,
+        "erklaerung": "Digital Natives (u. a. Generation Y und Z) sind mit Vernetzung vertraut und erwarten Selbstbestimmung, schnelle Kommunikation und werteorientierte Führung."
       },
       {
-        text: 'Mitarbeiter ohne jeden Computerzugang, die ausschließlich patriarchalisch über mündliche Zuruf-Kommandos führen.',
-        korrekt: false,
-        erklaerung: 'Natives sind mit digitaler Technologie großgeworden; die Beschreibung trifft eher auf technikferne Traditionsstile zu.',
+        "text": "Erfahrene Fachkräfte im Vorruhestandsalter, die hierarchische Einzelanweisungen und traditionelle papierbasierte Aktenabläufe im Büroalltag bevorzugen.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt eher traditionelle Generationen, während Digital Natives mit dem Internet und digitalen Medien groß geworden sind."
       },
       {
-        text: 'Ausschließlich im Ausland geborene Staatsbürger, die stets nach militärischen Dienstvorschriften des 19. Jahrhunderts leiten.',
-        korrekt: false,
-        erklaerung: 'Der Begriff bezieht sich auf die digitale Generation und hat keinen Bezug zu Herkunft oder militärischen Traditionen.',
+        "text": "Mitarbeiter, die ausschließlich autoritäre Führung schätzen, klare Befehlsketten einfordern und jede Form digitaler Kommunikation im Betrieb ablehnen.",
+        "korrekt": false,
+        "erklaerung": "Digital Natives meiden autoritäres Gehabe und nutzen digitale Kollaborationsplattformen selbstverständlich im Alltag."
       },
       {
-        text: 'Künstliche Intelligenzen in Rechenzentren, die Führungsentscheidungen rein auf Basis von Zufallsalgorithmen treffen.',
-        korrekt: false,
-        erklaerung: 'Digital Natives sind reale Menschen der jüngeren Generationen, keine Softwareprogramme oder KI-Systeme.',
-      },
+        "text": "Reine Hardwarespezialisten in Rechenzentren, die grundsätzlich keine Führungsaufgaben übernehmen und nur technische Serverkomponenten reparieren zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Der Begriff Digital Native ist eine generationenbezogene soziologische Bezeichnung und keine eng definierte IT-Berufsgruppe."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 53,
-    bereich: 4,
-    frage: 'Was bedeutet «Social Intranet»?',
-    optionen: [
+    "id": 53,
+    "bereich": 4,
+    "frage": "Was bedeutet «Social Intranet»?",
+    "optionen": [
       {
-        text: 'Eine kollaborative Unternehmensplattform mit interaktiven Funktionen (Likes, Kommentare, Chats, Wikis), die horizontalen Dialog und Wissensaustausch fördert.',
-        korrekt: true,
-        erklaerung: 'Im Unterschied zum klassischen «Einweg-Intranet» (Top-Down-Mitteilungen) ermöglicht das Social Intranet Mitgestaltung, bereichsübergreifende Vernetzung und transparente Teamarbeit.',
+        "text": "Eine interaktive Plattform für interne Unternehmenskommunikation, die Wissensaustausch, Vernetzung, Kollaboration und Dialogfunktionen wie soziale Netzwerke vereint.",
+        "korrekt": true,
+        "erklaerung": "Ein Social Intranet wandelt die passive Einweg-Information (klassisches Intranet) in einen lebendigen Zwei-Wege-Dialog mit Likes, Kommentaren und Communities."
       },
       {
-        text: 'Ein öffentliches soziales Netzwerk im Internet, auf dem Kunden vertrauliche Produktdatenblätter weltweit frei einsehen können.',
-        korrekt: false,
-        erklaerung: 'Ein Intranet ist organisationsintern und geschützt, kein öffentliches soziales Medium wie Facebook oder Instagram.',
+        "text": "Eine öffentlich im Internet zugängliche Werbe-Webseite zur gezielten Schaltung bezahlter Stellenanzeigen in externen Jobportalen und Medien unter Berücksichtigung personeller und organisatorischer Rahmenbedingungen.",
+        "korrekt": false,
+        "erklaerung": "Ein Social Intranet ist ein geschützter interner Raum für Mitarbeiter und kein externes Recruiting-Portal."
       },
       {
-        text: 'Ein schwarzes Brett aus Kork im Pausenraum, an dem handschriftliche private Kleinanzeigen angeheftet werden.',
-        korrekt: false,
-        erklaerung: 'Dies ist ein analoges Hilfsmittel und besitzt keinerlei digitale, interaktive oder unternehmensweite Vernetzungskomponenten.',
+        "text": "Ein rein administratives Softwaresystem zur elektronischen Abwicklung der monatlichen Gehaltsabrechnung und gesetzlichen Sozialversicherungsbeiträge.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um Lohnverrechnungs- und Personaladministrationssoftware, nicht um ein kollaboratives Social Intranet."
       },
       {
-        text: 'Ein behördliches Verzeichnis der Krankenkassen zur Überprüfung von Sozialversicherungsnummern im Baugewerbe.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um eine staatliche Meldedatenbank, nicht um ein betriebliches Kollaborations-Intranet.',
-      },
+        "text": "Eine Software zur automatischen Überwachung und Protokollierung privater Social-Media-Aktivitäten von Mitarbeitern während der Freizeit.",
+        "korrekt": false,
+        "erklaerung": "Dies wäre datenschutzrechtlich unzulässige Mitarbeiterüberwachung; ein Social Intranet dient der internen Vernetzung und Zusammenarbeit."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 54,
-    bereich: 5,
-    frage: 'Welche Grundsätze wirksamer Führung kennen Sie?',
-    optionen: [
+    "id": 54,
+    "bereich": 5,
+    "frage": "Welche Grundsätze wirksamer Führung kennen Sie?",
+    "optionen": [
       {
-        text: 'Resultatorientierung, Beitrag zum Ganzen, Konzentration auf Weniges, Stärken nutzen, Vertrauen schaffen und Positiv denken (nach Malik).',
-        korrekt: true,
-        erklaerung: 'Fredmund Maliks Standardlehre umfasst diese fundamentalen Grundsätze, die wirksame Führungskräfte in jeder Organisation leiten müssen.',
+        "text": "Resultatorientierung, Beitrag zum Ganzen, Konzentration auf Weniges, Stärken nutzen, Vertrauen schaffen und Positiv denken (nach Malik).",
+        "korrekt": true,
+        "erklaerung": "Diese 6 Grundsätze nach Fredmund Malik definieren die handwerkliche Qualität und innere Haltung für wirksame Führung unabhängig von Branche oder Hierarchie."
       },
       {
-        text: 'Machtstreben, Perfektionismus, Informationszurückhaltung, Fehlerbestrafung und personelle Einzelkämpfer-Förderung.',
-        korrekt: false,
-        erklaerung: 'Diese Punkte kennzeichnen dysfunktionale Führung und zerstören Wirksamkeit, Vertrauen und Leistungsbereitschaft.',
+        "text": "Machtstreben, Perfektionismus, Informationszurückhaltung, strenge Fehlerbestrafung und personelle Einzelkämpfer-Förderung im Team.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt toxische Verhaltensweisen, die Vertrauen zerstören, Mitarbeiter demotivieren und die Wirksamkeit von Organisationen schwächen."
       },
       {
-        text: 'Bedingungslose Arbeitszeitmaximierung, ständige Überstunden und vollständige Abschaffung privater Wochenenden.',
-        korrekt: false,
-        erklaerung: 'Wirksamkeit misst sich an Resultaten, nicht an unproduktiver physischer Anwesenheit oder Raubbau an der Gesundheit.',
+        "text": "Planen, Organisieren, Entscheiden, Kontrollieren, Entwickeln und Fördern aller operativen Arbeitsprozesse im Unternehmensbereich im operativen und strategischen Geschäftsalltag der Organisation.",
+        "korrekt": false,
+        "erklaerung": "Dies sind Management-Aufgaben (was eine Führungskraft tut), nicht die qualitativen Grundsätze wirksamer Führung (wie sie es tut)."
       },
       {
-        text: 'Ausschließlich das Streben nach persönlicher Beliebtheit bei völliger Gleichgültigkeit gegenüber betrieblichen Ergebnissen.',
-        korrekt: false,
-        erklaerung: 'Wirksame Führung erfordert Resultatorientierung; reine Beliebtheitssucht führt zu Führungsschwäche und Orientierungslosigkeit.',
-      },
+        "text": "Agilität leben, Scrum etablieren, Hierarchien auflösen, Konsens erzwingen und Homeoffice für alle Mitarbeiter verbindlich anordnen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind Methoden und Organisationsformen modernen Arbeitens, aber keine universell gültigen Grundsätze wirksamer Führung nach Malik."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 55,
-    bereich: 5,
-    frage: 'Was bedeutet der Grundsatz Verantwortung übernehmen?',
-    optionen: [
+    "id": 55,
+    "bereich": 5,
+    "frage": "Was bedeutet der Grundsatz Verantwortung übernehmen?",
+    "optionen": [
       {
-        text: 'Für die Konsequenzen der eigenen Entscheidungen und Handlungen uneingeschränkt einzustehen und Ursachen von Fehlern bei sich selbst zu suchen.',
-        korrekt: true,
-        erklaerung: 'Verantwortung bedeutet Rechenschaftsfähigkeit und Vorbildfunktion: Keine Ausflüchte, keine Schuldzuweisungen an Mitarbeiter oder widrige Umstände.',
+        "text": "Für die Konsequenzen der eigenen Entscheidungen und Handlungen uneingeschränkt einzustehen und Ursachen von Fehlern bei sich selbst zu suchen.",
+        "korrekt": true,
+        "erklaerung": "Verantwortung heißt Vorbild sein: Nicht die Umstände oder andere beschuldigen, sondern proaktiv handeln und für Resultate geradestehen."
       },
       {
-        text: 'Alle unangenehmen Aufgaben sofort auf untergeordnete Mitarbeiter abzuwälzen und sich selbst im Fehlerfall als unbeteiligt darzustellen.',
-        korrekt: false,
-        erklaerung: 'Dies ist feiges Abschieben von Verantwortung («Delegation nach unten») und das Gegenteil wahrer Führungsethik.',
+        "text": "Unangenehme Aufgaben und unerwartete Fehlschläge im Projektverlauf primär auf externe Berater oder unterstellte Mitarbeiter im Team abzuschieben.",
+        "korrekt": false,
+        "erklaerung": "Das Abwälzen von Schuld («Blame Game») untergräbt die Glaubwürdigkeit und zerstört das Vertrauen im gesamten Team."
       },
       {
-        text: 'Vor jeder Handlung einen schriftlichen Haftungsausschluss von der Geschäftsleitung einzufordern.',
-        korrekt: false,
-        erklaerung: 'Führung verlangt Mut zum Risiko und Handlungsbereitschaft, nicht bürokratische Absicherung gegen jede Eventualität.',
+        "text": "Sich vor jeder Führungs- und Managementhandlung durch schriftliche Freizeichnungserklärungen der Geschäftsleitung gegen persönliche Risiken abzusichern.",
+        "korrekt": false,
+        "erklaerung": "Übervorsichtige Absicherungsmentalität lähmt unternehmerisches Handeln und widerspricht gelebter Führungsverantwortung."
       },
       {
-        text: 'Ausschließlich juristische Paragrafen zu prüfen, ohne jemals eine unternehmerische Entscheidung zu fällen.',
-        korrekt: false,
-        erklaerung: 'Reine Paragrafenreiterei verhindert unternehmerisches Gestalten und ersetzt keine persönliche Führungsverantwortung.',
-      },
+        "text": "Ausschließlich die disziplinarische Haftung für gravierendes Fehlverhalten von Mitarbeitern vor Gericht oder Arbeitsbehörden rechtlich abzuwehren.",
+        "korrekt": false,
+        "erklaerung": "Verantwortung im Führungsalltag ist eine moralische und operative Gestaltungsaufgabe, keine rein juristische Prozessverteidigung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 56,
-    bereich: 5,
-    frage: 'Was heißt für Sie Ergebnisverantwortung übernehmen?',
-    optionen: [
+    "id": 56,
+    "bereich": 5,
+    "frage": "Was heißt für Sie Ergebnisverantwortung übernehmen?",
+    "optionen": [
       {
-        text: 'Sich nicht am Aufwand oder Fleiß, sondern an der tatsächlichen Erreichung der vereinbarten qualitativen und quantitativen Zielresultate messen zu lassen.',
-        korrekt: true,
-        erklaerung: 'Ergebnisverantwortung fragt: «Was ist am Ende herausgekommen?» – nicht: «Wie viel Mühe oder Überstunden hat es gekostet?» (Output statt Input).',
+        "text": "Sich nicht am Aufwand oder Fleiß, sondern an der tatsächlichen Erreichung der vereinbarten qualitativen und quantitativen Zielresultate messen zu lassen.",
+        "korrekt": true,
+        "erklaerung": "Ergebnisverantwortung bedeutet: Entscheidend ist, was am Ende herauskommt (Output) und welchen Nutzen es stiftet, nicht wie viel Zeit investiert wurde."
       },
       {
-        text: 'Die Dokumentation von möglichst vielen Arbeitsstunden in Excel ohne Rücksicht auf den tatsächlichen Kundennutzen.',
-        korrekt: false,
-        erklaerung: 'Das bloße Zählen von Arbeitsstunden ist Aufwandsorientierung («Beschäftigtsein») und steht der Ergebnisorientierung entgegen.',
+        "text": "Den formalen Nachweis von möglichst vielen geleisteten Überstunden und randvollen Terminkalendern als primären Leistungsbeleg im Betrieb vorzulegen.",
+        "korrekt": false,
+        "erklaerung": "Reiner Fleiß und Anwesenheit («Präsentismus») sind Inputgrößen; sie garantieren für sich genommen noch kein wertschöpfendes Ergebnis."
       },
       {
-        text: 'Die sofortige Weiterleitung aller Zielvorgaben an externe Lieferanten mit dem Vermerk «Zur Erledigung ohne Rücksprache».',
-        korrekt: false,
-        erklaerung: 'Ergebnisverantwortung bleibt bei der Führungskraft und kann nicht durch simple Weiterleitung delegiert werden.',
+        "text": "Bei Nichterreichen vereinbarter Kennzahlen die Schuld stets auf konjunkturelle Schwankungen, veränderte Marktbedingungen oder Lieferverzögerungen abzuwälzen.",
+        "korrekt": false,
+        "erklaerung": "Eine Rechtfertigungshaltung verhindert Lernerfahrungen und widerspricht der Übernahme echter Ergebnisverantwortung."
       },
       {
-        text: 'Das Verschweigen von negativen Zahlen im Quartalsbericht, um Diskussionen im Team zu vermeiden.',
-        korrekt: false,
-        erklaerung: 'Ergebnisverantwortung verlangt schonungslose Transparenz und Aufrichtigkeit gegenüber Ist-Abweichungen.',
-      },
+        "text": "Sämtliche Zielvereinbarungen am Jahresanfang bewusst so niedrig anzusetzen, dass eine hundertprozentige Übererfüllung ohne jede Anstrengung garantiert ist.",
+        "korrekt": false,
+        "erklaerung": "Zielmanipulation zur Risikominimierung behindert echte Höchstleistungen und verfehlt den unternehmerischen Sinn von Zielen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 57,
-    bereich: 5,
-    frage: 'Was bedeutet der Grundsatz «Beitrag leisten»?',
-    optionen: [
+    "id": 57,
+    "bereich": 5,
+    "frage": "Was bedeutet der Grundsatz «Beitrag leisten»?",
+    "optionen": [
       {
-        text: 'Das eigene Handeln stets am Nutzen für das Gesamtsystem und den Kunden auszurichten: «Was kann ich beitragen, damit das Ganze erfolgreich ist?».',
-        korrekt: true,
-        erklaerung: 'Dieser Grundsatz überwindet Silodenken und Bereichsegoismus: Der Mitarbeiter fragt nach seinem Beitrag zum übergeordneten Unternehmenszweck.',
+        "text": "Das eigene Handeln stets am Nutzen für das Gesamtsystem und den Kunden auszurichten: «Was kann ich beitragen, damit das Ganze erfolgreich ist?».",
+        "korrekt": true,
+        "erklaerung": "Peter Drucker und Fredmund Malik betonen: Wirksame Menschen fragen nicht nach Titeln oder Rechten, sondern nach ihrem konkreten Beitrag zum Gesamterfolg."
       },
       {
-        text: 'Monatlich einen festen Geldbetrag aus der eigenen Tasche in die Kaffeekasse der Abteilung einzuzahlen.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff «Beitrag» fälschlicherweise als monetäre Spende statt als organisationsbezogenen Leistungsbeitrag.',
+        "text": "Die eigenen Karrierechancen im Unternehmen gezielt zu maximieren, unabhängig davon, ob die eigene Abteilung einen messbaren Mehrwert erwirtschaftet.",
+        "korrekt": false,
+        "erklaerung": "Reines Karrieredenken stellt das persönliche Fortkommen über den Unternehmenszweck und widerspricht dem Gedanken des Beitrags."
       },
       {
-        text: 'Ausschließlich darauf zu achten, was das Unternehmen für die eigene Karriere tun kann, ohne selbst Leistung zu erbringen.',
-        korrekt: false,
-        erklaerung: 'Dies ist eine reine Anspruchshaltung («Entitlement-Denken»), die dem Beitragsleisten diametral widerspricht.',
+        "text": "Möglichst viele anspruchsvolle Aufgaben an benachbarte Fachabteilungen zu delegieren, um das eigene Team budgetär und zeitlich spürbar zu schonen.",
+        "korrekt": false,
+        "erklaerung": "Silo- und Abteilungsdenken schadet dem Gesamtunternehmen und führt zu internen Reibungsverlusten statt gemeinsamer Wertschöpfung."
       },
       {
-        text: 'Das Verfassen von möglichst vielen Leserbriefen an regionale Tageszeitungen während der regulären Dienstzeit.',
-        korrekt: false,
-        erklaerung: 'Leserbriefe leisten keinen Beitrag zu den Zielen der Organisation oder den Bedürfnissen der Kunden.',
-      },
+        "text": "Ausschließlich vertraglich festgelegte Minimalpflichten ohne jede Eigeninitiative nach dem bekannten Prinzip «Dienst nach Vorschrift» zu erfüllen.",
+        "korrekt": false,
+        "erklaerung": "Dienst nach Vorschrift beschränkt sich auf formale Anwesenheit, leistet jedoch keinen proaktiven Beitrag zur Weiterentwicklung der Organisation."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 58,
-    bereich: 5,
-    frage: 'Was hat George A. Miller festgestellt?',
-    optionen: [
+    "id": 58,
+    "bereich": 5,
+    "frage": "Was hat George A. Miller festgestellt?",
+    "optionen": [
       {
-        text: 'Die Begrenztheit des menschlichen Kurzzeitgedächtnisses auf ca. 7 (± 2) Informationseinheiten («Chunks»), was die Konzentration auf Weniges erfordert.',
-        korrekt: true,
-        erklaerung: 'George A. Millers berühmte Arbeit «The Magical Number Seven, Plus or Minus Two» (1956) belegt unsere kognitive Kapazitätsgrenze bei gleichzeitiger Informationsverarbeitung.',
+        "text": "Die Begrenztheit des menschlichen Kurzzeitgedächtnisses auf ca. 7 (± 2) Informationseinheiten («Chunks»), was die Konzentration auf Weniges erfordert.",
+        "korrekt": true,
+        "erklaerung": "Millers berühmte Zahl 7 (± 2) belegt kognitive Engpässe: Führungskräfte dürfen sich und Teams nicht mit zu vielen Prioritäten gleichzeitig überfordern."
       },
       {
-        text: 'Dass Menschen am produktivsten arbeiten, wenn sie mindestens fünfzehn Aufgaben gleichzeitig im Sekundentakt wechseln.',
-        korrekt: false,
-        erklaerung: 'Miller zeigte das Gegenteil: Multitasking überlastet das Arbeitsgedächtnis drastisch und führt zu Fehlern und Effizienzverlusten.',
+        "text": "Dass Wissensarbeiter am produktivsten arbeiten, wenn sie parallel mehr als zehn komplexe Aufgaben und Projekte gleichzeitig im Blick behalten.",
+        "korrekt": false,
+        "erklaerung": "Multitasking senkt die Produktivität nachweislich und erhöht die Fehlerquote, was Millers Erkenntnissen diametral widerspricht."
       },
       {
-        text: 'Dass Führungskräfte grundsätzlich keinen Kaffee trinken sollten, da Koffein die Merkfähigkeit auf null reduziert.',
-        korrekt: false,
-        erklaerung: 'Millers kognitionspsychologische Forschung untersuchte Informationseinheiten (Chunks) und keine Koffeineffekte.',
+        "text": "Dass die Arbeitsmotivation von Mitarbeitern im Büro primär von der Raumgröße, Beleuchtungsstärke und der ergonomischen Ausstattung abhängt.",
+        "korrekt": false,
+        "erklaerung": "Raumfaktoren wurden in den Hawthorne-Studien untersucht; George A. Miller forschte zur Kognitionspsychologie und Speicherkapazität."
       },
       {
-        text: 'Dass jedes Unternehmen exakt nach sieben Monaten zwingend seine gesamte Geschäftsführung austauschen muss.',
-        korrekt: false,
-        erklaerung: 'Miller forschte zur Informationsverarbeitung des Gehirns, nicht zu Personalwechselzyklen in Vorständen.',
-      },
+        "text": "Dass Menschen in Arbeitsgruppen grundsätzlich genau die Hälfte ihrer individuellen Leistungsfähigkeit einbüßen (Ringelmann-Effekt).",
+        "korrekt": false,
+        "erklaerung": "Der Leistungsabfall in Gruppen (soziales Faulenzen) geht auf Max Ringelmann zurück, nicht auf George A. Miller."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 59,
-    bereich: 5,
-    frage: 'Wie erklären Sie das «Eisenhower Prinzip»?',
-    optionen: [
+    "id": 59,
+    "bereich": 5,
+    "frage": "Wie erklären Sie das «Eisenhower Prinzip»?",
+    "optionen": [
       {
-        text: 'Kategorisierung von Aufgaben nach Wichtigkeit und Dringlichkeit in 4 Felder: A (sofort selbst), B (terminieren), C (delegieren) und D (eliminieren).',
-        korrekt: true,
-        erklaerung: 'Die Eisenhower-Matrix trennt Dringlichkeit (oft fremdbestimmt) von wahrer Wichtigkeit (zielrelevant), um Zeitfresser zu vermeiden und strategische B-Aufgaben zu sichern.',
+        "text": "Kategorisierung von Aufgaben nach Wichtigkeit und Dringlichkeit in 4 Felder: A (sofort selbst), B (terminieren), C (delegieren) und D (eliminieren).",
+        "korrekt": true,
+        "erklaerung": "Das Eisenhower-Prinzip schützt vor der Dringlichkeitsfalle: Wesentlich für den langfristigen Erfolg sind B-Aufgaben (wichtig, aber nicht eilig)."
       },
       {
-        text: 'Ein militärischer Angriffsplan zur Eroberung ausländischer Märkte durch den massiven Einsatz von Werbeplakaten.',
-        korrekt: false,
-        erklaerung: 'Obwohl nach General Dwight D. Eisenhower benannt, ist es ein Zeit- und Selbstmanagementwerkzeug zur Aufgabenpriorisierung.',
+        "text": "Klassifizierung von Mitarbeitern nach Fachkompetenz und Motivation zur Ermittlung des passenden Führungsstils im Führungsalltag zur Steigerung von Transparenz, Verbindlichkeit und Ergebnisqualität.",
+        "korrekt": false,
+        "erklaerung": "Die Einteilung nach Kompetenz und Motivation gehört zur Reifegradtheorie von Hersey und Blanchard, nicht zum Eisenhower-Prinzip."
       },
       {
-        text: 'Ein Ernährungsplan für Manager zur Senkung des Cholesterinspiegels durch den Verzicht auf zuckerhaltige Snacks.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt Prioritätenmanagement mit diätetischen Ernährungsempfehlungen.',
+        "text": "Chronologische Abarbeitung aller eingehenden Aufgaben streng nach dem Eingangsstempel («First In, First Out») im täglichen Bürobetrieb.",
+        "korrekt": false,
+        "erklaerung": "FIFO ignoriert Prioritäten vollkommen; das Eisenhower-Prinzip filtert strikt nach Dringlichkeit und Wichtigkeit."
       },
       {
-        text: 'Die Anweisung, alle schriftlichen Dokumente nach genau vier Tagen ungelesen im Archiv zu verbrennen.',
-        korrekt: false,
-        erklaerung: 'Das Eisenhower-Prinzip ist eine strukturierte Entscheidungsmethode zur Aufgabenorganisation und keine Aktenvernichtungsrichtlinie.',
-      },
+        "text": "Ein systematisches Verfahren zur Analyse von Stärken, Schwächen, Chancen und Risiken im strategischen Marketing (SWOT-Analyse).",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die SWOT-Analyse, welche für Marktanalysen genutzt wird, aber kein individuelles Selbstmanagement-Tool ist."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 60,
-    bereich: 5,
-    frage: 'Welche Zeitspartipps kennen Sie?',
-    optionen: [
+    "id": 60,
+    "bereich": 5,
+    "frage": "Welche Zeitspartipps kennen Sie?",
+    "optionen": [
       {
-        text: 'Bündelung gleichartiger Aufgaben (Batching), Timeboxing, Vermeidung von Multitasking, Einplanen von Pufferzeiten und konsequentes Neinsagen.',
-        korrekt: true,
-        erklaerung: 'Diese erprobten Methoden des Selbstmanagements reduzieren Rüstzeiten und Unterbrechungen und schaffen Fokus für strategische Prioritäten.',
+        "text": "Bündelung gleichartiger Aufgaben (Batching), Timeboxing, Vermeidung von Multitasking, Einplanen von Pufferzeiten und konsequentes Neinsagen.",
+        "korrekt": true,
+        "erklaerung": "Diese praxiserprobten Selbstmanagement-Techniken minimieren Rüstzeiten, verhindern Verzettelung und schaffen fokussierte Arbeitsblöcke."
       },
       {
-        text: 'Uhren im gesamten Büro um zwei Stunden vorstellen und Mitarbeitern den Zugriff auf den Kalender sperren.',
-        korrekt: false,
-        erklaerung: 'Das Verstellen von Uhren erzeugt Verwirrung und behebt keine strukturellen Zeitmanagement-Probleme.',
+        "text": "Paralleles Beantworten von Kunden-E-Mails während wichtiger Verhandlungen zur Maximierung des täglichen Arbeitsvolumens im Außendienst.",
+        "korrekt": false,
+        "erklaerung": "Multitasking stört die Aufmerksamkeit im Gespräch, vermittelt Geringschätzung und führt zu kostspieligen Missverständnissen."
       },
       {
-        text: 'Niemals schlafen, Mahlzeiten komplett streichen und alle E-Mails ungelesen als «Erledigt» markieren.',
-        korrekt: false,
-        erklaerung: 'Dies führt zu gesundheitlichem Zusammenbruch und chaotischen Arbeitsergebnissen statt zu echter Zeiteffizienz.',
+        "text": "Vollständiger Verzicht auf schriftliche Tagespläne und rein spontanes Abarbeiten der jeweils lautesten Beschwerden im operativen Team.",
+        "korrekt": false,
+        "erklaerung": "Reines Reagieren auf Zuruf macht fremdbestimmt und verhindert konzentriertes Arbeiten an wichtigen strategischen Prioritäten."
       },
       {
-        text: 'Telefonate grundsätzlich nur in doppelter Sprechgeschwindigkeit führen, ohne dem Gesprächspartner zuzuhören.',
-        korrekt: false,
-        erklaerung: 'Verzerrte Kommunikation provoziert Missverständnisse, die im Nachgang viel mehr Zeit zur Korrektur verschlingen.',
-      },
+        "text": "Tägliches Verschieben aller anspruchsvollen strategischen Aufgaben auf das Quartalsende, um das Tagesgeschäft lückenlos abzuwickeln.",
+        "korrekt": false,
+        "erklaerung": "Aufschieberitis (Prokrastination) erzeugt enormen Termindruck und mindert die Qualität strategischer Entscheidungen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 61,
-    bereich: 5,
-    frage: 'Wie schaffen Sie als Führungskraft «Vertrauen»?',
-    optionen: [
+    "id": 61,
+    "bereich": 5,
+    "frage": "Wie schaffen Sie als Führungskraft «Vertrauen»?",
+    "optionen": [
       {
-        text: 'Durch Verlässlichkeit und Worttreue («Walk the talk»), ehrliche Wertschätzung, transparente Kommunikation und das Einräumen von Handlungsspielräumen.',
-        korrekt: true,
-        erklaerung: 'Vertrauen entsteht durch Berechenbarkeit, Integrität und den Mut, Mitarbeitern Verantwortung zu übertragen und bei Fehlern konstruktiv zu unterstützen.',
+        "text": "Durch Verlässlichkeit und Worttreue («Walk the talk»), ehrliche Wertschätzung, transparente Kommunikation und das Einräumen von Handlungsspielräumen.",
+        "korrekt": true,
+        "erklaerung": "Vertrauen wächst durch berechenbares, integres Verhalten: Zusagen einhalten, Erfolge teilen, bei Fehlern fair bleiben und Freiräume gewähren."
       },
       {
-        text: 'Indem man allen Mitarbeitern täglich verspricht, ihr Gehalt zum Monatsende heimlich zu verdoppeln.',
-        korrekt: false,
-        erklaerung: 'Falsche oder unrealistische Versprechungen zerstören Glaubwürdigkeit und Vertrauen fundamental.',
+        "text": "Durch lückenlose Überprüfung aller Zwischenergebnisse und tägliche schriftliche Rechenschaftsberichte jedes einzelnen Mitarbeiters im Team.",
+        "korrekt": false,
+        "erklaerung": "Engmaschige Kontrollrituale signalisieren grundlegendes Misstrauen und ersticken Motivation und Initiative im Team."
       },
       {
-        text: 'Durch die Installation versteckter Mikrofone an den Schreibtischen, um böswillige Gerüchte sofort zu widerlegen.',
-        korrekt: false,
-        erklaerung: 'Heimliche Überwachung ist der ultimative Ausdruck von Misstrauen und vernichtet jedes Vertrauensverhältnis im Keim.',
+        "text": "Indem man Mitarbeitern unrealistische Karriereschritte verspricht, um die kurzfristige Motivation vor wichtigen Projektabschlüssen hochzuhalten.",
+        "korrekt": false,
+        "erklaerung": "Uneinlösbare Versprechen werden rasch durchschaut und vernichten jedes Vertrauen in die Integrität der Führungskraft."
       },
       {
-        text: 'Indem man niemals persönliche Gespräche führt und Kritik ausschließlich über unpersönliche Rundmails äußert.',
-        korrekt: false,
-        erklaerung: 'Vertrauen basiert auf authentischem menschlichem Kontakt und Resonanz, nicht auf anonymer Distanz.',
-      },
+        "text": "Durch systematische Vermeidung jeglicher kritischer Leistungsrückmeldungen, um persönliche Spannungen im Team grundsätzlich auszuschließen in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Falsche Harmonie verhindert Entwicklung; ehrliches, konstruktives Feedback ist ein Zeichen von Wertschätzung und schafft Klarheit."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 62,
-    bereich: 5,
-    frage: 'Was ist der Unterschied zwischen extrinsischer und intrinsischer Motivation?',
-    optionen: [
+    "id": 62,
+    "bereich": 5,
+    "frage": "Was ist der Unterschied zwischen extrinsischer und intrinsischer Motivation?",
+    "optionen": [
       {
-        text: 'Intrinsische Motivation speist sich aus der Freude und Sinnhaftigkeit des Tuns selbst; extrinsische Motivation wird durch äußere Anreize wie Geld, Boni oder Strafvermeidung gesteuert.',
-        korrekt: true,
-        erklaerung: 'Intrinsisch motivierte Mitarbeiter handeln aus innerem Antrieb (Selbstbestimmungstheorie nach Deci/Ryan); extrinsische Reize wirken von außen als Belohnung oder Druck.',
+        "text": "Intrinsische Motivation speist sich aus der Freude und Sinnhaftigkeit des Tuns selbst; extrinsische Motivation wird durch äußere Anreize wie Geld, Boni oder Strafvermeidung gesteuert.",
+        "korrekt": true,
+        "erklaerung": "Intrinsisch motivierte Mitarbeiter handeln aus innerem Antrieb (Autonomie, Kompetenz, Sinn); extrinsische Anreize wirken oft nur kurzfristig."
       },
       {
-        text: 'Intrinsische Motivation existiert ausschließlich bei Vorstandsmitgliedern, während Mitarbeiter am Fließband biologisch nur extrinsisch fühlen können.',
-        korrekt: false,
-        erklaerung: 'Intrinsische Motive (Autonomie, Kompetenzerleben, Sinn) sind universelle menschliche Grundbedürfnisse auf allen Hierarchieebenen.',
+        "text": "Intrinsische Motivation wird ausschließlich durch Gehaltserhöhungen und Sonderzahlungen geweckt, während extrinsische Motivation aus der persönlichen inneren Haltung kommt im Rahmen moderner Führungs- und Organisationsstrukturen.",
+        "korrekt": false,
+        "erklaerung": "Hier wurden die Begriffe exakt vertauscht: Finanzieller Lohn ist von außen zugeführt (extrinsisch), innere Freude ist intrinsisch."
       },
       {
-        text: 'Extrinsische Motivation bedeutet, dass man freiwillig ohne Gehalt arbeitet; intrinsische Motivation verlangt tägliche Sonderzahlungen.',
-        korrekt: false,
-        erklaerung: 'Hier wurden die Begriffe exakt vertauscht: Extrinsische Motivation verlangt äußere materielle Anreize, nicht intrinsische.',
+        "text": "Intrinsische Motivation ist wissenschaftlich nur bei leitenden Führungskräften vorhanden, während gewerbliche Mitarbeiter ausschließlich extrinsisch motivierbar sind.",
+        "korrekt": false,
+        "erklaerung": "Intrinsische Motivation ist ein allgemeines menschliches Bedürfnis und keineswegs auf Führungskräfte oder bestimmte Berufssparten beschränkt."
       },
       {
-        text: 'Beide Begriffe bezeichnen exakt denselben chemischen Vorgang im Magen-Darm-Trakt während der Mittagspause.',
-        korrekt: false,
-        erklaerung: 'Motivation ist ein psychologisches und neurobiologisches Antriebskonzept und kein Verdauungsvorgang.',
-      },
+        "text": "Beide Motivationsarten sind in der modernen Neurobiologie vollkommen identisch und beschreiben denselben biologischen Prozess der simplen Reiz-Reaktions-Kopplung.",
+        "korrekt": false,
+        "erklaerung": "In der Motivationspsychologie (z. B. Selbstbestimmungstheorie von Deci & Ryan) wird strikt zwischen autonomen und kontrollierten Motiven unterschieden."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 63,
-    bereich: 5,
-    frage: 'Was heißt bei wirksamer Führung «Resultatorientierung»?',
-    optionen: [
+    "id": 63,
+    "bereich": 5,
+    "frage": "Was heißt bei wirksamer Führung «Resultatorientierung»?",
+    "optionen": [
       {
-        text: 'Leistung konsequent am tatsächlichen, wertschöpfenden Ergebnis (Output) zu messen und nicht an bloßem Fleiß, Anwesenheit oder betriebiger Beschäftigung (Input).',
-        korrekt: true,
-        erklaerung: 'Nach Fredmund Malik ist Resultatorientierung der erste Grundsatz: Es zählt, was am Ende bewirkt wurde – nicht, wie viel Aufwand getrieben oder gelitten wurde.',
+        "text": "Leistung konsequent am tatsächlichen, wertschöpfenden Ergebnis (Output) zu messen und nicht an bloßem Fleiß, Anwesenheit oder betriebiger Beschäftigung (Input).",
+        "korrekt": true,
+        "erklaerung": "Fredmund Malik stellt klar: Betriebswirtschaftlich zählt das erzielte Resultat für den Kunden, nicht der persönliche Schweiß oder die investierten Stunden."
       },
       {
-        text: 'Dass Führungskräfte alle Arbeiten selbst bis spät in die Nacht fertigstellen müssen, um Fehler zu vermeiden.',
-        korrekt: false,
-        erklaerung: 'Selbstüberlastung und fehlende Delegation sind Zeichen von Führungsschwäche und haben nichts mit systematischer Resultatorientierung zu tun.',
+        "text": "Ausschließlich die Anzahl der im Büro physisch verbrachten Arbeitsstunden und den gefühlten persönlichen Fleiß als primären Leistungsmaßstab heranzuziehen.",
+        "korrekt": false,
+        "erklaerung": "Dies verwechselt Input (Aufwand) mit Output (Ergebnis) und begünstigt unproduktive Scheingeschäftigkeit im Betrieb."
       },
       {
-        text: 'Dass man ausschließlich auf das nächste Quartalsergebnis starrt und dafür die Gesundheit aller Mitarbeiter opfert.',
-        korrekt: false,
-        erklaerung: 'Malik betont nachhaltige Wirksamkeit; rücksichtsloser Raubbau zerstört die langfristige Erbringung von Resultaten.',
+        "text": "Das kompromisslose Erzielen kurzfristiger Quartalsgewinne unter bewusster Inkaufnahme des langfristigen Verlusts von Kundenvertrauen und Mitarbeitergesundheit zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Kurzfristige Ausbeutung widerspricht nachhaltiger Resultatorientierung, die auf dauerhafte Wertschöpfung und Stabilität abzielt."
       },
       {
-        text: 'Dass Arbeitsergebnisse erst nach zehn Jahren bewertet werden dürfen, um emotionale Reaktionen auszuschließen.',
-        korrekt: false,
-        erklaerung: 'Resultatorientierung verlangt zeitnahe Rückkopplung, Messung und Steuerung anhand klar vereinbarter Ziele.',
-      },
+        "text": "Das dogmatische Festhalten an starren Projektplänen, selbst wenn das ursprüngliche Projektergebnis am Markt keinen Kundennutzen mehr stiftet.",
+        "korrekt": false,
+        "erklaerung": "Planungshörigkeit ohne Blick auf den tatsächlichen Nutzen verfehlt den Kern wahrer Resultatorientierung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 64,
-    bereich: 5,
-    frage: 'Worauf muss die Führungskraft als «Coach» aufpassen?',
-    optionen: [
+    "id": 64,
+    "bereich": 5,
+    "frage": "Worauf muss die Führungskraft als «Coach» aufpassen?",
+    "optionen": [
       {
-        text: 'Keine fertigen Ratschläge zu diktieren, die Lösungsverantwortung beim Mitarbeiter zu belassen und die Grenze zu Disziplinarmaßnahmen und Therapie zu wahren.',
-        korrekt: true,
-        erklaerung: 'Im Coaching ist die Führungskraft Prozessbegleiter, nicht Besserwisser. Sie hilft dem Mitarbeiter durch zielgerichtete Fragen, eigene Lösungen zu entwickeln.',
+        "text": "Keine fertigen Ratschläge zu diktieren, die Lösungsverantwortung beim Mitarbeiter zu belassen und die Grenze zu Disziplinarmaßnahmen und Therapie zu wahren.",
+        "korrekt": true,
+        "erklaerung": "Coaching ist «Hilfe zur Selbsthilfe». Die Führungskraft unterstützt durch gezielte Fragen, überlässt aber dem Coachee das Finden und Umsetzen der Lösung."
       },
       {
-        text: 'Dass der Mitarbeiter während des Gesprächs keinen Blickkontakt aufnimmt und militärisch Haltung annimmt.',
-        korrekt: false,
-        erklaerung: 'Coaching erfordert partnerschaftliche Augenhöhe, Empathie und Vertrauen, keinen Kasernenhofdrill.',
+        "text": "Dem Mitarbeiter sofort alle schwierigen Aufgaben und Problemlösungen abzunehmen, sobald im Gespräch erste fachliche Zweifel oder Hürden aufkommen.",
+        "korrekt": false,
+        "erklaerung": "Das Übernehmen der Arbeit entmündigt Mitarbeiter und verhindert deren persönliche und fachliche Weiterentwicklung."
       },
       {
-        text: 'Dass das Gespräch ausschließlich in absoluter Dunkelheit stattfindet, um optische Täuschungen zu vermeiden.',
-        korrekt: false,
-        erklaerung: 'Dies ist eine absurde Vorstellung; Coaching erfordert ein angenehmes, helles und geschütztes Umfeld.',
+        "text": "Das vertrauliche Coaching-Gespräch als verdecktes Disziplinierungs- und Beurteilungsgespräch für anstehende Gehaltseinstufungen oder Kündigungen zu nutzen.",
+        "korrekt": false,
+        "erklaerung": "Der Missbrauch eines Entwicklungsgesprächs für Sanktionen zerstört die für Coaching unabdingbare Vertrauensbasis."
       },
       {
-        text: 'Dem Mitarbeiter sofort alle schwierigen Aufgaben abzunehmen und für ihn die Arbeit zu erledigen.',
-        korrekt: false,
-        erklaerung: 'Dies entmündigt den Mitarbeiter und erzeugt unselbstständige Abhängigkeit («Rückdelegation»), anstatt Potenziale zu entwickeln.',
-      },
+        "text": "Ausschließlich theoretische Lehrbuchvorträge zu halten, ohne auf die konkreten Praxisherausforderungen und Fragen des Mitarbeiters einzugehen.",
+        "korrekt": false,
+        "erklaerung": "Frontalunterricht ist kein Coaching; Coaching setzt an den konkreten individuellen Herausforderungen des Coachees an."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 65,
-    bereich: 5,
-    frage: 'Was ist der innere Rollenkonflikt beim Coaching und wie bekommen Sie diesen in den Griff?',
-    optionen: [
+    "id": 65,
+    "bereich": 5,
+    "frage": "Was ist der innere Rollenkonflikt beim Coaching und wie bekommen Sie diesen in den Griff?",
+    "optionen": [
       {
-        text: 'Der Spagat zwischen wohlwollender Entwicklungsbegleitung und disziplinarischer Beurteilungsmacht; Lösung durch Transparenz und strikte Trennung der Gesprächsanlässe.',
-        korrekt: true,
-        erklaerung: 'Die Führungskraft ist nie ein völlig neutraler externer Coach. Sie löst diesen Konflikt, indem sie ihre Rollen («Hüte») explizit benennt und Beurteilung von Coaching trennt.',
+        "text": "Der Spagat zwischen wohlwollender Entwicklungsbegleitung und disziplinarischer Beurteilungsmacht; Lösung durch Transparenz und strikte Trennung der Gesprächsanlässe.",
+        "korrekt": true,
+        "erklaerung": "Führungskräfte sind gleichzeitig Förderer und Beurteiler. Klare Rollenklärung zu Beginn und die Trennung von Feedback- und Beurteilungsgesprächen schaffen Sicherheit."
       },
       {
-        text: 'Der Konflikt zwischen Hunger und Müdigkeit; Lösung durch den sofortigen Verzehr von Traubenzucker vor dem Meeting.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um körperliche Grundbedürfnisse, nicht um einen führungstheoretischen Rollenkonflikt.',
+        "text": "Der Widerspruch zwischen strategischer Unternehmensplanung und operativer Zeiterfassung; Lösung durch Einführung moderner Projektmanagement-Tools im operativen und strategischen Geschäftsalltag der Organisation.",
+        "korrekt": false,
+        "erklaerung": "Dies ist ein sachlicher Aufgabenkonflikt der Organisation, nicht der personelle Rollenkonflikt einer coachenden Führungskraft."
       },
       {
-        text: 'Der Streit zwischen Einkauf und Vertrieb über Rabatte; Lösung durch die Erhöhung der Werbeausgaben um zwanzig Prozent.',
-        korrekt: false,
-        erklaerung: 'Dies ist ein interner Abteilungskonflikt in der Organisation, kein intrapsychischer Rollenkonflikt der Führungskraft im Coaching.',
+        "text": "Der anhaltende Streit zwischen Vertrieb und Einkauf über Konditionen und Rabatte; Lösung durch hierarchische Schlichtung auf Geschäftsführungsebene.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um einen interdisziplinären Schnittstellenkonflikt zwischen zwei Abteilungen, keinen individuellen Rollenkonflikt."
       },
       {
-        text: 'Die Unentschlossenheit bei der Farbwahl der Krawatte; Lösung durch die Einführung einer schwarz-weißen Einheitskleidung.',
-        korrekt: false,
-        erklaerung: 'Äußerliche Kleidungsfragen stellen keinen professionellen Führungs- oder Coachingkonflikt dar.',
-      },
+        "text": "Die Rivalität zwischen zwei Mitarbeitern um dieselbe Beförderungsstelle; Lösung durch Vergabe von fiktiven Teamtiteln an beide Streitparteien.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt einen zwischenmenschlichen Konkurrenzkampf im Team, nicht den inneren Rollenspagat der Führungskraft."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 66,
-    bereich: 5,
-    frage: 'Welche 8 Kontrollfragen während des Coaching-Gesprächs würden Sie sich stellen?',
-    optionen: [
+    "id": 66,
+    "bereich": 5,
+    "frage": "Welche 8 Kontrollfragen während des Coaching-Gesprächs würden Sie sich stellen?",
+    "optionen": [
       {
-        text: 'Reflexionsfragen zur Gesprächsführung: Zuhören, Wertfreiheit, Zurückhalten eigener Ratschläge, Zielklarheit, Redezeitanteil, Emotionen, Lösungsautonomie und Verbindlichkeit.',
-        korrekt: true,
-        erklaerung: 'Diese 8 Kontrollfragen dienen der inneren Selbststeuerung des Coaches: Bin ich präsent? Frage ich statt zu sagen? Liegt die Verantwortung beim Coachee? Ist das Ziel klar?',
+        "text": "Höre ich aktiv zu? Halte ich Pausen aus? Gebe ich Lösungen vor? Bleibe ich empathisch neutral? Verstehe ich das Kernanliegen? Sind Ziele klar? Wer redet mehr? Was ist der nächste Schritt?",
+        "korrekt": true,
+        "erklaerung": "Diese Reflexionsfragen stellen sicher, dass der Coach nicht in die Beraterfalle tappt, den Redeanteil beim Coachee belässt und das Gespräch zielorientiert führt."
       },
       {
-        text: 'Acht Fragen zur steuerlichen Absetzbarkeit von Büromöbeln nach den Vorgaben der Einkommensteuerrichtlinien.',
-        korrekt: false,
-        erklaerung: 'Steuerrechtliche Fragen haben keinerlei Bezug zur methodischen Gesprächssteuerung im Coaching.',
+        "text": "Reicht die Redezeit für meinen Vortrag? Habe ich alle Einwände widerlegt? Zeigt der Mitarbeiter Reue? Wird die Weisung befolgt? Wann gibt es Boni? Wer protokolliert? Ist die Strafe verhängt? Wann endet das Meeting?",
+        "korrekt": false,
+        "erklaerung": "Diese Fragen spiegeln ein autoritäres Befragungs- oder Disziplinierungsgespräch wider, keine Haltung eines lösungsorientierten Coaches."
       },
       {
-        text: 'Acht mathematische Kontrollrechnungen zur Ermittlung des Benzinverbrauchs des Firmenfuhrparks auf der Autobahn.',
-        korrekt: false,
-        erklaerung: 'Fuhrparklogistik berührt nicht die führungsmethodische Qualität eines Coaching-Gesprächs.',
+        "text": "Wurden alle Präsentationsfolien gezeigt? Funktioniert die Konferenztechnik? Passt das Unternehmensdesign? Wurden Getränke bereitgestellt? Ist der Raum gelüftet? Wer führt Protokoll? Wann beginnt die Pause? Wurde die Anwesenheit erfasst?",
+        "korrekt": false,
+        "erklaerung": "Dies sind organisatorische und administrative Checkfragen zur Raum- und Besprechungsverwaltung, keine psychologischen Coaching-Kontrollfragen."
       },
       {
-        text: 'Acht Fragen zur Überprüfung der Rechtschreibkenntnisse des Mitarbeiters bei handschriftlichen Notizen.',
-        korrekt: false,
-        erklaerung: 'Rechtschreibtests sind kein Bestandteil eines wertschätzenden lösungsorientierten Mitarbeitercoachings.',
-      },
+        "text": "Welche Kennzahlen wurden im Quartal verfehlt? Wer trägt die Hauptschuld? Wie hoch ist der finanzielle Schaden? Wann greift die Versicherung? Wer informiert die Rechtsabteilung? Welche Abmahnungen sind nötig? Gibt es Pressemeldungen? Wann tagt der Vorstand?",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet ein juristisches Krisen- und Schadensmanagement nach schweren Fehlern, kein personelles Coaching-Setting."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 67,
-    bereich: 5,
-    frage: 'Was bedeutet der Begriff Führungsspanne?',
-    optionen: [
+    "id": 67,
+    "bereich": 5,
+    "frage": "Was bedeutet der Begriff Führungsspanne?",
+    "optionen": [
       {
-        text: 'Die Anzahl der Mitarbeiter, die einer Führungskraft organisatorisch direkt disziplinarisch oder fachlich unterstellt sind.',
-        korrekt: true,
-        erklaerung: 'Die Führungsspanne (auch Kontrollspanne, Leitungsspanne oder «Span of Control») definiert die Breite der Führungsverantwortung auf einer Hierarchieebene.',
+        "text": "Die Anzahl der Mitarbeiter, die einer Führungskraft unmittelbar und direkt disziplinarisch unterstellt sind.",
+        "korrekt": true,
+        "erklaerung": "Die Leitungs- oder Führungsspanne («Span of Control») bezeichnet die Zahl der direkt an eine Führungskraft berichtenden Mitarbeiter."
       },
       {
-        text: 'Der zeitliche Abstand zwischen dem ersten Bewerbungsgespräch und dem Tag der feierlichen Verabschiedung in den Ruhestand.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt die Betriebszugehörigkeitsdauer eines Mitarbeiters, nicht die Führungsspanne.',
+        "text": "Die zeitliche Dauer, die eine Führungskraft durchschnittlich in derselben Managementposition im Unternehmen verbleibt.",
+        "korrekt": false,
+        "erklaerung": "Dies bezeichnet die Verweildauer oder Amtszeit («Tenure») einer Führungskraft, nicht die organisatorische Führungsspanne."
       },
       {
-        text: 'Die maximale körperliche Spannweite der Arme einer Führungskraft bei Präsentationen vor der Belegschaft.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff «Spanne» buchstäblich anatomisch, entbehrt jedoch jeglicher betriebswirtschaftlicher Bedeutung.',
+        "text": "Die räumliche Distanz in Metern zwischen dem Schreibtisch der Führungskraft und dem Arbeitsplatz der Teammitglieder.",
+        "korrekt": false,
+        "erklaerung": "Räumliche Entfernungen betreffen das Arbeitsplatzlayout oder Remote-Modelle, haben jedoch nichts mit dem Begriff der Führungsspanne zu tun."
       },
       {
-        text: 'Die gesetzlich vorgeschriebene Dauer einer Betriebsratssitzung in börsennotierten Aktiengesellschaften.',
-        korrekt: false,
-        erklaerung: 'Betriebsratsmodalitäten sind arbeitsverfassungsrechtlich geregelt und definieren keine Führungsspanne.',
-      },
+        "text": "Die prozentuale Gehaltsspanne zwischen dem niedrigsten und dem höchsten Einkommen innerhalb einer Fachabteilung.",
+        "korrekt": false,
+        "erklaerung": "Dies ist die Entgeltspreizung oder Einkommensbandbreite, keine führungsstrukturelle Kennzahl."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 68,
-    bereich: 5,
-    frage: 'Was ist die optimale Führungsspanne?',
-    optionen: [
+    "id": 68,
+    "bereich": 5,
+    "frage": "Was ist die optimale Führungsspanne?",
+    "optionen": [
       {
-        text: 'Es gibt keine starre Zahl; sie hängt von Aufgabenkomplexität und Reifegrad ab – ca. 4–8 bei anspruchsvollen Fachaufgaben, deutlich mehr bei stark standardisierter Routine.',
-        korrekt: true,
-        erklaerung: 'Je komplexer, kreativer und vernetzter die Arbeit, desto enger muss die Spanne sein (ca. 4–8 nach Malik). Bei homogenen, repetitiven Tätigkeiten sind 15–25 führbar.',
+        "text": "Es gibt keine pauschale Zahl; sie hängt von Aufgabenkomplexität, Standardisierungsgrad, Qualifikation der Mitarbeiter und Führungsstil ab (oft 4–10 Personen).",
+        "korrekt": true,
+        "erklaerung": "Bei komplexen, kreativen Tätigkeiten ist eine kleinere Spanne nötig (z. B. 4–7); bei stark standardisierten Routinearbeiten kann sie deutlich größer sein."
       },
       {
-        text: 'Exakt ein Mitarbeiter pro Führungskraft, um die restliche Arbeitszeit vollständig für private Telefonate zu nutzen.',
-        korrekt: false,
-        erklaerung: 'Eine 1:1-Spanne ist ökonomisch ineffizient und führt zu erdrückender Überwachung («Mikromanagement»).',
+        "text": "Gesetzlich vorgeschrieben sind im österreichischen Arbeits- und Gewerberecht exakt 15 direkt unterstellte Mitarbeiter pro Führungskraft für alle Branchen.",
+        "korrekt": false,
+        "erklaerung": "Es gibt keinerlei gesetzliche Vorschrift für Führungsspannen; es handelt sich um eine betriebswirtschaftliche Organisationsentscheidung."
       },
       {
-        text: 'Grundsätzlich immer mindestens fünfhundert Mitarbeiter, völlig unabhängig von der Branche oder Branchentätigkeit.',
-        korrekt: false,
-        erklaerung: 'Fünfhundert Direktunterstellte übersteigen jede menschliche Beziehungs- und Steuerungskapazität bei Weitem.',
+        "text": "Grundsätzlich gilt in der Managementlehre: Je mehr Mitarbeiter direkt unterstellt sind (ideal über 50), desto effektiver und persönlicher ist die Führung.",
+        "korrekt": false,
+        "erklaerung": "Zu große Spannen führen zu Überlastung der Führungskraft, Vernachlässigung von Mitarbeitergesprächen und mangelnder Steuerungsfähigkeit."
       },
       {
-        text: 'Die optimale Zahl errechnet sich ausschließlich aus dem Geburtsmonat des Vorstandsvorsitzenden dividiert durch zwei.',
-        korrekt: false,
-        erklaerung: 'Organisationsstrukturen werden nach sachlichen und führungspsychologischen Notwendigkeiten dimensioniert, nicht nach astrologischen Zufällen.',
-      },
+        "text": "Im modernen agilen Management beträgt die wissenschaftlich empfohlene optimale Führungsspanne stets exakt ein Mitarbeiter pro Vorgesetztem.",
+        "korrekt": false,
+        "erklaerung": "Eine 1:1-Zuordnung wäre ineffizient und würde unnötig tiefe Hierarchiestufen erzeugen, was agilen Prinzipien widerspricht."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 69,
-    bereich: 6,
-    frage: 'Was bedeutet das Kauf-Verhalten von Kunden?',
-    optionen: [
+    "id": 69,
+    "bereich": 6,
+    "frage": "Was bedeutet das Kauf-Verhalten von Kunden?",
+    "optionen": [
       {
-        text: 'Das beobachtbare und psychologische Verhalten von Konsumenten vor, während und nach dem Kauf von Produkten oder Dienstleistungen.',
-        korrekt: true,
-        erklaerung: 'Die Kaufverhaltensforschung untersucht Bedürfnisse, Informationssuche, Entscheidungsfindung, Kaufakt und Nachkaufzufriedenheit bzw. Kundenloyalität.',
+        "text": "Die Gesamtheit aller beobachtbaren Handlungen und psychologischen Prozesse von Personen im Zusammenhang mit der Auswahl, dem Kauf und der Nutzung von Gütern.",
+        "korrekt": true,
+        "erklaerung": "Kaufverhalten umfasst den gesamten Prozess: Bedarfsentstehung, Informationssuche, Alternativenbewertung, Kaufakt sowie Nachkaufverhalten und Zufriedenheit."
       },
       {
-        text: 'Ausschließlich das Tippen der vierstelligen PIN-Nummer am EC-Kartenterminal an der Ladenkasse.',
-        korrekt: false,
-        erklaerung: 'Dies ist ein bloßer technischer Zahlungsschritt, deckt aber nicht die psychologische und verhaltensbiologische Dimension des Kaufverhaltens ab.',
+        "text": "Das ausschließliche Begleichen einer offenen Rechnung an der Kasse mittels digitaler Zahlungsverfahren oder durch Barzahlung vor Ort.",
+        "korrekt": false,
+        "erklaerung": "Der Bezahlvorgang ist lediglich der technische Abschlussakt, beschreibt jedoch nicht das vielschichtige Kaufverhalten davor und danach."
       },
       {
-        text: 'Das juristische Eigentum an der Firmenimmobilie des Einzelhändlers nach grundbücherlicher Eintragung.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um Immobilienrecht, nicht um kaufpsychologisches Konsumentenverhalten.',
+        "text": "Die logistische Kommissionierung, Verpackung und termingerechte Auslieferung von Waren aus dem Zentrallager an den Facheinzelhandel.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt warenwirtschaftliche Logistikprozesse der Distribution, nicht das Konsumenten- bzw. Kaufverhalten der Kunden."
       },
       {
-        text: 'Die Gehgeschwindigkeit der Kunden auf dem Parkplatz vor dem Betreten des Einkaufszentrums.',
-        korrekt: false,
-        erklaerung: 'Bewegungstempo auf dem Vorplatz ist keine Definition für das ganzheitliche Kaufverhalten.',
-      },
+        "text": "Die juristische Überprüfung der Allgemeinen Geschäftsbedingungen durch die Rechtsabteilung vor dem förmlichen Vertragsabschluss im Betrieb zur Steigerung von Transparenz, Verbindlichkeit und Ergebnisqualität.",
+        "korrekt": false,
+        "erklaerung": "Dies ist eine rechtliche Vertragskontrolle, die das psychologische und praktische Konsumverhalten der Kunden nicht abbildet."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 70,
-    bereich: 6,
-    frage: 'Wie heißen die 4 Arten des Kaufverhaltens?',
-    optionen: [
+    "id": 70,
+    "bereich": 6,
+    "frage": "Wie heißen die 4 Arten des Kaufverhaltens?",
+    "optionen": [
       {
-        text: 'Komplexes, dissonanzminderndes, habituelles (gewohnheitsmäßiges) und abwechslungssuchendes (Variety-Seeking) Kaufverhalten.',
-        korrekt: true,
-        erklaerung: 'Nach Kotler/Assael spannen Involvement (hoch/niedrig) und wahrgenommene Markenunterschiede (groß/gering) diese 4 klassischen Kaufverhaltensarten auf.',
+        "text": "Echtes (extensives), gewohnheitsmäßiges (habituelles), limitiertes (vereinfachtes) sowie impulsives (emotionales) Kaufverhalten.",
+        "korrekt": true,
+        "erklaerung": "Diese klassische Typologie (nach Kroeber-Riel/Weinberg) differenziert nach dem Grad der kognitiven Steuerung und dem emotionalen Involvement."
       },
       {
-        text: 'Geiziges, verschwenderisches, blindes und unverschämtes Kaufverhalten.',
-        korrekt: false,
-        erklaerung: 'Dies sind umgangssprachliche Werturteile, keine wissenschaftlich fundierten Kaufverhaltenskategorien.',
+        "text": "Rationales, spekulatives, hochriskantes und vermögensverwaltendes Kaufverhalten an internationalen Wertpapier- und Devisenbörsen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind Kategorien aus der Finanzmarkt- und Börsentheorie, nicht die konsumentenpsychologischen Grundarten des Kaufverhaltens."
       },
       {
-        text: 'Morgendliches, mittägliches, abendliches und nächtliches Kaufverhalten.',
-        korrekt: false,
-        erklaerung: 'Tageszeiten beschreiben bloße Einkaufszeitpunkte, nicht die psychologischen Typen des Kaufverhaltens.',
+        "text": "Stationäres, rein digitales, mobiles und telefonisches Kaufverhalten nach der Art des genutzten Vertriebs- und Kommunikationskanals.",
+        "korrekt": false,
+        "erklaerung": "Dies unterscheidet Einkaufsstätten und Absatzkanäle, nicht die psychologischen Entscheidungsprozesse beim Kauf."
       },
       {
-        text: 'Bares, unbares, gestundetes und verpfändetes Kaufverhalten.',
-        korrekt: false,
-        erklaerung: 'Dies sind rein kaufmännische Zahlungsarten und Buchungsbegriffe, keine Arten des Konsumentenverhaltens.',
-      },
+        "text": "Primäres, sekundäres, tertiäres und quartäres Konsumverhalten nach der volkswirtschaftlichen Gliederung in Wirtschaftssektoren.",
+        "korrekt": false,
+        "erklaerung": "Dies sind volkswirtschaftliche Sektoren (Rohstoffe, Industrie, Dienstleistungen, Information), keine Arten des Kaufverhaltens."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 71,
-    bereich: 6,
-    frage: 'Was sind Emotionen und wo entstehen diese?',
-    optionen: [
+    "id": 71,
+    "bereich": 6,
+    "frage": "Was sind Emotionen und wo entstehen diese?",
+    "optionen": [
       {
-        text: 'Psychophysiologische Reaktionsmuster auf bedeutsame Reize; sie entstehen neurobiologisch primär im limbischen System des Gehirns.',
-        korrekt: true,
-        erklaerung: 'Emotionen (u. a. gesteuert durch Amygdala, Hippocampus, Belohnungszentrum) bereiten den Körper auf Handlungen vor und steuern unbewusst Entscheidungen.',
+        "text": "Psychophysiologische Reaktionsmuster auf relevante Reize zur Handlungssteuerung; neurobiologisch entstehen sie maßgeblich im limbischen System (u. a. Amygdala).",
+        "korrekt": true,
+        "erklaerung": "Emotionen bewerten Situationen blitzschnell und bereiten Reaktionen vor. Das limbische System ist das zentrale neuronale Netzwerk für emotionale Prozesse."
       },
       {
-        text: 'Rein willkürliche Muskelkrämpfe im Oberschenkel, die durch zu langes Stehen in Warteschlangen verursacht werden.',
-        korrekt: false,
-        erklaerung: 'Emotionen sind komplexe neuronale und seelische Zustände im Gehirn, keine orthopädischen Muskelkrämpfe.',
+        "text": "Rein kognitive mathematische Rechenoperationen zur Kosten-Nutzen-Optimierung, die ausschließlich in der Großhirnrinde (Kortex) ablaufen im Kontext moderner Führungspsychologie und Kundenorientierung.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt rein logisch-analytische Denkprozesse; Emotionen haben eine tiefere evolutionäre und neurochemische Basis im limbischen System."
       },
       {
-        text: 'Gedruckte Buchstabencodes in Bedienungsanleitungen technischer Haushaltsgeräte.',
-        korrekt: false,
-        erklaerung: 'Schriftliche Instruktionen sind sachliche Informationsträger und entstehen in Druckereien, nicht als Gefühle im Gehirn.',
+        "text": "Angeborene motorische Schutzreflexe des Bewegungsapparats, die autonom im Rückenmark ohne jede Beteiligung des Gehirns ausgelöst werden.",
+        "korrekt": false,
+        "erklaerung": "Rückenmarksreflexe sind rein motorische Schutzmechanismen und haben keinen Zusammenhang mit komplexen Emotionen und Werturteilen."
       },
       {
-        text: 'Gesetzlich festgelegte Feiertage im Kalenderjahr, die vom Parlament beschlossen werden.',
-        korrekt: false,
-        erklaerung: 'Gesetzliche Feiertage sind juristische Vorgaben und haben nichts mit neurobiologischen Emotionen zu tun.',
-      },
+        "text": "Willentlich und rational gesteuerte moralische Grundsätze, die im sensorischen Sprachzentrum des menschlichen Schläfenlappens gebildet werden.",
+        "korrekt": false,
+        "erklaerung": "Emotionen laufen weitgehend unbewusst und automatisch ab; das Sprachzentrum verarbeitet Worte, erzeugt jedoch keine Emotionen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 72,
-    bereich: 6,
-    frage: 'Was sind Emotionssysteme und welche kennen Sie?',
-    optionen: [
+    "id": 72,
+    "bereich": 6,
+    "frage": "Was sind Emotionssysteme und welche kennen Sie?",
+    "optionen": [
       {
-        text: 'Evolutionsbiologisch gewachsene Motivsysteme im Gehirn; nach dem Limbic®-Modell: Balance-System, Stimulanz-System und Dominanz-System.',
-        korrekt: true,
-        erklaerung: 'Diese drei großen Emotionssysteme steuern das menschliche Handeln und Kaufen: Balance (Sicherheit), Stimulanz (Erlebnis/Neugier) und Dominanz (Macht/Status).',
+        "text": "Neurobiologische Grundsysteme zur Verhaltenssteuerung im Gehirn nach Häusel: Balance-System (Sicherheit), Stimulanz-System (Neugier) und Dominanz-System (Macht).",
+        "korrekt": true,
+        "erklaerung": "Die «Limbic®»-Emotionssysteme nach Dr. Hans-Georg Häusel bestimmen maßgeblich alle menschlichen Wünsche, Motive und Kaufentscheidungen."
       },
       {
-        text: 'Elektronische Kassenprogramme zur Erfassung von Barcode-Preisen im Supermarkt.',
-        korrekt: false,
-        erklaerung: 'Kassensysteme sind Informationstechnologie und haben keinen Bezug zu neurobiologischen Emotionssystemen.',
+        "text": "Psychologische Abwehrmechanismen nach der Psychoanalyse von Sigmund Freud: Verdrängung, Projektion, Sublimierung und unbewusste Reaktionsbildung.",
+        "korrekt": false,
+        "erklaerung": "Dies sind klassische psychoanalytische Abwehrmechanismen zur Angstbewältigung, keine neurobiologischen Emotionssysteme im Marketing."
       },
       {
-        text: 'Drei meteorologische Wetterlagen: Regenfront, Hochdruckgebiet und Kälteeinbruch.',
-        korrekt: false,
-        erklaerung: 'Atmosphärische Wetterlagen sind Gegenstand der Meteorologie, nicht der Neuroökonomie.',
+        "text": "Die vier überlieferten Temperamentstypen nach der antiken Vier-Säfte-Lehre: Choleriker, Sanguiniker, Phlegmatiker und melancholische Typen.",
+        "korrekt": false,
+        "erklaerung": "Die historische Vier-Säfte-Lehre ist medizinhistorisch überholt und bildet keine moderne Grundlage der Konsumenten-Neurobiologie."
       },
       {
-        text: 'Musikalische Tonleitern in Dur, Moll und Pentatonik für Chorgesänge.',
-        korrekt: false,
-        erklaerung: 'Tonleitern gehören zur Harmonielehre der Musik, nicht zu den Emotionssystemen des Gehirns.',
-      },
+        "text": "Die fünf empirischen Persönlichkeitsfaktoren des psychologischen Big-Five-Modells: Neurotizismus, Extraversion, Offenheit, Verträglichkeit und Gewissenhaftigkeit.",
+        "korrekt": false,
+        "erklaerung": "Das Big-Five-Modell beschreibt Persönlichkeitseigenschaften (Traits), aber nicht die handlungstreibenden Emotionssysteme im Gehirn."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 73,
-    bereich: 6,
-    frage: 'Wer hat das Limbic®-System entwickelt und wie erklären Sie die Emotionssysteme?',
-    optionen: [
+    "id": 73,
+    "bereich": 6,
+    "frage": "Wer hat das Limbic®-System entwickelt und wie erklären Sie die Emotionssysteme?",
+    "optionen": [
       {
-        text: 'Dr. Hans-Georg Häusel; das Modell verknüpft Neurowissenschaft mit Psychologie und ordnet Motive den Polen Balance (Sicherheit), Stimulanz (Abenteuer) und Dominanz (Macht) zu.',
-        korrekt: true,
-        erklaerung: 'Häusel entwickelte den Limbic®-Ansatz für Marketing und Vertrieb, der zeigt, dass über 80 % aller Entscheidungen emotional und unbewusst im Gehirn gefällt werden.',
+        "text": "Hans-Georg Häusel; das Modell erklärt Konsumentenverhalten über die drei Emotionssysteme Balance (Stabilität), Stimulanz (Erlebnis) und Dominanz (Status).",
+        "korrekt": true,
+        "erklaerung": "Dr. Hans-Georg Häusel übertrug Erkenntnisse der Hirnforschung ins Marketing (Limbic® Map). Zwischen den Systemen liegen Mischwerte wie Abenteuer oder Disziplin."
       },
       {
-        text: 'Albert Einstein im Rahmen seiner allgemeinen Relativitätstheorie über die Krümmung von Raum und Zeit.',
-        korrekt: false,
-        erklaerung: 'Einstein war theoretischer Physiker; der Limbic®-Marketing-Ansatz stammt vom Neuropsychologen Hans-Georg Häusel.',
+        "text": "Paul Ekman; das psychologische Modell beschreibt universelle mimische Gesichtsausdrücke bei den Basisemotionen Wut, Freude, Trauer, Ekel und Angst.",
+        "korrekt": false,
+        "erklaerung": "Paul Ekman ist führend in der Erforschung von Mikromimik und Basisemotionen, entwickelte jedoch nicht das Limbic®-System für Marketing."
       },
       {
-        text: 'Henry Ford zur Einführung des Fließbandes bei der Automobilfertigung des Modells T.',
-        korrekt: false,
-        erklaerung: 'Ford revolutionierte industrielle Fertigungsmethoden, forschte jedoch nicht zu neurobiologischen Emotionssystemen.',
+        "text": "Daniel Kahneman; das ökonomische Modell unterteilt menschliches Denken in das schnelle intuitive System 1 und das langsame analytische System 2 in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Kahneman begründete die Verhaltensökonomie mit System 1 und 2, während Häusel die spezifischen neurobiologischen Emotionssysteme erforschte."
       },
       {
-        text: 'Kurt Lewin zur Erforschung von Laissez-faire-Gruppen im Schulunterricht.',
-        korrekt: false,
-        erklaerung: 'Lewin erforschte Sozialpsychologie und Führungsstile in den 1930er Jahren; Limbic® entstand viel später durch Häusel.',
-      },
+        "text": "Philip Kotler; das klassische Konzept gliedert absatzpolitische Marketingstrategien in Product, Price, Place und Promotion (Marketing-Mix).",
+        "korrekt": false,
+        "erklaerung": "Philip Kotler systematisierte das klassische Marketingmanagement, nicht die Neuromarketing-Struktur des Limbic®-Systems."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 74,
-    bereich: 6,
-    frage: 'Was ist das Stimulanzsystem?',
-    optionen: [
+    "id": 74,
+    "bereich": 6,
+    "frage": "Was ist das Stimulanzsystem?",
+    "optionen": [
       {
-        text: 'Das neurobiologische System für Neugier, Entdeckerdrang, Abwechslung, Spiel und Belohnung; sein Ziel ist das Erleben von Neuem und die Vermeidung von Langeweile.',
-        korrekt: true,
-        erklaerung: 'Das Stimulanzsystem (angetrieben durch Dopamin) lässt Kunden nach Innovationen, Trends, Überraschungen und Kicks streben.',
+        "text": "Das neurobiologische System für Neugier, Entdeckerdrang, Abwechslung, Belohnung und das Vermeiden von Langeweile (Neurotransmitter Dopamin).",
+        "korrekt": true,
+        "erklaerung": "Das Stimulanzsystem treibt Innovationen, Erlebniskäufe und Begeisterung für Neues an; sein wichtigster Neurotransmitter ist Dopamin."
       },
       {
-        text: 'Das Angst- und Vorsorgesystem, das ausschließlich darauf ausgerichtet ist, Geld auf dem Sparbuch vor Inflation zu schützen.',
-        korrekt: false,
-        erklaerung: 'Das Streben nach Sicherheit und Risikovermeidung ist die Kernaufgabe des Balance-Systems, nicht des Stimulanzsystems.',
+        "text": "Das neurobiologische System für Sicherheit, Risikovermeidung, Stabilität, Geborgenheit, Vertrautheit und Ordnung (Neurotransmitter Serotonin).",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt das Balance-System, das auf Risikovermeidung und Beständigkeit ausgerichtet ist."
       },
       {
-        text: 'Ein medizinisches Gerät zur Reanimation von Patienten mit Herzrhythmusstörungen im Krankenhaus.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um einen Defibrillator, nicht um das neuroökonomische Stimulanzsystem.',
+        "text": "Das neurobiologische System für Status, Durchsetzungskraft, Macht, Überlegenheit, Wettbewerb und Ressourcenkontrolle (Hormon Testosteron).",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt das Dominanz-System, bei dem es um Rangordnung, Leistung und Durchsetzung geht."
       },
       {
-        text: 'Das Kontrollsystem im Gehirn, das jeglichen Kaufimpuls kategorisch unterdrückt und Verkäufern Hausverbot erteilt.',
-        korrekt: false,
-        erklaerung: 'Das Stimulanzsystem regt vielmehr zu spontanen und begeisterten Käufen an, statt Käufe zu unterbinden.',
-      },
+        "text": "Das vegetative System zur autonomen Steuerung von Atmung, Blutdruck, Verdauung und Muskeltonus in akuten körperlichen Gefahrensituationen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind lebenserhaltende vegetative Funktionen des Hirnstamms, keine motivationalen Emotionssysteme."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 75,
-    bereich: 6,
-    frage: 'Was schaffen Emotionen im Kundengehirn und was bedeutet «emotionaler Wert»?',
-    optionen: [
+    "id": 75,
+    "bereich": 6,
+    "frage": "Was schaffen Emotionen im Kundengehirn und was bedeutet «emotionaler Wert»?",
+    "optionen": [
       {
-        text: 'Emotionen aktivieren Belohnungszentren und steuern Entscheidungen; der emotionale Wert verleiht Produkten eine seelische Bedeutung (Status, Geborgenheit, Freude) über den reinen Sachnutzen hinaus.',
-        korrekt: true,
-        erklaerung: 'Produkte mit emotionalem Wert (Branding) aktivieren das Gehirn stärker und erzeugen höhere Preisbereitschaft, da Menschen Gefühle und Identität kaufen.',
+        "text": "Emotionen aktivieren Belohnungszentren und verankern Marken im Gedächtnis; emotionaler Wert ist der subjektive Mehrwert jenseits rein funktionaler Produkteigenschaften.",
+        "korrekt": true,
+        "erklaerung": "Kunden kaufen Gefühle und Status (z. B. Sicherheit, Stolz, Zugehörigkeit). Der emotionale Wert macht Produkte unverwechselbar und rechtfertigt höhere Preise."
       },
       {
-        text: 'Emotionen zerstören jede kognitive Fähigkeit und führen dazu, dass Kunden ausnahmslos unbrauchbare Waren kaufen.',
-        korrekt: false,
-        erklaerung: 'Emotionen sind evolutionäre Navigationshilfen (somatische Marker nach Damasio) und für funktionierende Entscheidungen unverzichtbar.',
+        "text": "Emotionen blockieren rationale Kaufentscheidungen vollständig und führen nachweislich ausschließlich zu kaufmännischen Fehlinvestitionen im Konsum.",
+        "korrekt": false,
+        "erklaerung": "Neurowissenschaftlich belegt ist: Ohne Emotionen sind rationale Entscheidungen gar nicht möglich (Damasios somatische Marker)."
       },
       {
-        text: 'Emotionaler Wert ist der amtlich festgelegte Mehrwertsteuersatz auf Seifenprodukte im Drogeriemarkt.',
-        korrekt: false,
-        erklaerung: 'Mehrwertsteuersätze sind steuerrechtliche Festlegungen und haben keinen Bezug zum psychologischen emotionalen Produktwert.',
+        "text": "Emotionaler Wert bezeichnet den exakten buchhalterischen Restbuchwert eines gebrauchten Investitionsguts im aktiven Firmenanlagevermögen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist eine Verwechslung mit buchhalterischen Abschreibungswerten im Rechnungswesen."
       },
       {
-        text: 'Emotionen bewirken, dass Kunden im Ladenlokal sofort in lautes Weinen ausbrechen und den Einkauf abbrechen.',
-        korrekt: false,
-        erklaerung: 'Emotionen umfassen die gesamte Palette menschlicher Gefühle (Freude, Stolz, Sicherheit, Begeisterung), nicht nur Trauer.',
-      },
+        "text": "Emotionen haben im modernen B2B-Vertrieb keinerlei Bedeutung, da professionelle Geschäftskunden zu 100 % emotionslos und rein numerisch entscheiden.",
+        "korrekt": false,
+        "erklaerung": "Auch B2B-Entscheider sind Menschen: Emotionale Faktoren wie persönliche Risikovermeidung und Vertrauen wiegen bei Verhandlungen oft schwerer als reine Zahlen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 76,
-    bereich: 7,
-    frage: 'Welche Persönlichkeitsprofile von Verkäufern kennen Sie und erklären Sie diese?',
-    optionen: [
+    "id": 76,
+    "bereich": 7,
+    "frage": "Welche Persönlichkeitsprofile von Verkäufern kennen Sie und erklären Sie diese?",
+    "optionen": [
       {
-        text: 'Hard-Seller (abschlussorientiert/druckvoll), Kunden-Versteher (beziehungs- und bedarfsorientiert), Experten-Verkäufer (fach- und sachorientiert) sowie Beziehungs-Verwalter.',
-        korrekt: true,
-        erklaerung: 'In der Verkaufspsychologie unterscheidet man Verkäuferprofile nach ihrem Fokus auf Abschlussdruck, Fachwissen, Beziehungspflege oder partnerschaftliche Lösungsfindung.',
+        "text": "Profile wie Hard-Seller (abschlussorientiert), Beziehungsmanager/Kundenversteher (bedürfnisorientiert), beratender Experte (lösungsorientiert) sowie Hunter und Farmer.",
+        "korrekt": true,
+        "erklaerung": "In der Verkaufspsychologie werden diese Profile differenziert, da sie unterschiedliche Stärken in Neukundenakquise, Beratung und langfristiger Betreuung besitzen."
       },
       {
-        text: 'Einteilung in Langschläfer, Frühaufsteher, Vegetarier und Kaffeetrinker.',
-        korrekt: false,
-        erklaerung: 'Dies sind private Lebensgewohnheiten ohne führungstheoretische oder verkaufspsychologische Relevanz.',
+        "text": "Profile nach der Gehaltsstruktur: Reine Provisionsjäger, Festgehaltsempfänger, Teilhaber auf Erfolgsbasis und ehrenamtliche Markenbotschafter im Vertrieb zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Dies kategorisiert Vergütungs- und Vertragsformen, beschreibt jedoch keine verkaufspsychologischen Persönlichkeitsprofile."
       },
       {
-        text: 'Profile nach der Schuhgröße der Verkäufer von Größe 36 bis Größe 48.',
-        korrekt: false,
-        erklaerung: 'Körpermaße stehen in keinerlei Zusammenhang mit Persönlichkeitsmustern in Vertrieb und Verkauf.',
+        "text": "Profile nach dem Reisemittel: Außendienstfahrer, Bahnreisende, internationale Flugpendler und rein stationäre Telefonverkäufer im Callcenter.",
+        "korrekt": false,
+        "erklaerung": "Reisemittel und Mobilität sind organisatorische Rahmenbedingungen des Außendienstes, keine psychologischen Verkäuferprofile."
       },
       {
-        text: 'Ausschließlich die Unterteilung in Beamte, Angestellte und Arbeiter nach dem österreichischen Allgemeinen Bürgerlichen Gesetzbuch.',
-        korrekt: false,
-        erklaerung: 'Dies sind arbeitsrechtliche Beschäftigungskategorien, keine vertriebspsychologischen Verkäuferprofile.',
-      },
+        "text": "Profile nach Handelsrecht: Angestellte Handlungsgehilfen, selbstständige Handelsvertreter, Vertragshändler und Kommissionsagenten der Branche.",
+        "korrekt": false,
+        "erklaerung": "Dies sind handelsrechtliche Rechtsformen von Absatzmittlern, nicht verhaltensbasierte Verkäuferpersönlichkeiten."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 77,
-    bereich: 7,
-    frage: 'Was ist ein Hard-Seller?',
-    optionen: [
+    "id": 77,
+    "bereich": 7,
+    "frage": "Was ist ein Hard-Seller?",
+    "optionen": [
       {
-        text: 'Ein abschlussfixierter, dominanter Verkäufer, der mit starkem Verkaufsdruck, Überredungstaktiken und Einwandvorwegnahme auf den schnellen Vertragsabschluss drängt.',
-        korrekt: true,
-        erklaerung: 'Hard-Selling zielt auf kurzfristige Umsatzmaximierung ab («Push-Prinzip»); Nachteile sind hohe Stornoquoten und mangelnde nachhaltige Kundenloyalität.',
+        "text": "Ein abschlussfokussierter Verkäufertyp, der auf schnellen Verkaufsdruck setzt, Einwände forciert überwindet und primär die eigene Verkaufsquote im Blick hat.",
+        "korrekt": true,
+        "erklaerung": "Hard-Selling zielt auf den schnellen Einmalabschluss ab; es birgt das Risiko hoher Stornoquoten und schwacher langfristiger Kundenbindung."
       },
       {
-        text: 'Ein Handwerker, der im Baumarkt schwere Werkzeuge aus gehärtetem Spezialstahl verkauft.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt das englische Wort «Hard» materiell-stofflich, ignoriert jedoch die vertriebspsychologische Verhaltensweise.',
+        "text": "Ein empathischer Beziehungsmanager, der langfristige Kundenbindung, kontinuierliche Vertrauensarbeit und Kundenzufriedenheit über den sofortigen Geschäftsabschluss stellt.",
+        "korrekt": false,
+        "erklaerung": "Dies ist der Kundenversteher (Soft-Seller/Farmer), der partnerschaftlich berät und keinen aggressiven Druck ausübt."
       },
       {
-        text: 'Ein extrem scheuer Verkäufer, der sich hinter dem Regal versteckt und hofft, dass Kunden keine Fragen stellen.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt passive Verkaufsverweigerung; der Hard-Seller ist im Gegenteil forsch, dominant und hochgradig offensiv.',
+        "text": "Ein hochspezialisierter Fachexperte, der Kunden vor allem bei komplexen technischen Industrie- und IT-Architekturen ohne jede Verkaufsabsicht berät.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt den beratenden Experten (Consultative Seller / Presales), der lösungsorientiert und sachlich agiert."
       },
       {
-        text: 'Ein Programmierer, der Hard- und Softwarekomponenten in Firmennetzwerken installiert.',
-        korrekt: false,
-        erklaerung: 'Dies ist ein IT-Systemtechniker, kein Vertriebstyp im Kundengespräch.',
-      },
+        "text": "Ein kaufmännischer Sachbearbeiter im Vertriebsinnendienst, der ausschließlich bestehende Reklamationen, Retouren und Gutschriften administrativ verbucht.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um eine administrative Kundendiensttätigkeit ohne aktive vertriebliche Akquisitionsaufgabe."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 78,
-    bereich: 7,
-    frage: 'Was sind die Merkmale des Kunden-Versteher?',
-    optionen: [
+    "id": 78,
+    "bereich": 7,
+    "frage": "Was sind die Merkmale des Kunden-Versteher?",
+    "optionen": [
       {
-        text: 'Hohe Empathie, aktives Zuhören, partnerschaftliche Bedarfsanalyse auf Augenhöhe und das Bestreben, langfristiges Kundenvertrauen durch echte Problemlösung aufzubauen.',
-        korrekt: true,
-        erklaerung: 'Der Kunden-Versteher agiert als beratender Partner («Consultative Selling»); er stellt Fragen, hört genau hin und schafft nachhaltige Kundenbeziehungen.',
+        "text": "Empathisches Zuhören, tiefes Erforschen der Kundenmotive, partnerschaftlicher Vertrauensaufbau und Ausrichtung auf maßgeschneiderte, langfristige Kundenlösungen.",
+        "korrekt": true,
+        "erklaerung": "Der Kundenversteher berät auf Augenhöhe («Consultative Selling»): Er stellt gezielte Fragen, versteht die Kundenwelt und schafft nachhaltige Zufriedenheit."
       },
       {
-        text: 'Unterbrechung des Kunden nach jedem dritten Wort und sofortiges Aufdrängen des teuersten Ladenhüters.',
-        korrekt: false,
-        erklaerung: 'Dies ist aggressives Hard-Selling und steht dem empathischen Verhalten des Kunden-Verstehers diametral entgegen.',
+        "text": "Schnelles Überfahren von Kundenbedenken durch aggressive Rhetoriktricks und permanentes Drängen auf sofortige Vertragsunterzeichnung beim ersten Kontaktgespräch.",
+        "korrekt": false,
+        "erklaerung": "Aggressives Drängen und rhetorischer Druck kennzeichnen den Hard-Seller, nicht den einfühlsamen Kundenversteher."
       },
       {
-        text: 'Weigerung, mit Kunden zu sprechen, und Verweisung auf das Online-Bestellformular des Konkurrenzunternehmens.',
-        korrekt: false,
-        erklaerung: 'Dies ist geschäftsschädigende Kundenabwehr und keine vertriebliche Empathie.',
+        "text": "Einseitiges Abspulen standardisierter Produktkataloge und technischer Datenblätter ohne jedes Interesse an den tatsächlichen Zielen und Problemen des Kunden.",
+        "korrekt": false,
+        "erklaerung": "Produktzentriertes Monologisieren ignoriert Kundenbedürfnisse und steht im Widerspruch zum bedürfnisorientierten Kundenversteher."
       },
       {
-        text: 'Ausschließliches Interesse an der Unterzeichnung von Blanko-Schecks durch betagte Kunden ohne Kaufvertrag.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt kriminelle Betrugspraktiken, die mit seriöser Verkaufspsychologie nichts gemein haben.',
-      },
+        "text": "Vollständige Vermeidung persönlicher Beratungsgespräche und ausschließlicher Verweis des Kunden auf automatisierte FAQ-Seiten und Online-Bestellformulare.",
+        "korrekt": false,
+        "erklaerung": "Der Kundenversteher sucht den persönlichen Dialog und berät individuell, statt Kunden in die Anonymität abzuschieben."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 79,
-    bereich: 7,
-    frage: 'Welche 4 limbischen Kundenprofile kennen Sie?',
-    optionen: [
+    "id": 79,
+    "bereich": 7,
+    "frage": "Welche 4 limbischen Kundenprofile kennen Sie?",
+    "optionen": [
       {
-        text: 'Harmoniser/Bewahrer (Sicherheit/Balance), Performer/Sieger (Status/Dominanz), Abenteurer/Hedonist (Spaß/Stimulanz) und Disziplinierte/Rationalist (Kontrolle/Fakten).',
-        korrekt: true,
-        erklaerung: 'Diese 4 Hauptprofile leiten sich aus Häusels Limbic® Map für den Vertrieb ab und spiegeln die dominante emotionale Motivationsstruktur des Käufers wider.',
+        "text": "Harmonisierer (Balance), Performer (Dominanz), Abenteurer/Hedonist (Stimulanz) sowie Disziplinierter/Bewahrer (Balance & Dominanz).",
+        "korrekt": true,
+        "erklaerung": "Die Limbic® Types nach Häusel leiten sich aus der Verortung in den Emotionssystemen ab und ermöglichen zielgenaue Kundenansprache."
       },
       {
-        text: 'Fröhliche, traurige, wütende und müde Kunden nach der Tagesform beim Betreten des Geschäftes.',
-        korrekt: false,
-        erklaerung: 'Dies sind flüchtige emotionale Stimmungen, keine fundierten neurobiologischen Kundenpersönlichkeitsprofile.',
+        "text": "Schnäppchenjäger, Großkunde mit Rahmenvertrag, Kleinkunde und Gelegenheitskäufer nach dem durchschnittlichen jährlichen Warenkorbwert im Unternehmen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist eine kaufmännische Kundensegmentierung nach Umsatzvolumen (ABC-Analyse), keine neuropsychologische Typologie."
       },
       {
-        text: 'Käufer mit Hut, Käufer mit Brille, Käufer mit Schirm und Käufer mit Rucksack.',
-        korrekt: false,
-        erklaerung: 'Kleidungsaccessoires geben keinen verlässlichen Aufschluss über die limbischen Motivsysteme im Gehirn.',
+        "text": "Erstkäufer, Wiederholungskäufer, loyaler Stammkunde und abwanderungsgefährdeter Kunde nach den formalen Phasen des typischen Kundenbeziehungszyklus.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt Phasen im Kundenbeziehungsmanagement (Customer Lifetime Cycle), nicht limbische Persönlichkeitsprofile."
       },
       {
-        text: 'Kunden aus dem Norden, Kunden aus dem Süden, Kunden aus dem Osten und Kunden aus dem Westen.',
-        korrekt: false,
-        erklaerung: 'Geografische Himmelsrichtungen sind keine psychologischen Persönlichkeitsmuster im Limbic®-Vertriebsmodell.',
-      },
+        "text": "Frühphasen-Innovator, Frühe Mehrheit, Späte Mehrheit und traditionelle Nachzügler nach dem soziologischen Diffusionsmodell von Everett Rogers.",
+        "korrekt": false,
+        "erklaerung": "Das Diffusionsmodell von Everett Rogers beschreibt die gesellschaftliche Innovationsadoption, nicht die limbischen Typen."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 80,
-    bereich: 7,
-    frage: 'Wie beschreiben Sie den Kundentyp «Performer»?',
-    optionen: [
+    "id": 80,
+    "bereich": 7,
+    "frage": "Wie beschreiben Sie den Kundentyp «Performer»?",
+    "optionen": [
       {
-        text: 'Dominanz- und statusorientiert, ehrgeizig, schätzt Premium-Qualität, Exklusivität, messbaren Nutzen, schnelle Entscheidungen und respektiert selbstbewusstes Auftreten.',
-        korrekt: true,
-        erklaerung: 'Der Performer will gewinnen und sich abheben. Verkäufer überzeugen ihn durch Kompetenz, Nutzenklarheit, Schnelligkeit und Respekt vor seinem Status.',
+        "text": "Status-, ziel- und leistungsorientiert; schätzt Exklusivität, Effizienz, Professionalität und den Beweis von Qualitäts- und Wettbewerbsvorteilen.",
+        "korrekt": true,
+        "erklaerung": "Der Performer (Dominanz-System) will Erfolg, Überlegenheit und Anerkennung. Verkäufer überzeugen ihn durch Kompetenz, Prestige und messbare Vorteile."
       },
       {
-        text: 'Extrem risikoscheu, sucht monatelang nach Garantiezertifikaten und kauft grundsätzlich nur gebrauchte Auslaufmodelle.',
-        korrekt: false,
-        erklaerung: 'Dies charakterisiert den sicherheitsorientierten Bewahrer (Balance-Fokus), nicht den erfolgs- und statusgetriebenen Performer.',
+        "text": "Stark sicherheitsbedürftig und risikoavers; verlangt ausführliche Garantiezertifikate, Prüfsiegel und langjährige Referenzen vor jeder Zusage.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet den Bewahrer oder Harmonisierer (Balance-System), der Risiken minimieren und Bewährtes sichern will."
       },
       {
-        text: 'Ein Kunde, der im Verkaufsraum Gesangsdarbietungen aufführt und Verkäufer mit Konfetti bewirft.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff «Performer» fälschlicherweise als Bühnendarsteller im Theater, ignoriert aber das Persönlichkeitsprofil.',
+        "text": "Sucht ständig nach außergewöhnlichen Erlebnissen, bunten Innovationen, Abwechslung und spontanem Spaß ohne Rücksicht auf Status oder Prestige.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt den Hedonisten oder Abenteurer (Stimulanz-System), der primär von Neugier und Spaß getrieben wird."
       },
       {
-        text: 'Verzichtet vollkommen auf Produkte und möchte ausschließlich stundenlang über Philosophie diskutieren.',
-        korrekt: false,
-        erklaerung: 'Performer sind ziel- und ergebnisorientierte Macher, die rasche und pragmatische Lösungen für ihren Erfolg suchen.',
-      },
+        "text": "Äußerst preissensibel und kostenfokussiert; kauft ausschließlich das billigste Sonderangebot und meidet jede Form von Premium-Produkten konsequent.",
+        "korrekt": false,
+        "erklaerung": "Performer sind bereit, für Qualität und Status hohe Preise zu zahlen; Schnäppchenjäger ticken rein preisfokussiert."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 81,
-    bereich: 7,
-    frage: 'Was verstehen Sie unter dem DISG®-4-Quadranten-Modell für Verkäufer?',
-    optionen: [
+    "id": 81,
+    "bereich": 7,
+    "frage": "Was verstehen Sie unter dem DISG®-4-Quadranten-Modell für Verkäufer?",
+    "optionen": [
       {
-        text: 'Ein Verhaltensmodell mit den 4 Grundtypen Dominant (D), Initiativ (I), Stetig (S) und Gewissenhaft (G) zur typgerechten Kundenansprache und Selbstreflexion.',
-        korrekt: true,
-        erklaerung: 'DISG® teilt Verhalten entlang der Achsen ziel-/aufgabenorientiert vs. beziehungsorientiert und extrovertiert vs. introvertiert in 4 Verhaltensstile ein.',
+        "text": "Ein Verhaltensmodell zur Unterscheidung von vier Verhaltensstilen: Dominant (rot), Initiativ (gelb), Stetig (grün) und Gewissenhaft (blau).",
+        "korrekt": true,
+        "erklaerung": "Das DISG-Modell basiert auf den Achsen handlungsorientiert/beobachtend und menschenorientiert/sachorientiert und hilft Verkäufern, Kunden typgerecht anzusprechen."
       },
       {
-        text: 'Ein technisches Messverfahren zur Überprüfung von Reifendruck und Spurtreue bei gewerblichen Lieferwagen.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um Kraftfahrzeugtechnik, nicht um das psychologische Persönlichkeitsmodell DISG®.',
+        "text": "Ein vierstufiges Verhandlungskonzept zur schrittweisen Verhandlung von Rabatten im B2B-Einkauf nach Abnahmemenge, Zahlungsziel und Liefertermin.",
+        "korrekt": false,
+        "erklaerung": "Dies betrifft Konditionenverhandlungen im Einkauf, hat jedoch nichts mit dem psychologischen DISG-Verhaltensmodell zu tun."
       },
       {
-        text: 'Ein vierwöchiger Diätplan für Handelsreisende zur Vermeidung von Müdigkeit bei Kundenpräsentationen.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt Verkaufspsychologie mit Ernährungsberatung.',
+        "text": "Eine strategische Portfoliomatrix der Boston Consulting Group zur Einteilung von Produkten in Question Marks, Stars, Cash Cows und Poor Dogs.",
+        "korrekt": false,
+        "erklaerung": "Die BCG-Matrix ist ein strategisches Instrument zur Portfolioanalyse von Geschäftseinheiten, kein Persönlichkeitsmodell."
       },
       {
-        text: 'Eine rechtliche Einteilung von Kaufverträgen nach den Vorschriften des Konsumentenschutzgesetzes.',
-        korrekt: false,
-        erklaerung: 'DISG® ist ein psychologisches Verhaltensmodell und kein zivilrechtlicher Gesetzeskommentar.',
-      },
+        "text": "Ein Vertriebsstrukturmodell zur gezielten Zuordnung von Vertriebsmitarbeitern auf die vier Absatzkanäle Telefon, Messe, Filiale und E-Commerce.",
+        "korrekt": false,
+        "erklaerung": "Dies unterteilt Absatz- und Kommunikationskanäle der Distribution, nicht individuelle menschliche Verhaltensmuster."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 82,
-    bereich: 7,
-    frage: 'Was bedeutet in diesem Modell der «gewissenhafte Verkäufertyp»?',
-    optionen: [
+    "id": 82,
+    "bereich": 7,
+    "frage": "Was bedeutet in diesem Modell der «gewissenhafte Verkäufertyp»?",
+    "optionen": [
       {
-        text: 'Er argumentiert strukturiert über Zahlen, Daten, Fakten, bereitet sich akribisch vor, legt Wert auf Fehlerfreiheit und meidet emotionale Übertreibungen.',
-        korrekt: true,
-        erklaerung: 'Der G-Typ (Blau) überzeugt durch Fachkompetenz, Detailgenauigkeit, logische Nachvollziehbarkeit und hohe Qualitäts- und Sicherheitsstandards.',
+        "text": "Detail- und faktenorientiert, analytisch, qualitätsbewusst und exakt vorbereitet; überzeugt durch logische Argumente und verlässliche Daten.",
+        "korrekt": true,
+        "erklaerung": "Der gewissenhafte Typ («Blau») punktet durch Gründlichkeit, Fachwissen und Zuverlässigkeit; er meidet emotionale Übertreibungen und schätzt Zahlen, Daten und Fakten."
       },
       {
-        text: 'Er begrüßt Kunden stets mit lautem Gesang, umarmt jeden Besucher und vergisst dabei alle Produktdetails.',
-        korrekt: false,
-        erklaerung: 'Dieses extrovertierte, emotionale Verhalten entspricht eher dem initiativen Typen (I-Typ) im Übermaß, nicht dem gewissenhaften Typen.',
+        "text": "Extrem tempoorientiert, willensstark, abschlussfokussiert und risikobereit im direkten Wettbewerb um prestigeträchtige Großaufträge.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt den dominanten Verkäufertyp («Rot»), der tempoorientiert agiert und rasche Entscheidungen einfordert."
       },
       {
-        text: 'Er weigert sich grundsätzlich, Verträge schriftlich abzufassen, und verlangt Bezahlung in Goldmünzen.',
-        korrekt: false,
-        erklaerung: 'Der gewissenhafte Typ pocht im Gegenteil auf präzise schriftliche Dokumentation, genaue Klauseln und formale Korrektheit.',
+        "text": "Begeisternd, kontaktfreudig, expressiv und beziehungsorientiert mit ausgeprägtem Fokus auf Smalltalk und Networking-Events.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet den initiativen Typ («Gelb»), der über Charme, Emotionen und lebendige Beziehungen verkauft."
       },
       {
-        text: 'Er verlässt das Verkaufsgespräch nach zwei Minuten, weil er keine Lust auf Kundenfragen hat.',
-        korrekt: false,
-        erklaerung: 'Der G-Typ beantwortet Fragen sehr detailliert und gründlich, statt das Gespräch abzublocken.',
-      },
+        "text": "Geduldig, teamorientiert, sicherheitsliebend und harmoniebedürftig bei der Betreuung langjähriger, stabiler Kundenbeziehungen im Bestand im operativen und strategischen Geschäftsalltag der Organisation.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt den stetigen Typ («Grün»), der auf Beständigkeit, Vertrauen und Verlässlichkeit setzt."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 83,
-    bereich: 7,
-    frage: 'Welche Käufertypen nach dem Insights®-MDI-Modell kennen Sie?',
-    optionen: [
+    "id": 83,
+    "bereich": 7,
+    "frage": "Welche Käufertypen nach dem Insights®-MDI-Modell kennen Sie?",
+    "optionen": [
       {
-        text: 'Die vier farbcodierten Typen Rot (dominant/ergebnisorientiert), Gelb (initiativ/kontaktfreudig), Grün (stetig/beziehungsorientiert) und Blau (analytisch/qualitätsbewusst).',
-        korrekt: true,
-        erklaerung: 'Insights® MDI basiert auf C.G. Jungs Typologie und beschreibt menschliche Präferenzen über die 4 Grundfarben Rot, Gelb, Grün und Blau.',
+        "text": "Farbenergie-Typen: Roter Typ (direkt/handlungsorientiert), Gelber Typ (inspirierend/beziehungsorientiert), Grüner Typ (unterstützend/bedacht) und Blauer Typ (analytisch/systematisch).",
+        "korrekt": true,
+        "erklaerung": "Das Insights®-Modell (basierend auf C. G. Jung) nutzt 4 Farbenergien zur Typologisierung von Kundenpräferenzen im Verkaufs- und Beratungsgespräch."
       },
       {
-        text: 'Die Typen Gold, Silber, Bronze und Blech nach dem jeweiligen monatlichen Kontostand des Kunden.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt psychologische Verhaltenspräferenzen mit Bonitäts- oder Treuestufen von Kreditkarten.',
+        "text": "Konsumpsychologische Grundtypen: Spontankäufer bei Sonderangeboten, rationaler Plankäufer, gewohnheitsmäßiger Markenkäufer und preisfokussierter Schnäppchenjäger bei der praktischen Gestaltung zeitgemäßer Führungsbeziehungen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist eine allgemeine konsumpsychologische Einteilung, nicht das spezifische Farbmodell von Insights® MDI."
       },
       {
-        text: 'Die Typen Frühling, Sommer, Herbst und Winter nach der farblichen Zusammenstellung der getragenen Krawatte.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um eine modische Farb- und Stilberatung, nicht um das diagnostische Insights®-MDI-Modell.',
+        "text": "Typische B2B-Buying-Center-Rollen: Kaufmännischer Chefeinkäufer, technischer Anwender, kaufmännischer Geschäftsführer und externer Finanzprüfer im Auswahlprozess.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt funktionale Rollen in einem Buying Center (Einkaufsgremium), keine psychologischen Persönlichkeitstypen."
       },
       {
-        text: 'Die Typen Pkw, Lkw, Motorrad und Traktor nach dem Fahrzeug, mit dem der Kunde auf dem Parkplatz anreist.',
-        korrekt: false,
-        erklaerung: 'Fahrzeugklassen haben keinen Bezug zu den psychologischen Persönlichkeitsdimensionen nach Insights® MDI.',
-      },
+        "text": "Generationenspezifische Käufersegmente: Traditionelle Baby Boomer, karriereorientierte Generation X, sinnsuchende Generation Y und digital geprägte Generation Z.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um soziologische Alterskohorten, nicht um die individuellen Farbtypen nach Insights® MDI."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 84,
-    bereich: 7,
-    frage: 'Was sind die Merkmale des roten Käufertypen?',
-    optionen: [
+    "id": 84,
+    "bereich": 7,
+    "frage": "Was sind die Merkmale des roten Käufertypen?",
+    "optionen": [
       {
-        text: 'Entscheidungsfreudig, direkt, ungeduldig, fakten- und zeitorientiert; will klare Nutzenargumente ohne langes Vorgeplänkel («Auf den Punkt kommen»).',
-        korrekt: true,
-        erklaerung: 'Der rote Typ (extravertiert/denkend) will Ergebnisse sehen, Kontrolle behalten und schätzt selbstbewusste, zielgerichtete Gesprächsführung ohne Smalltalk-Umwege.',
+        "text": "Entscheidet zügig und ergebnisorientiert, fordert klare Fakten und den Nutzen auf den Punkt, schätzt Souveränität und mag kein langes Drumherumreden.",
+        "korrekt": true,
+        "erklaerung": "Rote Käufer schätzen Effizienz, Macht und Zielerreichung: Verkäufer müssen souverän auftreten, direkt auf den Punkt kommen und Zeitverschwendung vermeiden."
       },
       {
-        text: 'Verbringt Stunden mit verträumtem Plaudern über Haustiere und weint vor Rührung bei Rabattangeboten.',
-        korrekt: false,
-        erklaerung: 'Der rote Typ ist sach- und ergebnisorientiert und meidet sentimentale Abschweifungen entschieden.',
+        "text": "Braucht ausführliche persönliche Beziehungspflege, liebt emotionalen Smalltalk und trifft Kaufentscheidungen rein aus Sympathie für den Verkäufer.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt den gelben Käufertyp (Initiativ), der Beziehungsaufbau und gesellige Interaktion in den Mittelpunkt stellt."
       },
       {
-        text: 'Traut sich nicht, Entscheidungen zu treffen, und fragt stets alle Verwandten vor dem Kauf einer Briefmarke um Erlaubnis.',
-        korrekt: false,
-        erklaerung: 'Der rote Typ ist hochgradig entscheidungsfreudig, mutig und autonom in seinen Entschlüssen.',
+        "text": "Zögert Entscheidungen lange hinaus, verlangt maximale Sicherheit, langfristige Garantien und die ständige Rückversicherung im vertrauten Team zur Steigerung von Transparenz, Verbindlichkeit und Ergebnisqualität.",
+        "korrekt": false,
+        "erklaerung": "Dies kennzeichnet den grünen Käufertyp (Stetig), der Sicherheit und Konsens vor raschem Tempo priorisiert."
       },
       {
-        text: 'Kauft Produkte ausschließlich dann, wenn die Verpackung mit rotem Geschenkpapier umwickelt ist.',
-        korrekt: false,
-        erklaerung: '«Rot» ist die symbolische Farbkennzeichnung des Verhaltensstils, keine optische Farbvorliebe für Packpapier.',
-      },
+        "text": "Prüft jedes kleinste technische Detail und verlangt seitenlange Excel-Tabellen, Prüfprotokolle und vollständige schriftliche Spezifikationen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist typisch für den blauen Käufertyp (Gewissenhaft), der analytische Exaktheit vor schneller Entscheidung verlangt."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 85,
-    bereich: 8,
-    frage: 'Was bedeutet im Verkauf Körpersprache und Voice Sells?',
-    optionen: [
+    "id": 85,
+    "bereich": 8,
+    "frage": "Was bedeutet im Verkauf Körpersprache und Voice Sells?",
+    "optionen": [
       {
-        text: 'Körpersprache (Blickkontakt, Haltung, Gestik) und Stimmführung (Modulation, Tempo, Pausen) bestimmen maßgeblich die emotionale Wirkung und Glaubwürdigkeit des Verkäufers.',
-        korrekt: true,
-        erklaerung: 'Der Tonfall («Voice Sells») und nonverbale Signale transportieren emotionale Sicherheit; wie etwas gesagt wird, prägt die Wahrnehmung oft stärker als der bloße Text.',
+        "text": "Nonverbale (Haltung, Blickkontakt, Gestik) und paraverbale Signale (Stimme, Tonlage, Tempo) prägen über 80 % des ersten Vertrauenseindrucks beim Kunden.",
+        "korrekt": true,
+        "erklaerung": "Kunden spüren Stimmigkeit («Kongruenz»): Eine feste, ruhige Stimme, aufrechte Haltung und ehrlicher Blickkontakt wirken kompetent und schaffen sofort Vertrauen."
       },
       {
-        text: 'Dass Verkäufer im Gespräch Opernarien singen müssen, um Kunden von teuren Versicherungen zu überzeugen.',
-        korrekt: false,
-        erklaerung: '«Voice Sells» bedeutet gezielte, angenehme und verbindliche Sprechtechnik im Dialog, keinen musikalischen Bühnengesang.',
+        "text": "Körpersprache und Stimme sind im professionellen Verkauf völlig wirkungslos, da Geschäftskunden rein auf Basis gedruckter Preislisten und Verträge entscheiden.",
+        "korrekt": false,
+        "erklaerung": "Die Psychologie belegt, dass nonverbale Signale rationale Argumente dominieren, wenn Widersprüche zwischen Wort und Haltung auftreten."
       },
       {
-        text: 'Dass Kunden ausschließlich über Morsezeichen bestellen dürfen, um Druckfehler im Vertrag zu vermeiden.',
-        korrekt: false,
-        erklaerung: 'Morsetelegrafie ist ein veraltetes Übertragungsverfahren und hat keinen Platz in der modernen Verkaufspsychologie.',
+        "text": "Voice Sells bezeichnet den ausschließlichen Einsatz von automatisierten Sprachcomputern und künstlichen KI-Stimmen im telefonischen Direktverkauf.",
+        "korrekt": false,
+        "erklaerung": "Voice Sells beschreibt die geschulte menschliche Stimmwirkung des Verkäufers (Melodie, Pausen, Resonanz), keine Softwareansagen."
       },
       {
-        text: 'Dass die Körpersprache im Verkauf vollkommen bedeutungslos ist, da Kunden nur auf den gedruckten Prospekt schauen.',
-        korrekt: false,
-        erklaerung: 'Neurowissenschaftliche Studien beweisen, dass Körpersprache und Stimmklang über Vertrauen und Sympathie entscheiden.',
-      },
+        "text": "Körpersprache beschreibt im Arbeitnehmerschutz ausschließlich die gesetzlich vorgeschriebene Sicherheitskleidung und Schutzausrüstung des Außendienstes.",
+        "korrekt": false,
+        "erklaerung": "Arbeitsschutzkleidung ist eine technische Schutzmaßnahme und hat nichts mit der nonverbalen Kommunikationspsychologie zu tun."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 86,
-    bereich: 8,
-    frage: 'Was sind Spiegelneuronen?',
-    optionen: [
+    "id": 86,
+    "bereich": 8,
+    "frage": "Was sind Spiegelneuronen?",
+    "optionen": [
       {
-        text: 'Nervenzellen im Gehirn, die beim bloßen Beobachten einer Handlung oder Emotion dieselben Muster feuern wie bei eigener Ausführung (Basis für Empathie und Rapport).',
-        korrekt: true,
-        erklaerung: 'Spiegelneuronen (Giacomo Rizzolatti) ermöglichen intuitives Verstehen, Mitfühlen und unbewusstes Angleichen («Pacing») von Körpersprache im Gespräch.',
+        "text": "Nervenzellen im Gehirn, die beim Beobachten einer Handlung oder Emotion dasselbe neuronale Muster feuern und so Empathie, Rapport und Resonanz ermöglichen.",
+        "korrekt": true,
+        "erklaerung": "Spiegelneuronen (entdeckt von Rizzolatti) sind die neurobiologische Basis für Mitgefühl: Lächelt der Verkäufer ehrlich, aktiviert das Gehirn des Kunden ein Wohlgefühl."
       },
       {
-        text: 'Kleine Glasspiegel, die Verkäufer in der Jackentasche tragen, um Kunden bei Einwänden zu blenden.',
-        korrekt: false,
-        erklaerung: 'Spiegelneuronen sind biologische Gehirnzellen und keine physischen Taschenspiegel.',
+        "text": "Optische Bewegungssensoren im stationären Einzelhandel zur automatischen Zählung und Analyse von Kundenfrequenzen vor Schaufenstern und Eingangsbereichen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind physikalische Bewegungsmelder des Einzelhandels, keine biologischen Nervenzellen im menschlichen Gehirn."
       },
       {
-        text: 'Optische Sensoren in Überwachungskameras von Juweliergeschäften zur Diebstahlerkennung.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um elektronische Bildsensoren, nicht um neurobiologische Neuronen im Nervensystem.',
+        "text": "Spezifische Sehnerven der menschlichen Netzhaut, die ausschließlich für das optische Scharfstellen des Gesichtsfelds bei grellem Tageslicht zuständig sind.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um physiologische Komponenten der Netzhaut, nicht um die empathiefördernden Spiegelneuronen."
       },
       {
-        text: 'Spezielle Computerchips, die Tastatureingaben spiegelverkehrt auf dem Bildschirm darstellen.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt zerebrale Nervenzellen mit Softwarefehlern oder IT-Hardware.',
-      },
+        "text": "Künstliche neuronale Netze in modernen CRM- und Shopsystemen zur automatisierten Vorhersage von Warenkorbabbrüchen im E-Commerce-Portal.",
+        "korrekt": false,
+        "erklaerung": "Dies sind Machine-Learning-Algorithmen im E-Commerce, keine körpereigenen neurobiologischen Gehirnzellen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 87,
-    bereich: 8,
-    frage: 'Was sind beim Aufbau von Kundenbeziehungen die «3 Säulen des Vertrauens»?',
-    optionen: [
+    "id": 87,
+    "bereich": 8,
+    "frage": "Was sind beim Aufbau von Kundenbeziehungen die «3 Säulen des Vertrauens»?",
+    "optionen": [
       {
-        text: 'Kompetenzvertrauen (fachliche Expertise), Sympathie- bzw. Beziehungsvertrauen (menschliche Chemie) und Integritätsvertrauen (Worttreue und Aufrichtigkeit).',
-        korrekt: true,
-        erklaerung: 'Kunden kaufen nur, wenn alle 3 Säulen stehen: «Der Verkäufer weiß, wovon er spricht (Kompetenz), ist mir sympathisch (Beziehung) und hält sein Wort (Integrität)».',
+        "text": "Fachliche Kompetenz (Können/Know-how), persönliche Integrität (Ehrlichkeit/Worttreue) sowie emotionale Wohlwollens- und Beziehungsebene (Empathie/Interesse).",
+        "korrekt": true,
+        "erklaerung": "Vertrauen basiert auf dem Dreiklang: Der Kunde muss an Ihr Fachwissen glauben (Kompetenz), sich auf Zusagen verlassen können (Integrität) und Ihr ehrliches Interesse spüren (Benevolence)."
       },
       {
-        text: 'Rabattgarantie, Schmeichelei und die Androhung rechtlicher Schritte bei Vertragsablehnung.',
-        korrekt: false,
-        erklaerung: 'Drohungen und unaufrichtige Schmeicheleien zerstören Vertrauen radikal statt es aufzubauen.',
+        "text": "Aggressive Tiefstpreise, bedingungslose und unbegrenzte Rabattgewährung bei Verhandlungen sowie kostenlose Produktzugaben bei jeder einzelnen Bestellung in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Reine Preisnachlässe kaufen bestenfalls kurzfristige Umsätze, erzeugen aber kein echtes Vertrauen oder loyale Kundenbeziehungen."
       },
       {
-        text: 'Die drei Bankverbindungen, über die der Kunde seine Überweisungen gebührenfrei tätigen kann.',
-        korrekt: false,
-        erklaerung: 'Bankkonten sind technische Abwicklungswege des Zahlungsverkehrs, keine psychologischen Vertrauenssäulen.',
+        "text": "Umfangreiche juristische Vertragswerke, notarielle Beglaubigungen und Bankgarantien zur rechtlichen Absicherung gegen Gewährleistungsansprüche.",
+        "korrekt": false,
+        "erklaerung": "Rechtliche Absicherungen sind nötig bei Misstrauen, ersetzen jedoch nicht das zwischenmenschliche Beziehungsvertrauen."
       },
       {
-        text: 'Das dreifache Wiederholen des eigenen Vornamens vor Beginn jedes einzelnen Verkaufsgesprächs.',
-        korrekt: false,
-        erklaerung: 'Mantra-artiges Wiederholen des eigenen Namens baut kein Kundenvertrauen auf, sondern irritiert.',
-      },
+        "text": "Großflächige bundesweite Plakatwerbekampagnen, teure TV-Spots zur Hauptsendezeit und bezahlte Influencer-Beiträge in führenden sozialen Medienkanälen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind Maßnahmen zur Markenbekanntheit, schaffen aber noch kein individuelles Beziehungsvertrauen im Verkauf."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 88,
-    bereich: 8,
-    frage: 'Welche Kaufmotive gibt es?',
-    optionen: [
+    "id": 88,
+    "bereich": 8,
+    "frage": "Welche Kaufmotive gibt es?",
+    "optionen": [
       {
-        text: 'Rationale Kaufmotive (z. B. Wirtschaftlichkeit, Zeitersparnis, Funktionalität) und emotionale Kaufmotive (z. B. Sicherheit, Prestige, Bequemlichkeit, Neugier).',
-        korrekt: true,
-        erklaerung: 'Kaufentscheidungen werden primär von emotionalen Motiven angetrieben und im Nachhinein durch rationale Argumente vor sich und anderen gerechtfertigt.',
+        "text": "Rationale Kaufmotive (z. B. Wirtschaftlichkeit, Zeitersparnis, Funktionalität) und emotionale Kaufmotive (z. B. Sicherheit, Prestige, Bequemlichkeit, Neugier).",
+        "korrekt": true,
+        "erklaerung": "Kaufentscheidungen werden emotional vorbereitet und rational gerechtfertigt. Verkäufer müssen beide Ebenen im Gespräch bedienen."
       },
       {
-        text: 'Ausschließlich das Motiv des Hungers, da alle anderen Produkte der Welt vollkommen überflüssig sind.',
-        korrekt: false,
-        erklaerung: 'Hunger ist ein biologischer Urtrieb, deckt aber die breite Vielfalt moderner Konsum- und B2B-Kaufmotive nicht ab.',
+        "text": "Ausschließlich das Motiv des billigsten Anschaffungspreises, da Kunden marktübergreifend rein nach den unmittelbaren Kosten einer Investition entscheiden.",
+        "korrekt": false,
+        "erklaerung": "Die Praxis widerlegt diese Annahme täglich: Kunden kaufen teure Marken, weil ihnen Qualität, Status oder Sicherheit wichtiger sind als der Billigpreis."
       },
       {
-        text: 'Kaufmotive existieren nicht, da Kunden stets blind und ohne jeden inneren Beweggrund einkaufen.',
-        korrekt: false,
-        erklaerung: 'Jedes menschliche Handeln und Kaufen ist motivgesteuert (Bedürfnisbefriedigung und Nutzenstreben).',
+        "text": "Gesetzlich verbindlich vorgegebene Pflichtmotive, die vom Wirtschaftsministerium für standardisierte Konsumgüterkategorien festgeschrieben wurden.",
+        "korrekt": false,
+        "erklaerung": "Kaufmotive sind psychologische innere Antreiber von Menschen und können niemals behördlich verordnet werden."
       },
       {
-        text: 'Reine Schadensersatzmotive, die darauf abzielen, Händler nach dem Kauf sofort vor Gericht zu verklagen.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt bösartige Klageabsichten im Einzelfall, ist aber kein reguläres Kaufmotiv der Kunden.',
-      },
+        "text": "Rein zufällige neuronale Kaufimpulse im Gehirn, die völlig unbeeinflussbar durch äußere Reize und Argumente im Unterbewusstsein des Käufers ablaufen.",
+        "korrekt": false,
+        "erklaerung": "Kaufentscheidungen folgen klaren psychologischen Motiven und Bedürfnissen, auch wenn sie dem Kunden nicht immer voll bewusst sind."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 89,
-    bereich: 8,
-    frage: 'Was versteht man unter dem Motiv- und Werteraum des Kunden?',
-    optionen: [
+    "id": 89,
+    "bereich": 8,
+    "frage": "Was versteht man unter dem Motiv- und Werteraum des Kunden?",
+    "optionen": [
       {
-        text: 'Die Gesamtheit der individuellen Werte, Glaubenssätze und unbewussten Antreiber des Kunden, die seine Wahrnehmung und Kaufbereitschaft steuern.',
-        korrekt: true,
-        erklaerung: 'Im Motiv- und Werteraum (oft als Koordinatenfeld dargestellt) zeigt sich, ob ein Kunde Sicherheit, Innovation, Status oder soziale Harmonie am höchsten bewertet.',
+        "text": "Die Gesamtheit der individuellen Werte, Glaubenssätze und unbewussten Antreiber des Kunden, die seine Wahrnehmung und Kaufbereitschaft steuern.",
+        "korrekt": true,
+        "erklaerung": "Wer den Motiv- und Werteraum versteht (z. B. Nachhaltigkeit, Unabhängigkeit, Sicherheit), kann Argumente genau auf die innere Welt des Kunden abstimmen."
       },
       {
-        text: 'Den begehbaren Tresorraum in der Bank, in dem der Kunde seine Goldbarren und Schmuckstücke lagert.',
-        korrekt: false,
-        erklaerung: 'Dies verwechselt den psychologischen Werteraum mit einem physischen Banktresor.',
+        "text": "Die physische Verkaufs- und Präsentationsfläche eines Einzelhandelsgeschäfts einschließlich moderner Schaufensterdekorationen und Kassenbereiche.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt den architektonischen Ladenbau im stationären Einzelhandel, keinen psychologischen Motiv- und Werteraum."
       },
       {
-        text: 'Das Wartezimmer vor dem Büro des Steuerberaters mit zwei Sesseln und einem Zeitschriftenständer.',
-        korrekt: false,
-        erklaerung: 'Ein Wartezimmer ist eine räumliche Immobilie, kein psychologisches Motiv- und Wertesystem.',
+        "text": "Den vertraglich eingeräumten Kontokorrent- und Investitionskreditrahmen, den eine Geschäftsbank einem gewerblichen Kunden für Einkäufe bereitstellt.",
+        "korrekt": false,
+        "erklaerung": "Dies bezeichnet den finanziellen Verfügungsrahmen (Kreditlinie), nicht die psychologische Werteorientierung des Menschen."
       },
       {
-        text: 'Die Summe aller Zinsen, die ein Kunde jemals an seine Bausparkasse bezahlt hat.',
-        korrekt: false,
-        erklaerung: 'Finanzzinsen sind rechnerische Kosten, spiegeln jedoch nicht den psychologischen Werteraum wider.',
-      },
+        "text": "Das exklusive Produktsortiment eines Markenherstellers, welches ausschließlich für wohlhabende Kunden im Hochpreissegment vertrieben wird.",
+        "korrekt": false,
+        "erklaerung": "Dies ist eine Produktlinie im Marketing-Mix, nicht die geistige Motiv- und Wertewelt des Kunden."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 90,
-    bereich: 8,
-    frage: 'Was bedeutet emotionales Verkaufen und Storytelling?',
-    optionen: [
+    "id": 90,
+    "bereich": 8,
+    "frage": "Was bedeutet emotionales Verkaufen und Storytelling?",
+    "optionen": [
       {
-        text: 'Produkte durch bildhafte Geschichten, Metaphern und emotionale Szenarien erlebbar zu machen, um Kopfkino auszulösen und das Belohnungszentrum zu aktivieren.',
-        korrekt: true,
-        erklaerung: '«Facts tell, stories sell»: Geschichten umgehen rationale Abwehrmechanismen, bleiben deutlich besser im Gedächtnis und transportieren Werte und Identifikation.',
+        "text": "Produkte durch bildhafte Geschichten, Metaphern und emotionale Szenarien erlebbar zu machen, um Kopfkino auszulösen und das Belohnungszentrum zu aktivieren.",
+        "korrekt": true,
+        "erklaerung": "Geschichten umgehen die rationale Kritikbarriere des Gehirns: Der Kunde erlebt den Nutzen mental («Kopfkino») und baut eine emotionale Bindung auf."
       },
       {
-        text: 'Dem Kunden Märchenbücher der Gebrüder Grimm vorzulesen, bis dieser aus Erschöpfung den Vertrag unterschreibt.',
-        korrekt: false,
-        erklaerung: 'Storytelling im Vertrieb nutzt kundenspezifische Praxisbeispiele und Metaphern, keine wahllose Kinderliteratur zur Zermürbung.',
+        "text": "Das lückenlose Herunterleiern möglichst vieler technischer Produktdatenblätter, DIN-Normen und Konformitätszertifikate in sachlicher Monologform.",
+        "korrekt": false,
+        "erklaerung": "Reines Fakten- und Datenüberfluten («Feature Dumping») erzeugt Langeweile und verhindert emotionales Engagement des Kunden."
       },
       {
-        text: 'Das Erfinden falscher Firmengeschichten und unwahrer Qualitätszertifikate zur Täuschung der Käufer.',
-        korrekt: false,
-        erklaerung: 'Storytelling muss authentisch und wahrhaftig sein; Täuschung ist Betrug und zerstört jedes Kundenvertrauen.',
+        "text": "Das gezielte Täuschen von Verhandlungspartnern durch das bewusste Erfinden falscher Firmenerfolge und erfundener Qualitätszertifikate im Kundengespräch.",
+        "korrekt": false,
+        "erklaerung": "Unwahre Behauptungen sind unlauterer Wettbewerb und Betrug; Storytelling vermittelt reale Werte und Emotionen auf authentische Weise."
       },
       {
-        text: 'Ausschließlich stumme Pantomime ohne jedes gesprochene Wort im gesamten Kundengespräch.',
-        korrekt: false,
-        erklaerung: 'Storytelling lebt von sprachlicher Lebendigkeit, Erzählkunst und treffsicherer Bildsprache.',
-      },
+        "text": "Der ausschließliche Einsatz von bunten Comiczeichnungen und Grafiken in Printprospekten für komplexe B2B-Investitionsgüter im Maschinenbau zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Storytelling ist eine narrative Kommunikationstechnik und keineswegs auf bunte Grafiken oder Comics beschränkt."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 91,
-    bereich: 8,
-    frage: 'Welche 8 Tipps zur Emotionalisierung von Kunden kennen Sie?',
-    optionen: [
+    "id": 91,
+    "bereich": 8,
+    "frage": "Welche 8 Tipps zur Emotionalisierung von Kunden kennen Sie?",
+    "optionen": [
       {
-        text: 'Storytelling nutzen, Multisensorik aktivieren, Begeisterung vorleben, Bildsprache einsetzen, Nutzen statt Merkmale betonen, Empathie spiegeln, Überraschung bieten und Zukunftsbilder malen.',
-        korrekt: true,
-        erklaerung: 'Diese 8 Praxistipps aktivieren das limbische System des Kunden: Sinne ansprechen, Geschichten erzählen, Leidenschaft zeigen, Nutzen visualisieren und positive Gefühle wecken.',
+        "text": "Storytelling nutzen, Multisensorik aktivieren, Begeisterung vorleben, Bildsprache einsetzen, Nutzen statt Merkmale betonen, Empathie spiegeln, Überraschung bieten und Zukunftsbilder malen.",
+        "korrekt": true,
+        "erklaerung": "Diese 8 Werkzeuge sprechen alle Sinne und Emotionsebenen an und verwandeln trockene Produktmerkmale in begeisternde Kundenerlebnisse."
       },
       {
-        text: 'Acht verschiedene Paragrafen des Handelsgesetzbuches in monotoner Tonlage laut vortragen.',
-        korrekt: false,
-        erklaerung: 'Monotones Zitieren von Gesetzen wirkt emotionslos, trocken und ermüdend auf Kunden.',
+        "text": "Rechtliche Paragrafen rezitieren, Rabatte ungefragt anbieten, Kunden ins Wort fallen, Fachjargon verwenden, lange Monologe halten, Zeitdruck ausüben, Zweifel abtun und starre Fristen setzen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist ein Negativkatalog typischer Vertriebsfehler, der Kunden verärgert und Vertrauen sofort zerstört."
       },
       {
-        text: 'Achtmal hintereinander mit der flachen Hand laut auf den Verkaufstisch schlagen, um Aufmerksamkeit zu erzwingen.',
-        korrekt: false,
-        erklaerung: 'Aggressives Verhalten erzeugt Fluchtreflexe und Angst, führt aber zu keiner positiven emotionalen Kaufbindung.',
+        "text": "Ausschließlich technische Daten vorlesen, Preisnachlässe kategorisch verweigern, Körpersprache einfrieren, Blickkontakt meiden, Werbebroschüren aushändigen und sofort unterschreiben lassen.",
+        "korrekt": false,
+        "erklaerung": "Verkrampftes, bürokratisches Vorlesen erstickt jede Emotionalität und führt selten zu erfolgreichen Geschäftsabschlüssen."
       },
       {
-        text: 'Dem Kunden acht Gläser lauwarmes Leitungswasser servieren und ihm das Verlassen des Stuhls untersagen.',
-        korrekt: false,
-        erklaerung: 'Freiheitsberaubende Schikanen haben keinerlei Bezug zu professioneller Emotionalisierung im Verkauf.',
-      },
+        "text": "Verkaufsgespräche auf exakt zwei Minuten begrenzen, persönliche Fragen verbieten, neutrale Standard-E-Mails aushändigen und das Treffen ohne Rückfragen unverzüglich beenden.",
+        "korrekt": false,
+        "erklaerung": "Distanzierte Minimalabfertigung verhindert jeden Beziehungsaufbau und jede Emotionalisierung des Kunden."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 92,
-    bereich: 8,
-    frage: 'In welche Bereiche unterteilen Sie die Verkaufsgesprächsführung?',
-    optionen: [
+    "id": 92,
+    "bereich": 8,
+    "frage": "In welche Bereiche unterteilen Sie die Verkaufsgesprächsführung?",
+    "optionen": [
       {
-        text: 'Kontakt- und Vertrauensphase, Bedarfs- und Motivanalyse, Nutzen- und Lösungspräsentation, Einwandbehandlung, Kaufabschluss sowie Nachbetreuung.',
-        korrekt: true,
-        erklaerung: 'Diese klassische Phasenstruktur leitet den Verkäufer sicher vom ersten Beziehungsaufbau über die gezielte Problemergründung bis zum erfolgreichen Abschluss.',
+        "text": "Kontakt- und Vertrauensphase, Bedarfs- und Motivanalyse, Nutzen- und Lösungspräsentation, Einwandbehandlung, Kaufabschluss sowie Nachbetreuung.",
+        "korrekt": true,
+        "erklaerung": "Dieser strukturierte 6-Stufen-Leitfaden sichert den Gesprächserfolg: Erst Vertrauen aufbauen, Motive klären und erst dann überzeugend präsentieren und abschließen."
       },
       {
-        text: 'Frühstücksphase, Kaffeepause, Mittagspause, Nachmittagstee und Feierabendrunde.',
-        korrekt: false,
-        erklaerung: 'Dies sind private Pausenzeiten und stellen keine fachliche Strukturierung eines Verkaufsgesprächs dar.',
+        "text": "Begrüßung des Kunden, unverzügliche Nennung des Höchstpreises, sofortiges Drängen auf verbindliche Vertragsunterschrift und Verabschiedung ohne Beratungsgespräch.",
+        "korrekt": false,
+        "erklaerung": "Aggressives Überrumpeln («Hard-Selling») ohne Bedarfsanalyse scheitert in modernen Beratungs- und Verkaufsgesprächen."
       },
       {
-        text: 'Wareneingang, Lagerhaltung, Speditionsprüfung und Abfallentsorgung im Betrieb.',
-        korrekt: false,
-        erklaerung: 'Hierbei handelt es sich um betriebliche Logistikschritte, nicht um die Gesprächsphasen im Vertrieb.',
+        "text": "Förmliche Rechnungslegung, kaufmännisches Mahnwesen, Buchprüfung im Betrieb, Reklamationsabwicklung und gerichtliche Klageführung vor dem Handelsgericht.",
+        "korrekt": false,
+        "erklaerung": "Dies sind nachgelagerte Schritte der Buchhaltung und des Mahnwesens, keine Phasen des aktiven Verkaufsgesprächs."
       },
       {
-        text: 'Strafanzeige, Gerichtsverhandlung, Urteilsverkündung und Strafvollzug.',
-        korrekt: false,
-        erklaerung: 'Dies sind Stationen eines Strafverfahrens und haben nichts mit Verkaufsgesprächsführung zu tun.',
-      },
+        "text": "Empirische Marktforschung, Prototypenentwicklung, Produktionsplanung im Werk, stichprobenartige Qualitätskontrolle und logistische Lagerhaltung.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt die betriebliche Wertschöpfungskette der Produktion, nicht die Gesprächsführung im Kundenkontakt."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 93,
-    bereich: 9,
-    frage: 'Was sind die «Top Ten»-Fehler bei Preisverhandlungen?',
-    optionen: [
+    "id": 93,
+    "bereich": 9,
+    "frage": "Was sind die «Top Ten»-Fehler bei Preisverhandlungen?",
+    "optionen": [
       {
-        text: 'Typische Fehler: Zu frühe Preisnennung vor Nutzenaufbau, unsichere Körpersprache, ungefragte Rabatte, Nachgeben ohne Gegenleistung und das Brechen der Sprechpause nach Nennung.',
-        korrekt: true,
-        erklaerung: 'In Preisverhandlungen zerstören Scham beim Preis, sofortige Rabattflucht, Mangel an Gegenforderungen und das Zurechtfertigen des Preises die Marge des Verkäufers.',
+        "text": "Typische Fehler: Zu frühe Preisnennung vor Nutzenaufbau, unsichere Körpersprache, ungefragte Rabatte, Nachgeben ohne Gegenleistung und das Brechen der Sprechpause nach Nennung.",
+        "korrekt": true,
+        "erklaerung": "Wer den Preis nennt, muss schweigen («Wer zuerst spricht, verliert»); Rabatte ohne Gegenleistung entwerten das eigene Angebot."
       },
       {
-        text: 'Dass der Verkäufer saubere Kleidung trägt und dem Kunden pünktlich die Hand reicht.',
-        korrekt: false,
-        erklaerung: 'Gepflegtes Auftreten und Pünktlichkeit sind fundamentale Erfolgsfaktoren und keineswegs Verhandlungsfehler.',
+        "text": "Das selbstbewusste Vertreten des kalkulierten Angebotspreises, das konsequente Einhalten der Sprechpause, das Fordern von Gegenleistungen und das Betonen des Kundenwerts unter Berücksichtigung personeller und organisatorischer Rahmenbedingungen.",
+        "korrekt": false,
+        "erklaerung": "Dies sind entscheidende Erfolgsfaktoren professioneller Verhandlungsführung, keinesfalls Fehler."
       },
       {
-        text: 'Dass der Preis in der offiziellen Landeswährung Euro angegeben wird.',
-        korrekt: false,
-        erklaerung: 'Die Preisnennung in der gültigen Landeswährung ist Standard und stellt keinen Fehler dar.',
+        "text": "Das strukturierte Führen der Verhandlung auf Basis einer fundierten Kundennutzenanalyse und das frühzeitige Abstecken eines klaren Verhandlungsrahmens vor dem Gespräch.",
+        "korrekt": false,
+        "erklaerung": "Eine fundierte Nutzenanalyse und ein definierter Verhandlungsrahmen sind professionelle Best Practices der Vorbereitung und keineswegs Fehler."
       },
       {
-        text: 'Dass ein Taschenrechner auf dem Schreibtisch steht, um Rabattsätze exakt auszurechnen.',
-        korrekt: false,
-        erklaerung: 'Ein Taschenrechner ist ein nützliches kaufmännisches Hilfsmittel, aber kein Verhandlungsfehler.',
-      },
+        "text": "Das sorgfältige schriftliche Dokumentieren aller verhandelten Lieferbedingungen, Zahlungsziele und Servicezusagen in einem gemeinsamen Verhandlungsprotokoll.",
+        "korrekt": false,
+        "erklaerung": "Schriftliche Protokolle sichern Verbindlichkeit und Klarheit und schützen beide Seiten vor späteren Missverständnissen."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 94,
-    bereich: 9,
-    frage: 'Was sind wichtige Punkte, die bei Preisverhandlungen zu beachten sind?',
-    optionen: [
+    "id": 94,
+    "bereich": 9,
+    "frage": "Was sind wichtige Punkte, die bei Preisverhandlungen zu beachten sind?",
+    "optionen": [
       {
-        text: 'Nutzen immer vor dem Preis etablieren, den Preis selbstbewusst nennen und schweigen, niemals Rabatt ohne Gegenleistung gewähren («Konditionieren») und Wertargumente nutzen.',
-        korrekt: true,
-        erklaerung: 'Preisgespräche sind Wertverhandlungen: Wer nach der Preisnennung als Erster redet, verliert; Zugeständnisse müssen stets an Gegenleistungen gekoppelt werden.',
+        "text": "Nutzen immer vor dem Preis etablieren, den Preis selbstbewusst nennen und schweigen, niemals Rabatt ohne Gegenleistung gewähren («Konditionieren») und Wertargumente nutzen.",
+        "korrekt": true,
+        "erklaerung": "Preis ist relativ zum Nutzen: Erst wenn der Kunde den Wert versteht, wirkt der Preis angemessen. Zugeständnisse müssen immer an Bedingungen geknüpft werden."
       },
       {
-        text: 'Sofort beim kleinsten Zögern des Kunden den Preis unaufgefordert um die Hälfte reduzieren.',
-        korrekt: false,
-        erklaerung: 'Ungefragtes Nachgeben entwertet das Produkt, zerstört die Glaubwürdigkeit des Ausgangspreises und vernichtet den Gewinn.',
+        "text": "Beim ersten zögerlichen Blick des Einkäufers unverzüglich und ungefragt 20 % Preisnachlass anbieten, um die Verhandlung schnellstmöglich zum Abschluss zu bringen.",
+        "korrekt": false,
+        "erklaerung": "Ungefragtes Nachgeben signalisiert dem Kunden, dass die ursprüngliche Preiskalkulation willkürlich oder überteuert war."
       },
       {
-        text: 'Dem Kunden mit sofortiger körperlicher Gewalt drohen, falls er nach Skonto oder Rabatt fragt.',
-        korrekt: false,
-        erklaerung: 'Gewaltdrohungen sind Straftaten und haben in seriösen Verhandlungen absolut nichts verloren.',
+        "text": "Den Angebotspreis im Verkaufsgespräch grundsätzlich geheim halten und den Kunden erst nach vollständiger Erbringung aller Leistungen per Rechnung überraschen im operativen und strategischen Geschäftsalltag der Organisation.",
+        "korrekt": false,
+        "erklaerung": "Preistransparenz vor Vertragsschluss ist rechtliche Pflicht und kaufmännische Notwendigkeit; Intransparenz zerstört Kundenbeziehungen."
       },
       {
-        text: 'Den Preis grundsätzlich geheim halten und den Kunden erst nach der Lieferung per Mahnung überraschen.',
-        korrekt: false,
-        erklaerung: 'Versteckte Preise führen zu Reklamationen, Zahlungsverweigerung und juristischen Streitigkeiten.',
-      },
+        "text": "Geforderte Rabatte stets bedingungslos gewähren und auf jede Gegenleistung verzichten, um die persönliche Sympathie des Verhandlungspartners nicht zu gefährden.",
+        "korrekt": false,
+        "erklaerung": "Wer ohne Gegenleistung nachgibt, schwächt die eigene Verhandlungsposition für die Zukunft dauerhaft."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 95,
-    bereich: 9,
-    frage: 'Was sind Preisanker?',
-    optionen: [
+    "id": 95,
+    "bereich": 9,
+    "frage": "Was sind Preisanker?",
+    "optionen": [
       {
-        text: 'Ein psychologischer Referenzwert (Ankereffekt): Ein zuerst genannter hoher Ausgangspreis dient als unbewusster Maßstab, wodurch nachfolgende Preise günstiger wahrgenommen werden.',
-        korrekt: true,
-        erklaerung: 'Nach Kahneman/Tversky verzerrt die erste genannte Zahl («Anker») alle folgenden Urteile; der Kunde vergleicht nicht absolut, sondern relativ zum Anker.',
+        "text": "Ein psychologischer Referenzwert (Ankereffekt): Ein zuerst genannter hoher Ausgangspreis dient als unbewusster Maßstab, wodurch nachfolgende Preise günstiger wahrgenommen werden.",
+        "korrekt": true,
+        "erklaerung": "Der Ankereffekt (Kahneman & Tversky) zeigt: Das menschliche Gehirn orientiert sich am ersten genannten Zahlenwert bei der Beurteilung von Angemessenheit."
       },
       {
-        text: 'Schwere Metallanker aus Eisen, die im Bootshafen für Schiffe über zehn Tonnen verwendet werden.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt den Begriff nautisch-buchstäblich, verkennt jedoch die kognitionspsychologische Bedeutung des Preisankers.',
+        "text": "Gesetzlich vorgeschriebene Höchst- und Mindestpreise, die von staatlichen Kartellbehörden für lebensnotwendige Grundgüter zwingend reguliert werden.",
+        "korrekt": false,
+        "erklaerung": "Dies ist staatliche Preisbindung oder Subventionspolitik, kein psychologisches Verhandlungsphänomen."
       },
       {
-        text: 'Feste Mindestpreise, die von der Weltbank für Rohöl an internationalen Häfen gesetzlich vorgeschrieben sind.',
-        korrekt: false,
-        erklaerung: 'Preisanker sind wahrnehmungspsychologische Effekte im Gehirn, keine staatlichen Preiskontrollen der Weltbank.',
+        "text": "Feste, unveränderliche Rabattsätze, die in standardisierten Rahmenlieferverträgen dauerhaft für alle Kunden eines Verbandes vereinbart sind.",
+        "korrekt": false,
+        "erklaerung": "Vertraglich fixierte Dauerkonditionen sind kaufmännische Vereinbarungen, aber keine psychologischen Preisanker."
       },
       {
-        text: 'Gutscheinkarten aus Pappe, die Kunden beim Betreten eines Ladens als Souvenir geschenkt bekommen.',
-        korrekt: false,
-        erklaerung: 'Werbegeschenke sind Marketingartikel, haben aber keine Ankerfunktion für die Preiswahrnehmung.',
-      },
+        "text": "Die kalkulatorischen Selbstkosten eines Produkts, unterhalb derer ein gewerblicher Verkauf laut Wettbewerbsrecht als unlauterer Verkauf unter Einstandspreis gilt.",
+        "korrekt": false,
+        "erklaerung": "Die Kostenuntergrenze ist eine betriebswirtschaftliche Kalkulationsgröße, nicht der verhaltenspsychologische Ankereffekt."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 96,
-    bereich: 9,
-    frage: 'Was verstehen Sie unter «Bundling»?',
-    optionen: [
+    "id": 96,
+    "bereich": 9,
+    "frage": "Was verstehen Sie unter «Bundling»?",
+    "optionen": [
       {
-        text: 'Das Bündeln mehrerer Einzelprodukte oder Dienstleistungen zu einem Gesamtpaket zu einem Pauschalpreis, was den direkten Preisvergleich erschwert und den Mehrwert steigert.',
-        korrekt: true,
-        erklaerung: 'Product Bundling (Paketierung) erhöht den wahrgenommenen Gesamtnutzen, schützt Einzellistenpreise vor Erosion und steigert den durchschnittlichen Warenkorbwert.',
+        "text": "Das Bündeln mehrerer Einzelprodukte oder Dienstleistungen zu einem Gesamtpaket zu einem Pauschalpreis, was den direkten Preisvergleich erschwert und den Mehrwert steigert.",
+        "korrekt": true,
+        "erklaerung": "Bundling schützt vor Preiszerlegung durch Einkäufer: Statt über Einzelschrauben zu streiten, kauft der Kunde eine schlüsselfertige Gesamtlösung."
       },
       {
-        text: 'Das Zusammenbinden alter Zeitungen mit einer Hanfschnur vor dem Einwerfen in die Altpapiertonne.',
-        korrekt: false,
-        erklaerung: 'Dies ist Abfallentsorgung im Haushalt und kein preispolitisches Vertriebsinstrument.',
+        "text": "Das separate Ausweisen und minutengenaue Einzelberechnen jeder kleinsten Hardwarekomponente und Arbeitsstunde in detaillierten Einzelrechnungen zur Steigerung von Transparenz, Verbindlichkeit und Ergebnisqualität.",
+        "korrekt": false,
+        "erklaerung": "Dies ist das Gegenteil von Bundling («Unbundling» bzw. Preiszerlegung), wodurch Preise für Kunden leichter vergleichbar und verhandelbar werden."
       },
       {
-        text: 'Das Verbot für Mitarbeiter, mehr als ein Produkt pro Monat an denselben Kunden zu verkaufen.',
-        korrekt: false,
-        erklaerung: 'Bundling strebt genau das Gegenteil an: mehr Produkte gleichzeitig als attraktives Bündel zu veräußern.',
+        "text": "Die vertragliche Vereinbarung zinsloser Ratenzahlungen über mehrere Geschäftsjahre zur Absatzfinanzierung von Investitionsgütern im Handel.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt ein Finanzierungsmodell (Ratenkauf / Stundung), nicht die Produkt- und Leistungsbündelung."
       },
       {
-        text: 'Ein juristischer Zusammenschluss aller Wettbewerber zu einem unzulässigen Preiskartell.',
-        korrekt: false,
-        erklaerung: 'Kartellbildung ist illegal; Produktbündelung ist eine völlig legale und gängige vertriebliche Preisstrategie.',
-      },
+        "text": "Die handelsrechtliche Verpflichtung von gewerblichen Kunden, Ersatzteile und Serviceleistungen ausschließlich beim ursprünglichen Hersteller zu beziehen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist ein wettbewerbsrechtlich sensibles Kopplungsgeschäft («Lock-in»), keine absatzfördernde Paketbündelung."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 97,
-    bereich: 9,
-    frage: 'Was sind die 6 Phasen bei Verhandlungen?',
-    optionen: [
+    "id": 97,
+    "bereich": 9,
+    "frage": "Was sind die 6 Phasen bei Verhandlungen?",
+    "optionen": [
       {
-        text: 'Vorbereitung, Eröffnung/Beziehungsaufbau, Sondierung/Interessenerforschung, Verhandeln/Konzessionen, Einigung/Abschluss sowie Nachbereitung und Umsetzung.',
-        korrekt: true,
-        erklaerung: 'Diese 6 Phasen strukturieren strategische Verhandlungen: Gründliche Vorbereitung (inkl. BATNA), Austausch der Standpunkte, Feilschen mit Gegenforderungen und verbindliche Vereinbarung.',
+        "text": "Vorbereitung, Eröffnung/Beziehungsaufbau, Sondierung/Interessenerforschung, Verhandeln/Konzessionen, Einigung/Abschluss sowie Nachbereitung und Umsetzung.",
+        "korrekt": true,
+        "erklaerung": "Dieser systematische Phasenablauf führt strukturiert durch Verhandlungen: 80 % des Erfolgs liegen in der Vorbereitung und der klaren Interessensondierung."
       },
       {
-        text: 'Aufwachen, Frühstücken, Zeitunglesen, Mittagessen, Spazierengehen und Schlafengehen.',
-        korrekt: false,
-        erklaerung: 'Dies beschreibt einen privaten Tagesablauf, keine methodische Phasenstruktur einer Verhandlung.',
+        "text": "Strategische Marktanalyse, Budgetfreigabe, Stellenausschreibung, Bewerberauswahlgespräche, Arbeitsvertragsgestaltung und Probezeit im Personalmanagement.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt Phasen der betrieblichen Personalbeschaffung (Recruiting), keine Phasen der Verhandlungsführung."
       },
       {
-        text: 'Begrüßung, Schlägerei, Polizeieinsatz, Flucht, Verhaftung und Gefängnisstrafe.',
-        korrekt: false,
-        erklaerung: 'Dies schildert eine Straftat und hat keinerlei Bezug zu professioneller Verhandlungsführung.',
+        "text": "Angebotserstellung, kaufmännische Mahnung, Klageerhebung beim Bezirksgericht, streitige Verhandlung, Urteilsvollstreckung und Pfändung.",
+        "korrekt": false,
+        "erklaerung": "Dies sind die Stufen eines gerichtlichen Mahn- und Klageverfahrens, keine kooperativen Verhandlungsphasen."
       },
       {
-        text: 'Anschreien, Beleidigen, Weinen, Schmollen, Auflegen und Kündigen.',
-        korrekt: false,
-        erklaerung: 'Destruktive emotionale Ausbrüche widersprechen den Grundsätzen professioneller Verhandlungsmethodik.',
-      },
+        "text": "Produktidee, Prototypenbau im Labor, Fertigungstest, industrielle Serienproduktion, multimediale Werbekampagne und geplante Produktabkündigung.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um den Produktentwicklungsprozess im Innovationsmanagement, nicht um Verhandlungsphasen."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 98,
-    bereich: 9,
-    frage: 'Was sind die 4 Prinzipien des «Harvard Konzepts»?',
-    optionen: [
+    "id": 98,
+    "bereich": 9,
+    "frage": "Was sind die 4 Prinzipien des «Harvard Konzepts»?",
+    "optionen": [
       {
-        text: 'Menschen und Probleme getrennt behandeln, auf Interessen statt Positionen konzentrieren, Optionen zum beiderseitigen Vorteil entwickeln und objektive Kriterien anwenden.',
-        korrekt: true,
-        erklaerung: 'Das Harvard-Konzept (Fisher, Ury, Patton 1981) ist das weltweit führende Modell sachbezogener Verhandlung für nachhaltige Win-Win-Lösungen.',
+        "text": "Menschen und Probleme getrennt behandeln, auf Interessen statt Positionen konzentrieren, Optionen zum beiderseitigen Vorteil entwickeln und objektive Kriterien anwenden.",
+        "korrekt": true,
+        "erklaerung": "Fisher und Ury entwickelten das Harvard-Prinzip für sachbezogenes Verhandeln: Hart in der Sache, aber wertschätzend und fair gegenüber den Menschen («Win-Win»)."
       },
       {
-        text: 'Den Gegner bedrohen, die Unwahrheit sagen, Verträge brechen und Konkurrenten bestechen.',
-        korrekt: false,
-        erklaerung: 'Dies sind verwerfliche und unethische Praktiken, die den Harvard-Prinzipien fundamental widersprechen.',
+        "text": "Die eigene Maximalforderung unnachgiebig durchsetzen, Schwächen des Verhandlungspartners ausnutzen, Zeitdruck aufbauen und Drohszenarien formulieren.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt destruktives, positionsbezogenes Machtfeilschen («Hard Bargaining»), das das Harvard-Konzept explizit überwinden will."
       },
       {
-        text: 'Ausschließlich Englisch sprechen, Harvard-Krawatten tragen, im Chor singen und nach Amerika auswandern.',
-        korrekt: false,
-        erklaerung: 'Dies karikiert den universitären Ursprung Harvard, beschreibt jedoch nicht die sachbezogenen Verhandlungsprinzipien.',
+        "text": "Sofortige bedingungslose Nachgiebigkeit zeigen, Konflikte um jeden Preis vermeiden, persönliche Zugeständnisse machen und Harmonie über Sachziele stellen.",
+        "korrekt": false,
+        "erklaerung": "Übermäßige Nachgiebigkeit («Soft Bargaining») führt zu schlechten Ergebnissen und wird von Fisher und Ury abgelehnt."
       },
       {
-        text: 'Alle Forderungen des Gegners sofort bedingungslos unterschreiben, um den Raum schnell verlassen zu können.',
-        korrekt: false,
-        erklaerung: 'Kapitulation ist keine Verhandlungsmethode; das Harvard-Konzept zielt auf Verhandlungserfolg bei beiderseitigem Nutzen ab.',
-      },
+        "text": "Verhandlungen grundsätzlich nur schriftlich über Anwälte führen, persönliche Treffen untersagen, mündliche Aussagen leugnen und Rechtsmittel einlegen in der täglichen betrieblichen Praxis und Unternehmensführung.",
+        "korrekt": false,
+        "erklaerung": "Rechtliche Konfrontation und Kontaktabbruch verhindern konstruktive, interessenbasierte Win-Win-Lösungen."
+      }
     ],
-    pruefen: false,
+    "pruefen": false
   },
   {
-    id: 99,
-    bereich: 9,
-    frage: 'Was versteht man in der Verhandlungstechnik unter der «LIMO-Methode»?',
-    optionen: [
+    "id": 99,
+    "bereich": 9,
+    "frage": "Was versteht man in der Verhandlungstechnik unter der «LIMO-Methode»?",
+    "optionen": [
       {
-        text: 'Ein Zielsystem zur Vorbereitung: Lust-Ziel (Maximalziel), Ideal-Ziel (realistisches Best-Case), Minimal-Ziel (Schmerzgrenze) und Ohne-mich-Ziel (Walk-Away-Point).',
-        korrekt: true,
-        erklaerung: 'LIMO schützt vor planlosem Nachgeben: Die Verhandlungsführung legt vorab fest, was maximal angestrebt wird (L), was realistisch ideal ist (I), wo das Minimum liegt (M) und ab wann abgebrochen wird (O).',
+        "text": "Ein Zielsystem zur Vorbereitung: Lust-Ziel (Maximalziel), Ideal-Ziel (realistisches Best-Case), Minimal-Ziel (Schmerzgrenze) und Ohne-mich-Ziel (Walk-Away-Point).",
+        "korrekt": true,
+        "erklaerung": "LIMO schützt vor planlosem Nachgeben: Die Verhandlungsführung legt vorab fest, was maximal angestrebt wird (L), was realistisch ideal ist (I), wo das Minimum liegt (M) und ab wann abgebrochen wird (O)."
       },
       {
-        text: 'Das Servieren von eisgekühlter Zitronenlimonade, um den Kunden bei Hitze milde zu stimmen.',
-        korrekt: false,
-        erklaerung: 'Dies nimmt das Akronym «LIMO» wörtlich als Erfrischungsgetränk, verkennt aber das führungstaktische Zielsystem.',
+        "text": "Eine strukturierte Gesprächstechnik zur Deeskalation: Loben, Informieren, Moderieren und Orientieren in emotional aufgeladenen Verhandlungssituationen im Rahmen moderner Führungs- und Organisationsstrukturen.",
+        "korrekt": false,
+        "erklaerung": "Dies ist eine plausible Kommunikationsregel zur Deeskalation, jedoch nicht das klassische LIMO-Zielsystem der Verhandlungsvorbereitung."
       },
       {
-        text: 'Das Abholen des Verhandlungspartners in einer weißen Stretch-Limousine vom Flughafen.',
-        korrekt: false,
-        erklaerung: 'Limousinen-Shuttles sind Logistikleistungen, keine Verhandlungsvorbereitungsmethode.',
+        "text": "Ein kaufmännisches Konditionensystem im Großhandel: Lieferrabatt, Mengenrabatt, Sonderrabatt und Barzahlungsnachlass bei umfangreichen Großaufträgen.",
+        "korrekt": false,
+        "erklaerung": "Dies beschreibt kaufmännische Rabattarten im Rechnungswesen, aber keine Vorbereitungsmethode der Verhandlungstechnik."
       },
       {
-        text: 'Eine Methode zur Feststellung des Reifendrucks bei Limousinen vor Antritt einer Geschäftsreise.',
-        korrekt: false,
-        erklaerung: 'Reifendruckprüfung ist Kfz-Wartung und hat keinen Zusammenhang mit der Verhandlungstechnik.',
-      },
+        "text": "Ein psychologisches Befragungsmuster im Vertrieb: Leitfragen, Informationsfragen, Motivationsfragen und Offene Fragen zur Kundenanalyse.",
+        "korrekt": false,
+        "erklaerung": "Hierbei handelt es sich um Fragetypen in der Gesprächsführung, nicht um das Akronym LIMO für Zielkorridore."
+      }
     ],
-    pruefen: true,
+    "pruefen": false
   },
   {
-    id: 100,
-    bereich: 9,
-    frage: 'Wie kann man die Weiterempfehlungsrate steigern?',
-    optionen: [
+    "id": 100,
+    "bereich": 9,
+    "frage": "Wie kann man die Weiterempfehlungsrate steigern?",
+    "optionen": [
       {
-        text: 'Durch konsequente Übertreffung der Erwartungen («Customer Delight»), aktives und systematisches Fragen nach Empfehlungen zum passenden Zeitpunkt und Wertschätzung.',
-        korrekt: true,
-        erklaerung: 'Empfehlungen entstehen, wenn Kunden begeistert sind und der Verkäufer gezielt nachfragt («Wer in Ihrem Netzwerk könnte von diesem Nutzen ebenfalls profitieren?»).',
+        "text": "Durch konsequente Übertreffung der Erwartungen («Customer Delight»), aktives und systematisches Fragen nach Empfehlungen zum passenden Zeitpunkt und Wertschätzung.",
+        "korrekt": true,
+        "erklaerung": "Empfehlungen entstehen, wenn Kunden begeistert sind und der Verkäufer gezielt nachfragt («Wer in Ihrem Netzwerk könnte von diesem Nutzen ebenfalls profitieren?»)."
       },
       {
-        text: 'Indem man Kunden nach dem Kauf mit wöchentlichen Mahnbriefen und Drohungen überhäuft.',
-        korrekt: false,
-        erklaerung: 'Drohungen und grundlose Mahnungen verärgern Kunden und führen zu negativer Mundpropaganda statt zu Weiterempfehlungen.',
+        "text": "Durch automatisiertes und ungefragtes Versenden von Werbe-E-Mails an alle privaten Kontakte des Kunden ohne dessen ausdrückliche datenschutzrechtliche Zustimmung.",
+        "korrekt": false,
+        "erklaerung": "Unaufgeforderte Werbemails sind rechtswidrige Belästigung (Spam), verärgern Kunden und zerstören die Weiterempfehlungsbereitschaft."
       },
       {
-        text: 'Indem man die Telefonnummern aller Kunden heimlich an dubiose Callcenter im Ausland verkauft.',
-        korrekt: false,
-        erklaerung: 'Datenschutzverletzungen und Datenweitergabe sind illegal und vernichten jedes Vertrauen unwiederbringlich.',
+        "text": "Indem man die Gewährung vertraglicher Garantieleistungen und Kundendienstansprüche davon abhängig macht, dass der Kunde vorab drei Neukunden vermittelt zur Sicherung langfristiger Wettbewerbsvorteile am Markt.",
+        "korrekt": false,
+        "erklaerung": "Garantieerpressung ist rechtlich unzulässig und vernichtet jedes partnerschaftliche Kundenvertrauen nachhaltig."
       },
       {
-        text: 'Indem man die Qualität der Produkte absichtlich halbiert, damit Kunden schneller Ersatzteile kaufen müssen.',
-        korrekt: false,
-        erklaerung: 'Minderwertige Produkte zerstören Kundenzufriedenheit und führen zu Beschwerden, nicht zu Weiterempfehlungen.',
-      },
+        "text": "Durch einmalige Gewährung von Sonderrabatten bei gleichzeitigem vollständigem Verzicht auf jede Kundenbetreuung und Servicequalität nach dem Kauf.",
+        "korrekt": false,
+        "erklaerung": "Kunden empfehlen exzellenten Service und Nutzen weiter, nicht schlechte Betreuung nach einem billigen Einmalkauf."
+      }
     ],
-    pruefen: false,
-  },
+    "pruefen": false
+  }
 ];
-
-
-
-
